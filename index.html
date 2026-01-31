@@ -122,44 +122,33 @@
     vertical-align: top;
     border-bottom: 1px solid #eee;
   }
-  /* Kill DataTables default green box icon completely */
-  table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control::before,
-  table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control::before {
-    all: unset;
+  /* Kill DataTables default icon — use plain arrows instead */
+  td.dtr-control::before,
+  th.dtr-control::before {
+    all: unset !important;
     content: '\25B8' !important; /* ▸ right arrow */
-    font-size: 18px;
-    color: #999;
-    margin-right: 6px;
-    vertical-align: middle;
+    font-size: 18px !important;
+    color: #999 !important;
+    margin-right: 8px !important;
+    display: inline !important;
+    vertical-align: middle !important;
+    line-height: 1 !important;
+    position: static !important;
     background: none !important;
     border: none !important;
     box-shadow: none !important;
     width: auto !important;
     height: auto !important;
-    display: inline !important;
-    position: static !important;
     border-radius: 0 !important;
   }
-  table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::before,
-  table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th.dtr-control::before {
-    all: unset;
+  tr.parent td.dtr-control::before,
+  tr.parent th.dtr-control::before {
     content: '\25BE' !important; /* ▾ down arrow */
-    font-size: 18px;
-    color: #555;
-    margin-right: 6px;
-    vertical-align: middle;
-    background: none !important;
-    border: none !important;
-    box-shadow: none !important;
-    width: auto !important;
-    height: auto !important;
-    display: inline !important;
-    position: static !important;
-    border-radius: 0 !important;
+    color: #555 !important;
   }
-  table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control {
+  td.dtr-control {
     cursor: pointer;
-    vertical-align: middle;
+    vertical-align: middle !important;
   }
   /* Responsive child row styling */
   table.dataTable > tbody > tr.child ul.dtr-details {
