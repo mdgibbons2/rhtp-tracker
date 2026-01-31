@@ -122,24 +122,54 @@
     vertical-align: top;
     border-bottom: 1px solid #eee;
   }
+  /* Responsive inline expand arrow */
+  table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control::before {
+    content: '\25BC'; /* down arrow ▼ */
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10px;
+    color: #999;
+    transition: transform 0.2s;
+  }
+  table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control::before {
+    content: '\25B2'; /* up arrow ▲ */
+    color: #555;
+  }
   /* Responsive child row styling */
   table.dataTable > tbody > tr.child ul.dtr-details {
     width: 100%;
   }
   table.dataTable > tbody > tr.child ul.dtr-details > li {
     border-bottom: 1px solid #eee;
-    padding: 8px 0;
+    padding: 6px 0;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
   }
   table.dataTable > tbody > tr.child span.dtr-title {
     font-weight: 600;
     color: #555;
-    min-width: 100px;
-    font-size: 12px;
+    min-width: 90px;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.3px;
+    flex-shrink: 0;
   }
   table.dataTable > tbody > tr.child span.dtr-data {
-    font-size: 13px;
+    font-size: 12px;
+    color: #333;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    min-width: 0;
   }
   td.state-name {
     font-weight: 600;
@@ -548,8 +578,8 @@ fetch('rhtp_results.json')
       data: rows,
       responsive: {
         details: {
-          type: 'column',
-          target: 'tr'
+          type: 'inline',
+          target: 'td.dtr-control'
         }
       },
       columns: [
