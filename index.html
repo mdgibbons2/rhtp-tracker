@@ -398,6 +398,8 @@
         <th>Open Date</th>
         <th>Deadline</th>
         <th>Links</th>
+        <th>Program Name</th>
+        <th>Address</th>
         <th>CMS App</th>
         <th>Email</th>
         <th>Notes</th>
@@ -580,6 +582,8 @@ fetch('rhtp_results.json')
       item.applicationOpenDate || '—',
       item.applicationDeadline || '—',
       renderLinks(item),
+      item.programName || item.state + ' Rural Health Transformation Program',
+      item.programAddress || 'Address not found',
       item.cmsApplicationUrl ? '<a href="' + item.cmsApplicationUrl + '" target="_blank">View PDF</a>' : '—',
       item.rhtpEmail ? '<a href="mailto:' + item.rhtpEmail + '">' + item.rhtpEmail + '</a>' : '—',
       renderNotes(item.notes),
@@ -605,6 +609,8 @@ fetch('rhtp_results.json')
         { title: 'Open Date', responsivePriority: 8 },
         { title: 'Deadline', responsivePriority: 9 },
         { title: 'Links', responsivePriority: 5, orderable: false },
+        { title: 'Program Name', className: 'none', orderable: false },
+        { title: 'Address', className: 'none', orderable: false },
         { title: 'CMS App', className: 'none', orderable: false },
         { title: 'Email', className: 'none', orderable: false },
         { title: 'Notes', className: 'none notes-cell', orderable: false },
@@ -638,8 +644,8 @@ fetch('rhtp_results.json')
     $.fn.dataTable.ext.search.push(function(settings, searchData, index, rowData) {
       var statusFilter = document.getElementById('filterStatus').value;
       var vendorFilter = document.getElementById('filterVendor').value;
-      var cat = rowData[11];  // hidden status category column
-      var vendor = rowData[12]; // hidden vendor column
+      var cat = rowData[13];  // hidden status category column
+      var vendor = rowData[14]; // hidden vendor column
 
       if (statusFilter !== 'all' && cat !== statusFilter) return false;
       if (vendorFilter === 'yes' && vendor !== 'Yes') return false;
@@ -651,7 +657,7 @@ fetch('rhtp_results.json')
   })
   .catch(e => {
     document.getElementById('rhtpTable').querySelector('tbody').innerHTML =
-      '<tr><td colspan="11" style="padding:20px;color:#999;">Error loading data. Make sure rhtp_results.json is in the same directory.</td></tr>';
+      '<tr><td colspan="13" style="padding:20px;color:#999;">Error loading data. Make sure rhtp_results.json is in the same directory.</td></tr>';
   });
 </script>
 </body>
