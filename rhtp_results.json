@@ -14,7 +14,8 @@
     "cmsApplicationUrl": "https://adeca.alabama.gov/wp-content/uploads/ARHTP-Project-Narrative.pdf",
     "rhtpEmail": "",
     "programName": "Alabama Rural Health Transformation Program (ARHTP)",
-    "programAddress": "Alabama Department of Economic and Community Affairs (ADECA), P.O. Box 5690, Montgomery, AL 36103-5690"
+    "programAddress": "Alabama Department of Economic and Community Affairs (ADECA), P.O. Box 5690, Montgomery, AL 36103-5690",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Alaska",
@@ -31,7 +32,8 @@
     "cmsApplicationUrl": "https://health.alaska.gov/media/bxangqdz/alaska-rhtp-project-narrative-and-supporting-documents.pdf",
     "rhtpEmail": "RHTP@alaska.gov",
     "programName": "Alaska Rural Health Transformation Program",
-    "programAddress": "Alaska Department of Health, 3601 C Street, Suite 902, Anchorage, AK 99503"
+    "programAddress": "Alaska Department of Health, 3601 C Street, Suite 902, Anchorage, AK 99503",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Arizona",
@@ -48,7 +50,8 @@
     "cmsApplicationUrl": "https://crh.arizona.edu/sites/default/files/2025-11/AZRHTP_Project_Narrative.pdf",
     "rhtpEmail": "",
     "programName": "Arizona Rural Health Transformation Program",
-    "programAddress": "Arizona Center for Rural Health, 1295 N. Martin Ave., P.O. Box 245163, Tucson, AZ 85724"
+    "programAddress": "Arizona Center for Rural Health, 1295 N. Martin Ave., P.O. Box 245163, Tucson, AZ 85724",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Arkansas",
@@ -65,7 +68,8 @@
     "cmsApplicationUrl": "https://governor.arkansas.gov/wp-content/uploads/Arkansas-Rural-Health-Transformation-Program-Application.pdf",
     "rhtpEmail": "",
     "programName": "Arkansas Rural Health Transformation Program",
-    "programAddress": "Office of Governor Sarah Huckabee Sanders, State Capitol, Suite 250, 500 Woodlane Street, Little Rock, AR 72201"
+    "programAddress": "Office of Governor Sarah Huckabee Sanders, State Capitol, Suite 250, 500 Woodlane Street, Little Rock, AR 72201",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "California",
@@ -82,12 +86,13 @@
     "cmsApplicationUrl": "https://hcai.ca.gov/wp-content/uploads/2026/01/RHTP-Project-Narrative-1-2026.pdf",
     "rhtpEmail": "CalRHT@hcai.ca.gov",
     "programName": "California Rural Health Transformation Program",
-    "programAddress": "Department of Health Care Access and Information (HCAI), 2020 West El Camino Avenue, Suite 800, Sacramento, CA 95833"
+    "programAddress": "Department of Health Care Access and Information (HCAI), 2020 West El Camino Avenue, Suite 800, Sacramento, CA 95833",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Colorado",
     "programPageUrl": "https://hcpf.colorado.gov/rural-health-transformation-program",
-    "fundingOpportunityPosted": "No - RFA In Development",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
     "opportunityType": "RFA (in development)",
     "vendorEligible": "Yes",
     "applicationDeadline": "",
@@ -99,7 +104,8 @@
     "cmsApplicationUrl": "https://hcpf.colorado.gov/sites/hcpf/files/Project%20Narrative%20%28acc%29.pdf",
     "rhtpEmail": "hcpf_RHTP@state.co.us",
     "programName": "Colorado Rural Health Transformation Program",
-    "programAddress": "Department of Health Care Policy and Financing (HCPF), 303 E. 17th Avenue, Suite 1100, Denver, CO 80203"
+    "programAddress": "Department of Health Care Policy and Financing (HCPF), 303 E. 17th Avenue, Suite 1100, Denver, CO 80203",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Connecticut",
@@ -116,7 +122,8 @@
     "cmsApplicationUrl": "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/health-and-home-care/rural-health-transformation-program/cms_project_narrative_20251105.pdf",
     "rhtpEmail": "",
     "programName": "Connecticut Rural Health Transformation Program",
-    "programAddress": "Connecticut Department of Social Services, 55 Farmington Avenue, Hartford, CT 06105"
+    "programAddress": "Connecticut Department of Social Services, 55 Farmington Avenue, Hartford, CT 06105",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Delaware",
@@ -133,7 +140,8 @@
     "cmsApplicationUrl": "",
     "rhtpEmail": "",
     "programName": "Delaware Rural Health Transformation Program",
-    "programAddress": "Office of Governor Matt Meyer, 150 Martin Luther King Jr Blvd South, Dover, DE 19901"
+    "programAddress": "Office of Governor Matt Meyer, 150 Martin Luther King Jr Blvd South, Dover, DE 19901",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Florida",
@@ -150,7 +158,8 @@
     "cmsApplicationUrl": "https://ahca.myflorida.com/content/download/27598/file/11032025_Grant%20Submission.pdf",
     "rhtpEmail": "RHTP@ahca.myflorida.com",
     "programName": "Florida Rural Health Transformation Program",
-    "programAddress": "Agency for Health Care Administration (AHCA), 2727 Mahan Drive, Tallahassee, FL 32308"
+    "programAddress": "Agency for Health Care Administration (AHCA), 2727 Mahan Drive, Tallahassee, FL 32308",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Georgia",
@@ -167,7 +176,8 @@
     "cmsApplicationUrl": "https://dch.georgia.gov/document/document/great-health-application-y1-award-revision/download",
     "rhtpEmail": "GREATHealth@dch.ga.gov",
     "programName": "GREAT Health Program",
-    "programAddress": "Georgia Department of Community Health, 2 Martin Luther King Jr. Drive SE, East Tower, Atlanta, GA 30334"
+    "programAddress": "Georgia Department of Community Health, 2 Martin Luther King Jr. Drive SE, East Tower, Atlanta, GA 30334",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Hawaii",
@@ -184,7 +194,8 @@
     "cmsApplicationUrl": "https://engage.hawaii.gov/wp-content/uploads/2026/01/Compiled-RHT-Application_Redacted29.pdf",
     "rhtpEmail": "",
     "programName": "Hawaii Rural Health Transformation Program",
-    "programAddress": "Executive Chambers, State Capitol, 415 South Beretania Street, Honolulu, HI 96813"
+    "programAddress": "Executive Chambers, State Capitol, 415 South Beretania Street, Honolulu, HI 96813",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Idaho",
@@ -201,7 +212,8 @@
     "cmsApplicationUrl": "https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=35081&dbid=0&repo=PUBLIC-DOCUMENTS&cr=1",
     "rhtpEmail": "IdahoRHTP@dhw.idaho.gov",
     "programName": "Idaho Rural Health Transformation Program",
-    "programAddress": "Idaho Department of Health and Welfare, 450 West State Street, 4th Floor, Boise, ID 83720"
+    "programAddress": "Idaho Department of Health and Welfare, 450 West State Street, 4th Floor, Boise, ID 83720",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Illinois",
@@ -218,12 +230,13 @@
     "cmsApplicationUrl": "",
     "rhtpEmail": "",
     "programName": "Illinois Rural Health Transformation Program",
-    "programAddress": "Illinois Department of Healthcare and Family Services, 201 South Grand Avenue East, Springfield, IL 62763"
+    "programAddress": "Illinois Department of Healthcare and Family Services, 201 South Grand Avenue East, Springfield, IL 62763",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Indiana",
     "programPageUrl": "https://www.in.gov/fssa/policiesinfoforms/indiana-rural-health-transformation-program-grant-application-working-group/",
-    "fundingOpportunityPosted": "No - RFI/RFP Planned",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
     "opportunityType": "RFI/RFP (planned)",
     "vendorEligible": "Yes",
     "applicationDeadline": "",
@@ -235,7 +248,8 @@
     "cmsApplicationUrl": "https://www.in.gov/fssa/files/RHTP-NarrativeIN.pdf",
     "rhtpEmail": "GrowRuralHealth@health.in.gov",
     "programName": "GROW: Cultivating Hoosier Health",
-    "programAddress": "Indiana Family and Social Services Administration, 402 West Washington Street, Indianapolis, IN 46204"
+    "programAddress": "Indiana Family and Social Services Administration, 402 West Washington Street, Indianapolis, IN 46204",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Iowa",
@@ -252,7 +266,8 @@
     "cmsApplicationUrl": "https://hhs.iowa.gov/media/17491/download?inline",
     "rhtpEmail": "",
     "programName": "Healthy Hometowns",
-    "programAddress": "Iowa Department of Health and Human Services, Lucas Building, 321 East 12th Street, Des Moines, IA 50319"
+    "programAddress": "Iowa Department of Health and Human Services, Lucas Building, 321 East 12th Street, Des Moines, IA 50319",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Kansas",
@@ -269,12 +284,13 @@
     "cmsApplicationUrl": "https://www.kdhe.ks.gov/DocumentCenter/View/52810/Kansas-RHTP-Full-Application-112025",
     "rhtpEmail": "RHTP@ks.gov",
     "programName": "Kansas Rural Health Transformation Program",
-    "programAddress": "Kansas Department of Health and Environment, 1000 SW Jackson Street, Suite 540, Topeka, KS 66612"
+    "programAddress": "Kansas Department of Health and Environment, 1000 SW Jackson Street, Suite 540, Topeka, KS 66612",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Kentucky",
     "programPageUrl": "https://ruralhealthplan.ky.gov",
-    "fundingOpportunityPosted": "No - RFA Planned",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
     "opportunityType": "Competitive RFA (planned)",
     "vendorEligible": "Yes",
     "applicationDeadline": "",
@@ -286,7 +302,8 @@
     "cmsApplicationUrl": "https://ruralhealthplan.ky.gov/Documents/KY%20RHTP%20Project%20Narrative_CMS-RHT-26-001.pdf",
     "rhtpEmail": "",
     "programName": "Team Kentucky Rural Health Transformation",
-    "programAddress": "Cabinet for Health and Family Services, 275 East Main Street, Frankfort, KY 40621"
+    "programAddress": "Cabinet for Health and Family Services, 275 East Main Street, Frankfort, KY 40621",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Louisiana",
@@ -303,7 +320,8 @@
     "cmsApplicationUrl": "https://ldh.la.gov/assets/docs/Secretary/RHTP/RHTP-Application.pdf",
     "rhtpEmail": "RHTP@la.gov",
     "programName": "Rural Health Transformation and Sustainability Program",
-    "programAddress": "Louisiana Department of Health, 628 N. 4th Street, Baton Rouge, LA 70802"
+    "programAddress": "Louisiana Department of Health, 628 N. 4th Street, Baton Rouge, LA 70802",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Maine",
@@ -320,7 +338,8 @@
     "cmsApplicationUrl": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/webform/dhhs_web_request/_sid_/V2_SoM_RHTP_Project%20Narrative_11Dec25_CMS%20Response%20ADDED.pdf",
     "rhtpEmail": "",
     "programName": "Transforming Rural Health",
-    "programAddress": "Maine Department of Health and Human Services, 109 Capitol Street, 11 State House Station, Augusta, ME 04333"
+    "programAddress": "Maine Department of Health and Human Services, 109 Capitol Street, 11 State House Station, Augusta, ME 04333",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Maryland",
@@ -337,7 +356,8 @@
     "cmsApplicationUrl": "https://health.maryland.gov/pophealth/Documents/Rural%20Health/RHTP/MD-Project-Narrative-CMS-RHT-26-001-Cover-Updated-Watermark-%283%29.pdf",
     "rhtpEmail": "mdh.transformruralhealth@maryland.gov",
     "programName": "Maryland Rural Health Transformation Program",
-    "programAddress": "Maryland Department of Health, 201 W. Preston Street, Baltimore, MD 21201"
+    "programAddress": "Maryland Department of Health, 201 W. Preston Street, Baltimore, MD 21201",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Massachusetts",
@@ -354,7 +374,8 @@
     "cmsApplicationUrl": "https://www.mass.gov/doc/rural-health-transformation-program-application/download",
     "rhtpEmail": "",
     "programName": "Massachusetts Rural Health Transformation Program",
-    "programAddress": "Executive Office of Health and Human Services, One Ashburton Place, 11th Floor, Boston, MA 02108"
+    "programAddress": "Executive Office of Health and Human Services, One Ashburton Place, 11th Floor, Boston, MA 02108",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Michigan",
@@ -371,7 +392,8 @@
     "cmsApplicationUrl": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/Medicaid/RHT-Project-Narrative-Final_Compressed.pdf",
     "rhtpEmail": "MDHHS-RHTP@michigan.gov",
     "programName": "Michigan Rural Health Transformation Program",
-    "programAddress": "Michigan Department of Health and Human Services, 333 S. Grand Ave, P.O. Box 30195, Lansing, MI 48909"
+    "programAddress": "Michigan Department of Health and Human Services, 333 S. Grand Ave, P.O. Box 30195, Lansing, MI 48909",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Minnesota",
@@ -388,7 +410,8 @@
     "cmsApplicationUrl": "https://www.health.mn.gov/facilities/ruralhealth/ruraltrans/docs/rhtpnarrative.pdf",
     "rhtpEmail": "rural.transformation.mdh@state.mn.us",
     "programName": "Minnesota Rural Health Transformation Program",
-    "programAddress": "Minnesota Department of Health, Office of Rural Health and Primary Care, P.O. Box 64975, St. Paul, MN 55164-0975"
+    "programAddress": "Minnesota Department of Health, Office of Rural Health and Primary Care, P.O. Box 64975, St. Paul, MN 55164-0975",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Mississippi",
@@ -405,7 +428,8 @@
     "cmsApplicationUrl": "https://governorreeves.ms.gov/wp-content/uploads/RHTP-Application.pdf",
     "rhtpEmail": "",
     "programName": "Mississippi Rural Health Transformation Program",
-    "programAddress": "Mississippi Division of Medicaid, 550 High Street, Suite 1000, Jackson, MS 39201"
+    "programAddress": "Mississippi Division of Medicaid, 550 High Street, Suite 1000, Jackson, MS 39201",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Missouri",
@@ -422,12 +446,13 @@
     "cmsApplicationUrl": "https://mydss.mo.gov/sites/mydss/files/media/pdf/2025/11/RHTP%20Application%20Narrative.pdf",
     "rhtpEmail": "",
     "programName": "ToRCH Care (Transformation of Rural Community Health Care)",
-    "programAddress": "Missouri Department of Social Services, MO HealthNet Division, 615 Howerton Court, P.O. Box 6500, Jefferson City, MO 65102-6500"
+    "programAddress": "Missouri Department of Social Services, MO HealthNet Division, 615 Howerton Court, P.O. Box 6500, Jefferson City, MO 65102-6500",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Montana",
     "programPageUrl": "https://dphhs.mt.gov/RuralHealthTransformationProgram/",
-    "fundingOpportunityPosted": "No - Competitive Bidding Planned",
+    "fundingOpportunityPosted": "No - Competitive Process Planned",
     "opportunityType": "Competitive Bidding / Grants",
     "vendorEligible": "Yes",
     "applicationDeadline": "",
@@ -439,7 +464,8 @@
     "cmsApplicationUrl": "https://dphhs.mt.gov/assets/RuralHealthTransformation/RHTP-Plan.pdf",
     "rhtpEmail": "HHSRuralHealthTransformation@mt.gov",
     "programName": "Montana Rural Health Transformation Program",
-    "programAddress": "Montana Department of Public Health and Human Services, P.O. Box 4210, Helena, MT 59604-4210"
+    "programAddress": "Montana Department of Public Health and Human Services, P.O. Box 4210, Helena, MT 59604-4210",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Nebraska",
@@ -456,7 +482,8 @@
     "cmsApplicationUrl": "https://dhhs.ne.gov/Documents/NE%20Final%20Project%20Narrative%20RHTP%202025.pdf",
     "rhtpEmail": "dhhs.rhtp@nebraska.gov",
     "programName": "Make Rural Nebraska Healthy Again",
-    "programAddress": "Nebraska Department of Health and Human Services, 301 Centennial Mall South, Lincoln, NE 68508"
+    "programAddress": "Nebraska Department of Health and Human Services, 301 Centennial Mall South, Lincoln, NE 68508",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Nevada",
@@ -473,7 +500,8 @@
     "cmsApplicationUrl": "https://nvha.nv.gov/uploadedFiles/nvhanvgov/content/Community/Project%20Narrative.pdf",
     "rhtpEmail": "RHTP@nvha.nv.gov",
     "programName": "Rural Health Outcomes Accelerator Program (RHOAP)",
-    "programAddress": "Nevada Health Authority, 9850 Double R Blvd, Reno, NV 89521"
+    "programAddress": "Nevada Health Authority, 9850 Double R Blvd, Reno, NV 89521",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "New Hampshire",
@@ -490,7 +518,8 @@
     "cmsApplicationUrl": "https://www.dhhs.nh.gov/sites/g/files/ehbemt476/files/inline-documents/sonh/rhtc-project-narrative.pdf",
     "rhtpEmail": "RHTF@dhhs.nh.gov",
     "programName": "Granite Strong. Future Ready.",
-    "programAddress": "New Hampshire Department of Health and Human Services, 129 Pleasant Street, Concord, NH 03301"
+    "programAddress": "New Hampshire Department of Health and Human Services, 129 Pleasant Street, Concord, NH 03301",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "New Jersey",
@@ -500,14 +529,15 @@
     "vendorEligible": "Yes",
     "applicationDeadline": "See RFA document",
     "applicationOpenDate": "February 1, 2026",
-    "applicationLink": "https://healthapps.nj.gov/noticeofgrant/noticegrants.aspx",
+    "applicationLink": "",
     "awardAmount": "$147,250,806",
     "leadAgency": "New Jersey Department of Health",
     "notes": "New Jersey received $147.3M for FY2026 (smallest state award). RFA HAS BEEN POSTED. First annual project/budget period: Feb 1, 2026 - Oct 30, 2026 (OBBBA funding period Dec 31, 2025 - Oct 30, 2026). Applications evaluated through electronic grants system. Applicants may apply to one or more activities (Activity A, B, C, and/or D) with separate submissions required for each. Apply via NJ DOH Notice of Grant portal.",
     "cmsApplicationUrl": "https://www.nj.gov/health/fhs/primarycare/rural-health/2025-12-03EXCERPT%20NJRHT_Application.pdf",
     "rhtpEmail": "RHTP.Application@doh.nj.gov",
     "programName": "New Jersey Rural Health Transformation Program",
-    "programAddress": "New Jersey Department of Health, P.O. Box 360, Trenton, NJ 08625-0360"
+    "programAddress": "New Jersey Department of Health, P.O. Box 360, Trenton, NJ 08625-0360",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "New Mexico",
@@ -524,7 +554,8 @@
     "cmsApplicationUrl": "https://www.hca.nm.gov/wp-content/uploads/State-of-New-Mexico-RHT-Program-Application-Package-Including-Attachments-and-Other-Required-Forms.pdf",
     "rhtpEmail": "",
     "programName": "New Mexico Rural Health Transformation Program",
-    "programAddress": "New Mexico Health Care Authority, P.O. Box 2348, Santa Fe, NM 87504-2348"
+    "programAddress": "New Mexico Health Care Authority, P.O. Box 2348, Santa Fe, NM 87504-2348",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "New York",
@@ -541,12 +572,13 @@
     "cmsApplicationUrl": "https://health.ny.gov/facilities/transforming_rural_healthcare/docs/project_narrative.pdf",
     "rhtpEmail": "RHTP@health.ny.gov",
     "programName": "Transforming Rural Healthcare in New York",
-    "programAddress": "New York State Department of Health, Corning Tower, Empire State Plaza, Albany, NY 12237"
+    "programAddress": "New York State Department of Health, Corning Tower, Empire State Plaza, Albany, NY 12237",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "North Carolina",
     "programPageUrl": "https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program",
-    "fundingOpportunityPosted": "No - RFAs Forthcoming",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
     "opportunityType": "RFA (forthcoming)",
     "vendorEligible": "Yes",
     "applicationDeadline": "",
@@ -558,7 +590,8 @@
     "cmsApplicationUrl": "https://www.ncdhhs.gov/north-carolina-rural-health-transformation-application/download?attachment",
     "rhtpEmail": "",
     "programName": "NC ROOTS (Rural Organizations Orchestrating Transformation for Sustainability)",
-    "programAddress": "NC Department of Health and Human Services, 2001 Mail Service Center, Raleigh, NC 27699-2000"
+    "programAddress": "NC Department of Health and Human Services, 2001 Mail Service Center, Raleigh, NC 27699-2000",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "North Dakota",
@@ -575,7 +608,8 @@
     "cmsApplicationUrl": "https://www.hhs.nd.gov/sites/www/files/documents/nd-rhtp-project-narrative.pdf",
     "rhtpEmail": "rhtp@nd.gov",
     "programName": "North Dakota Rural Health Transformation Program",
-    "programAddress": "North Dakota Health and Human Services, 600 East Boulevard Ave., Bismarck, ND 58505-0250"
+    "programAddress": "North Dakota Health and Human Services, 600 East Boulevard Ave., Bismarck, ND 58505-0250",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Ohio",
@@ -592,7 +626,8 @@
     "cmsApplicationUrl": "https://odh.ohio.gov/wps/wcm/connect/gov/8bdd742f-890a-42db-a390-a7d15a39dcdc/Ohio%2BRHT%2BPROGRAM%2BNARRATIVE.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE.Z18_K9I401S01H7F40QBNJU3SO1F56-8bdd742f-890a-42db-a390-a7d15a39dcdc-pFuxMR0",
     "rhtpEmail": "",
     "programName": "Ohio Rural Health Transformation Program",
-    "programAddress": "Ohio Department of Health, 246 N. High Street, Columbus, OH 43215"
+    "programAddress": "Ohio Department of Health, 246 N. High Street, Columbus, OH 43215",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Oklahoma",
@@ -609,12 +644,13 @@
     "cmsApplicationUrl": "https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/health-promotion/rhtp/Project%20Narrative.pdf",
     "rhtpEmail": "OklahomaRHTP@health.ok.gov",
     "programName": "Oklahoma Rural Health Transformation Program",
-    "programAddress": "Oklahoma State Department of Health, 123 Robert S. Kerr Ave., Suite 1702, Oklahoma City, OK 73102-6406"
+    "programAddress": "Oklahoma State Department of Health, 123 Robert S. Kerr Ave., Suite 1702, Oklahoma City, OK 73102-6406",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Oregon",
     "programPageUrl": "https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx",
-    "fundingOpportunityPosted": "No - RFGA Spring 2026",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
     "opportunityType": "RFGA (Request for Grant Application)",
     "vendorEligible": "Yes",
     "applicationDeadline": "Early Summer 2026 (expected)",
@@ -626,7 +662,8 @@
     "cmsApplicationUrl": "https://www.oregon.gov/oha/hpa/hp/Documents/Oregon%20RHT%20Project%20Summary%20and%20Narrative.pdf",
     "rhtpEmail": "RHTP@oha.oregon.gov",
     "programName": "Oregon Rural Health Transformation Program",
-    "programAddress": "Oregon Health Authority, 500 Summer Street NE, E-20, Salem, OR 97301-1097"
+    "programAddress": "Oregon Health Authority, 500 Summer Street NE, E-20, Salem, OR 97301-1097",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Pennsylvania",
@@ -643,7 +680,8 @@
     "cmsApplicationUrl": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/rural-health/pa-rural-health-transformation-plan.pdf",
     "rhtpEmail": "",
     "programName": "Pennsylvania Rural Health Transformation Plan",
-    "programAddress": "Pennsylvania Department of Human Services, P.O. Box 2675, Harrisburg, PA 17105-2675"
+    "programAddress": "Pennsylvania Department of Human Services, P.O. Box 2675, Harrisburg, PA 17105-2675",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Rhode Island",
@@ -660,7 +698,8 @@
     "cmsApplicationUrl": "https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2025-11/RI%20RHTP%20-%20Project%20Narrative%202025%2011-3.pdf",
     "rhtpEmail": "RIDOH.OPCRH@health.ri.gov",
     "programName": "Rhode Island Rural Health Transformation Program",
-    "programAddress": "Rhode Island Department of Health, 3 Capitol Hill, Providence, RI 02908"
+    "programAddress": "Rhode Island Department of Health, 3 Capitol Hill, Providence, RI 02908",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "South Carolina",
@@ -677,7 +716,8 @@
     "cmsApplicationUrl": "https://www.scdhhs.gov/sites/dhhs/files/Project%20Narrative.pdf",
     "rhtpEmail": "",
     "programName": "South Carolina Rural Health Transformation Program",
-    "programAddress": "South Carolina Department of Health and Human Services, P.O. Box 8206, Columbia, SC 29202-8206"
+    "programAddress": "South Carolina Department of Health and Human Services, P.O. Box 8206, Columbia, SC 29202-8206",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "South Dakota",
@@ -694,7 +734,8 @@
     "cmsApplicationUrl": "https://doh.sd.gov/media/lyfbrd2k/sd_rhtproject-narrative-final.pdf",
     "rhtpEmail": "",
     "programName": "South Dakota Rural Health Transformation Project",
-    "programAddress": "South Dakota Department of Health, 600 East Capitol Avenue, Pierre, SD 57501-2536"
+    "programAddress": "South Dakota Department of Health, 600 East Capitol Avenue, Pierre, SD 57501-2536",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Tennessee",
@@ -711,7 +752,8 @@
     "cmsApplicationUrl": "https://www.tn.gov/content/dam/tn/health/TN_RHTF_Application_Full_Document.pdf",
     "rhtpEmail": "Rural.Health@tn.gov",
     "programName": "Better Care, Closer to Home",
-    "programAddress": "Tennessee Department of Health, 710 James Robertson Parkway, Nashville, TN 37243"
+    "programAddress": "Tennessee Department of Health, 710 James Robertson Parkway, Nashville, TN 37243",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Texas",
@@ -728,7 +770,8 @@
     "cmsApplicationUrl": "https://pfd.hhs.texas.gov/sites/default/files/documents/rural-hlth-prgm/rural-txstrong-prjct-narr.pdf",
     "rhtpEmail": "RuralTexasStrong@hhs.texas.gov",
     "programName": "Rural Texas Strong: Supporting Health and Wellness",
-    "programAddress": "Texas Health and Human Services Commission, 4601 W. Guadalupe St., Austin, TX 78751"
+    "programAddress": "Texas Health and Human Services Commission, 4601 W. Guadalupe St., Austin, TX 78751",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Utah",
@@ -745,7 +788,8 @@
     "cmsApplicationUrl": "https://dhhs.utah.gov/wp-content/uploads/Rural-Health-Transformation-Plan.pdf",
     "rhtpEmail": "ruralhealth@utah.gov",
     "programName": "Utah Rural Health Transformation Program",
-    "programAddress": "Utah Department of Health and Human Services, 195 North 1950 West, Salt Lake City, UT 84116"
+    "programAddress": "Utah Department of Health and Human Services, 195 North 1950 West, Salt Lake City, UT 84116",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Vermont",
@@ -762,7 +806,8 @@
     "cmsApplicationUrl": "https://healthcarereform.vermont.gov/sites/hcr/files/documents/RHTP%2011-12-2025.pdf",
     "rhtpEmail": "",
     "programName": "Vermont Rural Health Transformation Program",
-    "programAddress": "Vermont Agency of Human Services, 280 State Drive, Center Building, Waterbury, VT 05671-1080"
+    "programAddress": "Vermont Agency of Human Services, 280 State Drive, Center Building, Waterbury, VT 05671-1080",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Virginia",
@@ -779,7 +824,8 @@
     "cmsApplicationUrl": "https://www.hhr.virginia.gov/media/governorvirginiagov/secretary-of-health-and-human-resources/pdf/RHC-Transformation-Project-Narrative.pdf",
     "rhtpEmail": "",
     "programName": "VA Rural Vitality",
-    "programAddress": "Department of Medical Assistance Services, 600 East Broad Street, Suite 1300, Richmond, VA 23219"
+    "programAddress": "Department of Medical Assistance Services, 600 East Broad Street, Suite 1300, Richmond, VA 23219",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Washington",
@@ -796,7 +842,8 @@
     "cmsApplicationUrl": "https://www.hca.wa.gov/assets/program/rhtp-project-narrative.pdf",
     "rhtpEmail": "",
     "programName": "Washington Rural Health Transformation Program",
-    "programAddress": "Washington State Health Care Authority, 626 8th Avenue SE, Olympia, WA 98501"
+    "programAddress": "Washington State Health Care Authority, 626 8th Avenue SE, Olympia, WA 98501",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "West Virginia",
@@ -813,12 +860,13 @@
     "cmsApplicationUrl": "https://governor.wv.gov/sites/default/files/2025-12/02_WV%20Project%20Narrative_vF.pdf",
     "rhtpEmail": "RHTP@wv.gov",
     "programName": "West Virginia Rural Health Transformation Program",
-    "programAddress": "Office of the Governor, State Capitol, 1900 Kanawha Blvd. E, Charleston, WV 25305"
+    "programAddress": "Office of the Governor, State Capitol, 1900 Kanawha Blvd. E, Charleston, WV 25305",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Wisconsin",
     "programPageUrl": "https://www.dhs.wisconsin.gov/business/rhtp.htm",
-    "fundingOpportunityPosted": "No - Competitive Grants Planned",
+    "fundingOpportunityPosted": "No - Competitive Process Planned",
     "opportunityType": "Competitive Grants (planned)",
     "vendorEligible": "Yes",
     "applicationDeadline": "",
@@ -830,7 +878,8 @@
     "cmsApplicationUrl": "https://www.dhs.wisconsin.gov/business/dhs-rhtp-application-narrative.pdf",
     "rhtpEmail": "",
     "programName": "Building a Healthier Future for Rural Wisconsin",
-    "programAddress": "Wisconsin Department of Health Services, 1 W. Wilson St., Madison, WI 53703"
+    "programAddress": "Wisconsin Department of Health Services, 1 W. Wilson St., Madison, WI 53703",
+    "lastUpdated": "2026-01-31"
   },
   {
     "state": "Wyoming",
@@ -847,6 +896,7 @@
     "cmsApplicationUrl": "https://health.wyo.gov/wp-content/uploads/2025/11/Rural-Health-Transformation-in-Wyoming-final-application.pdf",
     "rhtpEmail": "",
     "programName": "Rural Health Transformation in Wyoming",
-    "programAddress": "Wyoming Department of Health, 2300 Capitol Ave, Cheyenne, WY 82002"
+    "programAddress": "Wyoming Department of Health, 2300 Capitol Ave, Cheyenne, WY 82002",
+    "lastUpdated": "2026-01-31"
   }
 ]

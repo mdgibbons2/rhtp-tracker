@@ -6,6 +6,7 @@
 <title>RHTP Vendor/Subaward Application Tracker</title>
 <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.4/css/responsive.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -247,6 +248,141 @@
     border-top: 1px solid #ddd;
     background: #fff;
   }
+  /* Edit button in table */
+  .btn-edit {
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 3px 7px;
+    cursor: pointer;
+    color: #666;
+    font-size: 15px;
+    line-height: 1;
+    transition: background 0.15s, color 0.15s;
+  }
+  .btn-edit:hover {
+    background: #3a3a3a;
+    color: #fff;
+    border-color: #3a3a3a;
+  }
+  /* Save Changes button in controls bar */
+  .btn-save-all {
+    padding: 6px 16px;
+    background: #2a7a2a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
+  }
+  .btn-save-all:hover { background: #1e5e1e; }
+  /* Edit Modal */
+  .modal-backdrop {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 9998;
+  }
+  .modal-backdrop.active { display: block; }
+  .edit-modal {
+    display: none;
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    z-index: 9999;
+    width: 560px;
+    max-width: 95vw;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .edit-modal.active { display: block; }
+  .modal-header {
+    background: #2a2a2a;
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 8px 8px 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .modal-body {
+    padding: 20px;
+  }
+  .modal-field {
+    margin-bottom: 14px;
+  }
+  .modal-field label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #555;
+    margin-bottom: 4px;
+  }
+  .modal-field input,
+  .modal-field textarea,
+  .modal-field select {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: inherit;
+    background: #fff;
+    color: #333;
+  }
+  .modal-field input:focus,
+  .modal-field textarea:focus,
+  .modal-field select:focus {
+    outline: none;
+    border-color: #666;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.08);
+  }
+  .modal-field textarea {
+    resize: vertical;
+    min-height: 60px;
+  }
+  .modal-footer {
+    padding: 14px 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+  }
+  .modal-footer .btn-cancel {
+    padding: 7px 20px;
+    background: #f0f0f0;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .modal-footer .btn-cancel:hover { background: #e0e0e0; }
+  .modal-footer .btn-save {
+    padding: 7px 20px;
+    background: #3a3a3a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .modal-footer .btn-save:hover { background: #4a4a4a; }
   /* Hide default DT search and page length - we use filters row, always show all */
   div.dt-search { display: none; }
   div.dt-length { display: none; }
@@ -359,7 +495,7 @@
 <div class="header">
   <h1>RHTP Vendor / Subaward Application Tracker</h1>
   <p>CMS Rural Health Transformation Program &mdash; Downstream State Opportunities for Vendors, Subgrantees &amp; Partners &mdash; All 50 States</p>
-  <p style="margin-top:4px;">Last updated: January 31, 2026 &nbsp;|&nbsp; Data sourced from state .gov sites, CMS, SHVS, and public records</p>
+  <p style="margin-top:4px;">Last updated: <span id="globalLastUpdated">—</span> &nbsp;|&nbsp; Data sourced from state .gov sites, CMS, SHVS, and public records</p>
 </div>
 
 <div class="controls">
@@ -398,15 +534,56 @@
         <th>Open Date</th>
         <th>Deadline</th>
         <th>Links</th>
+        <th></th>
         <th>Program Name</th>
         <th>Address</th>
+        <th>Apply URL</th>
         <th>CMS App</th>
         <th>Email</th>
         <th>Notes</th>
+        <th>Last Updated</th>
       </tr>
     </thead>
     <tbody></tbody>
   </table>
+</div>
+
+<div class="modal-backdrop" id="modalBackdrop" onclick="closeEditModal()"></div>
+<div class="edit-modal" id="editModal">
+  <div class="modal-header" id="modalTitle">Edit State</div>
+  <div class="modal-body">
+    <input type="hidden" id="editIndex">
+    <div class="modal-field"><label>Program Name</label><input type="text" id="editProgramName"></div>
+    <div class="modal-field"><label>Program Address</label><textarea id="editProgramAddress"></textarea></div>
+    <div class="modal-field"><label>Program Page URL</label><input type="url" id="editProgramPageUrl"></div>
+    <div class="modal-field"><label>Subaward App Status</label>
+      <select id="editFundingOpportunityPosted">
+        <option value="Yes">Yes</option>
+        <option value="Imminent">Imminent</option>
+        <option value="No">No</option>
+        <option value="No - RFA/RFP Planned">No - RFA/RFP Planned</option>
+        <option value="No - Competitive Process Planned">No - Competitive Process Planned</option>
+        <option value="No - Interest Form Available">No - Interest Form Available</option>
+        <option value="No - Notifications Expected">No - Notifications Expected</option>
+      </select>
+    </div>
+    <div class="modal-field"><label>Opportunity Type</label><input type="text" id="editOpportunityType"></div>
+    <div class="modal-field"><label>Vendor Eligible</label>
+      <select id="editVendorEligible"><option value="Yes">Yes</option><option value="TBD">TBD</option></select>
+    </div>
+    <div class="modal-field"><label>Application Open Date</label><input type="text" id="editApplicationOpenDate"></div>
+    <div class="modal-field"><label>Application Deadline</label><input type="text" id="editApplicationDeadline"></div>
+    <div class="modal-field"><label>Application Link</label><input type="url" id="editApplicationLink"></div>
+    <div class="modal-field"><label>Award Amount</label><input type="text" id="editAwardAmount"></div>
+    <div class="modal-field"><label>Lead Agency</label><input type="text" id="editLeadAgency"></div>
+    <div class="modal-field"><label>CMS Application URL</label><input type="url" id="editCmsApplicationUrl"></div>
+    <div class="modal-field"><label>RHTP Email</label><input type="email" id="editRhtpEmail"></div>
+    <div class="modal-field"><label>Notes</label><textarea id="editNotes" style="min-height:80px;"></textarea></div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn-cancel" onclick="closeEditModal()">Cancel</button>
+    <button class="btn-save" onclick="saveEdit()">Save</button>
+  </div>
 </div>
 
 <div class="footer">
@@ -421,6 +598,9 @@
 <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/3.0.4/js/dataTables.responsive.min.js"></script>
 <script>
+const JSONBIN_ID = '697fb56243b1c97be95ded90';
+const JSONBIN_KEY = '$2a$10$6JX6ofTJtikmxiWlTay2ueAXQfloPs2sYFkz3PjHoZ004FiZnoHAS';
+
 let data = [];
 let dt = null;
 let noteIndex = 0;
@@ -462,8 +642,6 @@ function renderLinks(d) {
     links.push('<a href="' + d.programPageUrl + '" target="_blank">Program Page</a>');
   else if (d.programPageUrl)
     links.push('<span style="color:#999">' + d.programPageUrl + '</span>');
-  if (d.applicationLink)
-    links.push('<a href="' + d.applicationLink + '" target="_blank">Apply</a>');
   return links.join('<br>') || '—';
 }
 
@@ -497,6 +675,19 @@ function renderStats() {
     + '<div class="stat-item"><span class="stat-dot dot-planned"></span> <span class="stat-count">' + counts.planned + '</span> Planned</div>'
     + '<div class="stat-item"><span class="stat-dot dot-none"></span> <span class="stat-count">' + counts.none + '</span> None Yet</div>'
     + '<div class="stat-item stat-total" style="margin-left:auto;color:#888;">Total: <span class="stat-count">50</span> states</div>';
+}
+
+function renderGlobalDate() {
+  var latest = '';
+  data.forEach(function(d) {
+    if (d.lastUpdated && d.lastUpdated > latest) latest = d.lastUpdated;
+  });
+  if (latest) {
+    var parts = latest.split('-');
+    var dt = new Date(parts[0], parts[1] - 1, parts[2]);
+    var formatted = dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    document.getElementById('globalLastUpdated').textContent = formatted;
+  }
 }
 
 function applyCustomFilters() {
@@ -565,15 +756,127 @@ function exportToExcel() {
   URL.revokeObjectURL(url);
 }
 
-fetch('rhtp_results.json')
+function openEditModal(stateIndex) {
+  var item = data[stateIndex];
+  if (!item) return;
+  document.getElementById('editIndex').value = stateIndex;
+  document.getElementById('modalTitle').textContent = 'Edit — ' + item.state;
+  document.getElementById('editProgramName').value = item.programName || '';
+  document.getElementById('editProgramAddress').value = item.programAddress || '';
+  document.getElementById('editProgramPageUrl').value = item.programPageUrl || '';
+  document.getElementById('editFundingOpportunityPosted').value = item.fundingOpportunityPosted || '';
+  document.getElementById('editOpportunityType').value = item.opportunityType || '';
+  document.getElementById('editVendorEligible').value = item.vendorEligible === 'Yes' ? 'Yes' : 'TBD';
+  document.getElementById('editApplicationOpenDate').value = item.applicationOpenDate || '';
+  document.getElementById('editApplicationDeadline').value = item.applicationDeadline || '';
+  document.getElementById('editApplicationLink').value = item.applicationLink || '';
+  document.getElementById('editAwardAmount').value = item.awardAmount || '';
+  document.getElementById('editLeadAgency').value = item.leadAgency || '';
+  document.getElementById('editCmsApplicationUrl').value = item.cmsApplicationUrl || '';
+  document.getElementById('editRhtpEmail').value = item.rhtpEmail || '';
+  document.getElementById('editNotes').value = item.notes || '';
+  document.getElementById('modalBackdrop').classList.add('active');
+  document.getElementById('editModal').classList.add('active');
+}
+
+function closeEditModal() {
+  document.getElementById('modalBackdrop').classList.remove('active');
+  document.getElementById('editModal').classList.remove('active');
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeEditModal();
+});
+
+function saveEdit() {
+  var idx = parseInt(document.getElementById('editIndex').value);
+  var item = data[idx];
+  if (!item) return;
+  item.programName = document.getElementById('editProgramName').value;
+  item.programAddress = document.getElementById('editProgramAddress').value;
+  item.programPageUrl = document.getElementById('editProgramPageUrl').value;
+  item.fundingOpportunityPosted = document.getElementById('editFundingOpportunityPosted').value;
+  item.opportunityType = document.getElementById('editOpportunityType').value;
+  item.vendorEligible = document.getElementById('editVendorEligible').value;
+  item.applicationOpenDate = document.getElementById('editApplicationOpenDate').value;
+  item.applicationDeadline = document.getElementById('editApplicationDeadline').value;
+  item.applicationLink = document.getElementById('editApplicationLink').value;
+  item.awardAmount = document.getElementById('editAwardAmount').value;
+  item.leadAgency = document.getElementById('editLeadAgency').value;
+  item.cmsApplicationUrl = document.getElementById('editCmsApplicationUrl').value;
+  item.rhtpEmail = document.getElementById('editRhtpEmail').value;
+  item.notes = document.getElementById('editNotes').value;
+  item.lastUpdated = new Date().toISOString().slice(0, 10);
+
+  // Rebuild the row data for this item
+  noteIndex = 0; // reset for renderNotes
+  var newRow = [
+    item.state,
+    item.awardAmount || 'N/A',
+    '<span class="badge ' + getBadgeClass(item) + '">' + item.fundingOpportunityPosted + '</span>',
+    item.opportunityType || 'N/A',
+    '<span class="badge ' + getVendorBadge(item.vendorEligible) + '">' + item.vendorEligible + '</span>',
+    item.applicationOpenDate || '—',
+    item.applicationDeadline || '—',
+    renderLinks(item),
+    '<button class="btn-edit" onclick="openEditModal(' + idx + ')" title="Edit"><i class="ri-settings-3-line"></i></button>',
+    item.programName || item.state + ' Rural Health Transformation Program',
+    item.programAddress || 'Address not found',
+    item.applicationLink ? '<a href="' + item.applicationLink + '" target="_blank">' + item.applicationLink + '</a>' : '—',
+    item.cmsApplicationUrl ? '<a href="' + item.cmsApplicationUrl + '" target="_blank">View PDF</a>' : '—',
+    item.rhtpEmail ? '<a href="mailto:' + item.rhtpEmail + '">' + item.rhtpEmail + '</a>' : '—',
+    renderNotes(item.notes),
+    item.lastUpdated || '—',
+    getStatusCategory(item),
+    item.vendorEligible
+  ];
+
+  // Find the DataTable row matching this data index
+  var dtRow = null;
+  dt.rows().every(function() {
+    if (this.data()[0] === item.state) { dtRow = this; }
+  });
+  if (dtRow) dtRow.data(newRow);
+  dt.draw(false);
+  renderStats();
+
+  // Save to JSONBin
+  var saveBtn = document.querySelector('#editModal .btn-save');
+  saveBtn.textContent = 'Saving...';
+  saveBtn.disabled = true;
+  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_ID, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-Access-Key': JSONBIN_KEY
+    },
+    body: JSON.stringify(data)
+  })
+  .then(function(r) {
+    if (!r.ok) throw new Error('Save failed');
+    renderGlobalDate();
+    closeEditModal();
+  })
+  .catch(function() {
+    saveBtn.textContent = 'Save Failed - Retry';
+    saveBtn.disabled = false;
+  });
+}
+
+fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_ID + '/latest', {
+  headers: { 'X-Access-Key': JSONBIN_KEY, 'X-Bin-Meta': 'false' }
+})
+  .then(r => { if (!r.ok) throw new Error(r.status); return r; })
+  .catch(() => fetch('rhtp_results.json'))
   .then(r => r.json())
   .then(d => {
     data = d;
     renderStats();
+    renderGlobalDate();
     noteIndex = 0;
 
     // Build DataTables rows
-    const rows = data.map(item => [
+    const rows = data.map((item, i) => [
       item.state,
       item.awardAmount || 'N/A',
       '<span class="badge ' + getBadgeClass(item) + '">' + item.fundingOpportunityPosted + '</span>',
@@ -582,11 +885,14 @@ fetch('rhtp_results.json')
       item.applicationOpenDate || '—',
       item.applicationDeadline || '—',
       renderLinks(item),
+      '<button class="btn-edit" onclick="openEditModal(' + i + ')" title="Edit"><i class="ri-settings-3-line"></i></button>',
       item.programName || item.state + ' Rural Health Transformation Program',
       item.programAddress || 'Address not found',
+      item.applicationLink ? '<a href="' + item.applicationLink + '" target="_blank">' + item.applicationLink + '</a>' : '—',
       item.cmsApplicationUrl ? '<a href="' + item.cmsApplicationUrl + '" target="_blank">View PDF</a>' : '—',
       item.rhtpEmail ? '<a href="mailto:' + item.rhtpEmail + '">' + item.rhtpEmail + '</a>' : '—',
       renderNotes(item.notes),
+      item.lastUpdated || '—',
       // Hidden columns for filtering/sorting
       getStatusCategory(item),
       item.vendorEligible
@@ -609,11 +915,14 @@ fetch('rhtp_results.json')
         { title: 'Open Date', responsivePriority: 8 },
         { title: 'Deadline', responsivePriority: 9 },
         { title: 'Links', responsivePriority: 5, orderable: false },
+        { title: '', responsivePriority: 1, orderable: false, searchable: false, className: 'dt-center' },
         { title: 'Program Name', className: 'none', orderable: false },
         { title: 'Address', className: 'none', orderable: false },
+        { title: 'Apply URL', className: 'none', orderable: false },
         { title: 'CMS App', className: 'none', orderable: false },
         { title: 'Email', className: 'none', orderable: false },
         { title: 'Notes', className: 'none notes-cell', orderable: false },
+        { title: 'Last Updated', className: 'none', orderable: false },
         { visible: false }, // status category
         { visible: false }  // vendor raw
       ],
@@ -644,8 +953,8 @@ fetch('rhtp_results.json')
     $.fn.dataTable.ext.search.push(function(settings, searchData, index, rowData) {
       var statusFilter = document.getElementById('filterStatus').value;
       var vendorFilter = document.getElementById('filterVendor').value;
-      var cat = rowData[13];  // hidden status category column
-      var vendor = rowData[14]; // hidden vendor column
+      var cat = rowData[16];  // hidden status category column
+      var vendor = rowData[17]; // hidden vendor column
 
       if (statusFilter !== 'all' && cat !== statusFilter) return false;
       if (vendorFilter === 'yes' && vendor !== 'Yes') return false;
@@ -657,7 +966,7 @@ fetch('rhtp_results.json')
   })
   .catch(e => {
     document.getElementById('rhtpTable').querySelector('tbody').innerHTML =
-      '<tr><td colspan="13" style="padding:20px;color:#999;">Error loading data. Make sure rhtp_results.json is in the same directory.</td></tr>';
+      '<tr><td colspan="16" style="padding:20px;color:#999;">Error loading data. Make sure rhtp_results.json is in the same directory.</td></tr>';
   });
 </script>
 </body>
