@@ -200,6 +200,10 @@
   }
   .badge-yes { background: #333; color: #fff; }
   .badge-imminent { background: #666; color: #fff; }
+  .row-imminent { background: #e57373 !important; }
+  .row-imminent td { color: #fff !important; }
+  .row-imminent a { color: #fff !important; text-decoration: underline; }
+  .row-imminent .badge { color: #fff !important; }
   .badge-planned { background: #999; color: #fff; }
   .badge-no { background: #e8e8e8; color: #666; }
   .badge-tbd { background: #f0f0f0; color: #888; }
@@ -612,6 +616,11 @@ fetch('rhtp_results.json')
         { visible: false }  // vendor raw
       ],
       order: [[0, 'asc']],
+      createdRow: function(row, rowData) {
+        if (rowData[11] === 'imminent') {
+          $(row).addClass('row-imminent');
+        }
+      },
       pageLength: -1,
       paging: false,
       language: {
