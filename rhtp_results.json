@@ -10,48 +10,48 @@
     "applicationLink": "",
     "awardAmount": "$203,404,327",
     "leadAgency": "Alabama Department of Economic and Community Affairs (ADECA)",
-    "notes": "Alabama received $203.4M for FY2026. ADECA is the lead agency. The ARHTP Project Narrative is available on the program page. No downstream RFA, RFP, or subgrant application has been posted yet. The state is in early implementation stages following the Dec 29, 2025 CMS award announcement.",
+    "notes": "Alabama received $203.4M for FY2026. ADECA developing rules to help healthcare providers and eligible recipients 'apply and compete' for funding under 11 ARHTP initiatives. Entity-level funding expected to be distributed toward end of FY2026 (by Sept 30, 2026). Governor Ivey will issue executive order in early 2026 creating advisory group. Alabama Legislature expected to consider implementation legislation during 2026 session (typically Feb-May). No vendor RFA/RFP posted yet.",
     "cmsApplicationUrl": "https://adeca.alabama.gov/wp-content/uploads/ARHTP-Project-Narrative.pdf",
     "rhtpEmail": "",
     "programName": "Alabama Rural Health Transformation Program (ARHTP)",
     "programAddress": "Alabama Department of Economic and Community Affairs (ADECA), P.O. Box 5690, Montgomery, AL 36103-5690",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Alaska",
     "programPageUrl": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
     "fundingOpportunityPosted": "Imminent",
-    "opportunityType": "Subgrant/LOI Portal",
+    "opportunityType": "Subgrant",
     "vendorEligible": "Yes",
     "applicationDeadline": "Multiple cycles planned",
     "applicationOpenDate": "February 2026",
     "applicationLink": "",
     "awardAmount": "$272,174,856",
     "leadAgency": "Alaska Department of Health",
-    "notes": "Alaska received $272.2M/year for 5 years. DOH aims to open a portal for registration and letter of intent in February 2026; funding awards expected Spring 2026. Alaska Community Foundation (ACF) awarded the subrecipient administrator contract to manage applications and distribute funds. Eligible entities: health care providers, Tribal Health Organizations, hospitals, clinics, behavioral health orgs, local governments, schools, workforce training programs, technology/innovation partners, child care providers, CBOs, nonprofits. Multiple application cycles planned. Scoring rubric will be posted publicly. Contact: RHTP@alaska.gov. Sign up for updates via GovDelivery.",
+    "notes": "Alaska received $272.2M/year for 5 years. Feb 10, 2026 webinar: 'RHTP Funding Application Process' (1-2 PM AKST) - strong signal that portal/LOI launch is imminent. Register: us02web.zoom.us/webinar/register/WN_uo50H7dxQB2SkQjIes4HWw. Jan 14-16 convening already held (recordings on YouTube). Alaska Community Foundation (ACF) is subrecipient administrator; contact rhtp@alaskacf.org. Six initiatives: Healthy Beginnings, Health Care Access, Healthy Communities, Pay for Value, Strengthen Workforce, Spark Technology & Innovation. Broad eligibility: health care providers, THOs, hospitals, clinics, behavioral health, EMS, CBOs, local govts, schools, tech/innovation partners, nonprofits. Public scoring rubric and criteria will be posted. GovDelivery signup: public.govdelivery.com/accounts/AKDHSS/signup/48430. Contact: RHTP@alaska.gov.",
     "cmsApplicationUrl": "https://health.alaska.gov/media/bxangqdz/alaska-rhtp-project-narrative-and-supporting-documents.pdf",
     "rhtpEmail": "RHTP@alaska.gov",
     "programName": "Alaska Rural Health Transformation Program",
     "programAddress": "Alaska Department of Health, 3601 C Street, Suite 902, Anchorage, AK 99503",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Arizona",
     "programPageUrl": "https://crh.arizona.edu/arizona-rural-health-transformation-program-toolkit",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "Expected RFA/RFP",
-    "vendorEligible": "TBD",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
+    "opportunityType": "NOFO/RFP (planned)",
+    "vendorEligible": "Yes",
     "applicationDeadline": "",
-    "applicationOpenDate": "Expected March/April 2026",
+    "applicationOpenDate": "March/April 2026 (confirmed by state)",
     "applicationLink": "",
     "awardAmount": "$166,988,956",
     "leadAgency": "Arizona Center for Rural Health / AHCCCS / ADHS",
-    "notes": "Arizona received $167.0M for FY2026 (ranked 22nd per rural resident). No formal downstream funding opportunities open yet. Expected March/April 2026 pending state revised budget submission (Jan 30, 2026) and CMS approval. Four priority areas: Rural Health Education & Training (25%), Behavioral/Maternal/Chronic Disease (15%), Telehealth/Innovation (22%), Medical Equipment & Technology (23%). Lead agencies: Office of Economic Opportunity, AHCCCS, ADHS. Arizona Center for Rural Health offers letters of support via online form at redcap.link/7bkadhsh.",
+    "notes": "Arizona received $167.0M for FY2026. State toolkit page confirms NOFOs/RFPs likely starting March/April 2026, contingent on CMS approving revised budget (submitted Jan 30, 2026; CMS has 30-day review). AHCCCS is designated lead for administering/distributing funds. Four priority areas: Rural Health Education & Training (25%), Behavioral/Maternal/Chronic Disease (15%), Telehealth/Innovation (22%), Medical Equipment & Technology (23%). Lead agencies: Office of Economic Opportunity, AHCCCS, ADHS. Arizona Center for Rural Health offers letters of support via online form. Monitor program toolkit page for NOFO release.",
     "cmsApplicationUrl": "https://crh.arizona.edu/sites/default/files/2025-11/AZRHTP_Project_Narrative.pdf",
     "rhtpEmail": "",
     "programName": "Arizona Rural Health Transformation Program",
     "programAddress": "Arizona Center for Rural Health, 1295 N. Martin Ave., P.O. Box 245163, Tucson, AZ 85724",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Arkansas",
@@ -100,12 +100,12 @@
     "applicationLink": "",
     "awardAmount": "$200,105,604",
     "leadAgency": "Colorado Department of Health Care Policy and Financing (HCPF)",
-    "notes": "Colorado received $200.1M for FY2026. HCPF is actively developing RFA materials. RHTP Advisory Committee applications open through February 16, 2026 via Google Form. First committee meeting planned for March 2026. Eligible providers in 52 rural/frontier Colorado counties should monitor for RFA release. Cooperative agreement with CMS must be finalized before funding distribution decisions. Contact: hcpf_RHTP@state.co.us. Newsletter signup available via Constant Contact.",
+    "notes": "Colorado received $200.1M for FY2026. HCPF is actively developing RFA materials. RHTP Advisory Committee applications open through February 16, 2026. HCPF Hospital Webinar scheduled February 11, 2026 (7:30-10 AM MST) - may provide RFA timeline details. First committee meeting: March 2026. 10 initiatives that providers/nonprofits can submit proposals to fulfill. RFA cannot be finalized until cooperative agreement with CMS is complete. Eligible providers in 52 rural/frontier Colorado counties should monitor for RFA release. Contact: hcpf_RHTP@state.co.us. Newsletter signup via Constant Contact.",
     "cmsApplicationUrl": "https://hcpf.colorado.gov/sites/hcpf/files/Project%20Narrative%20%28acc%29.pdf",
     "rhtpEmail": "hcpf_RHTP@state.co.us",
     "programName": "Colorado Rural Health Transformation Program",
     "programAddress": "Department of Health Care Policy and Financing (HCPF), 303 E. 17th Avenue, Suite 1100, Denver, CO 80203",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Connecticut",
@@ -118,12 +118,12 @@
     "applicationLink": "",
     "awardAmount": "$154,249,106",
     "leadAgency": "Connecticut Department of Social Services (DSS)",
-    "notes": "Connecticut received $154.2M for FY2026. The state has NOT yet received authorization from CMS to distribute funds; subject to additional negotiation and review. Funding restricted to federally approved projects. Multiple state agencies collaborating: DSS, Governor's Office, OPM, DPH, DMHAS, DCF. Check back regularly and monitor state procurement website. Public Comment page available on program site.",
+    "notes": "Connecticut received $154.2M for FY2026. State has NOT received CMS authorization to distribute funds - subject to additional negotiation and review. DSS is hiring three positions for RHTP implementation. 31 different initiatives including mobile medical/dental vans and expanded telehealth. Multiple agencies collaborating: DSS, Governor's Office, OPM, DPH, DMHAS, DCF. When vendor applications are released, they will appear on both DSS RHTP page and CT state procurement website. Monitor both regularly.",
     "cmsApplicationUrl": "https://portal.ct.gov/dss/-/media/departments-and-agencies/dss/health-and-home-care/rural-health-transformation-program/cms_project_narrative_20251105.pdf",
     "rhtpEmail": "",
     "programName": "Connecticut Rural Health Transformation Program",
     "programAddress": "Connecticut Department of Social Services, 55 Farmington Avenue, Hartford, CT 06105",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Delaware",
@@ -136,30 +136,30 @@
     "applicationLink": "",
     "awardAmount": "$157,394,964",
     "leadAgency": "Delaware Division of Public Health",
-    "notes": "Delaware received $157.4M for FY2026. The Rural Health Transformation Plan addresses healthcare disparities for approximately 400,000 residents in rural Sussex and Kent Counties. Subrecipients will be selected through a procurement process. Application documents shared via Dropbox. No specific downstream opportunity details posted yet.",
+    "notes": "Delaware received $157.4M for FY2026. Note: original program page at governor.delaware.gov may return 404 - URL may have been restructured. Governor confirmed 'vast majority of funds' will be awarded through competitive application process, prioritizing vendors demonstrating strongest ability to deliver measurable results. Medical school partnership (Thomas Jefferson University) has specific target: government contract by end of September 2026. For other 14 initiatives (Hope Centers, mobile health, telehealth), no procurement timelines announced. Monitor: MyMarketplace (mymarketplace.delaware.gov) and Bid Solicitation Directory (bids.delaware.gov).",
     "cmsApplicationUrl": "",
     "rhtpEmail": "",
     "programName": "Delaware Rural Health Transformation Program",
     "programAddress": "Office of Governor Matt Meyer, 150 Martin Luther King Jr Blvd South, Dover, DE 19901",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Florida",
     "programPageUrl": "https://ahca.myflorida.com/rural-health-transformation-program",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "N/A",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
+    "opportunityType": "RFA for Regional Collaboratives (planned)",
     "vendorEligible": "TBD",
     "applicationDeadline": "",
     "applicationOpenDate": "",
     "applicationLink": "",
     "awardAmount": "$209,938,195",
     "leadAgency": "Florida Agency for Health Care Administration (AHCA)",
-    "notes": "Florida received $209.9M for FY2026. AHCA leads 15 key initiatives spanning: access to care, behavioral health, telehealth/virtual specialty clinics, tele-ICU, workforce development, payment reform, remote patient monitoring, and nutrition/social determinants. No downstream subgrant/vendor opportunities posted yet. Contact for updates available on program page. Grant application and committee presentation available for download.",
+    "notes": "Florida received $209.9M for FY2026. AHCA plans to release an RFA where regional collaboratives (groups of rural and other providers) will submit grant proposals. However, AHCA must first receive legislative appropriation before spending funds - this is a prerequisite blocking RFA release. No RHTP-related solicitations on AHCA procurements page or MyFloridaMarketPlace yet. 15 key initiatives spanning: access to care, behavioral health, telehealth, tele-ICU, workforce development, payment reform, RPM, nutrition/SDOH. Monitor: ahca.myflorida.com/procurements and MyFloridaMarketPlace VIP portal. Contact: RuralHealth@ahca.myflorida.com.",
     "cmsApplicationUrl": "https://ahca.myflorida.com/content/download/27598/file/11032025_Grant%20Submission.pdf",
     "rhtpEmail": "RHTP@ahca.myflorida.com",
     "programName": "Florida Rural Health Transformation Program",
     "programAddress": "Agency for Health Care Administration (AHCA), 2727 Mahan Drive, Tallahassee, FL 32308",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Georgia",
@@ -172,12 +172,12 @@
     "applicationLink": "",
     "awardAmount": "$218,862,170",
     "leadAgency": "Georgia Department of Community Health (DCH)",
-    "notes": "Georgia received $218.9M for FY2026 under the 'GREAT Health' program (Georgia Rural Enhancement and Transformation of Health). One of the largest awards among 50 states. DCH collected public input from Aug 11-29, 2025 via town halls (4 events, 150+ comments). Projects prioritized: support rural providers (population \u226450,000), completable within 24 months, avoid ongoing state obligations. Further details on eligible entities and application processes to be released. DCH program page will serve as primary info source.",
+    "notes": "Georgia received $218.9M for FY2026 under 'GREAT Health' program. Governor's Dec 29, 2025 press release promised 'in the coming weeks, the state will share additional information regarding implementation timelines and next steps.' 29 separate projects across five major categories. Largest bucket ($428M over 5 years) for helping up to 86 eligible hospitals transition to AHEAD Model. No GREAT Health RFPs on DCH Bidding Opportunities page yet. Register for grant announcements with DCH at grants@dch.ga.gov. Contact: GREATHealth@dch.ga.gov.",
     "cmsApplicationUrl": "https://dch.georgia.gov/document/document/great-health-application-y1-award-revision/download",
     "rhtpEmail": "GREATHealth@dch.ga.gov",
     "programName": "GREAT Health Program",
     "programAddress": "Georgia Department of Community Health, 2 Martin Luther King Jr. Drive SE, East Tower, Atlanta, GA 30334",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Hawaii",
@@ -190,12 +190,12 @@
     "applicationLink": "",
     "awardAmount": "$188,892,440",
     "leadAgency": "Executive Office of the State of Hawaii",
-    "notes": "Hawaii received $188.9M for FY2026. The Executive Office led the application. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Hawaii received $188.9M for FY2026 (one of highest per-capita amounts). State has entered formal discussion with CMS regarding implementation and must finalize cooperative agreement before releasing funds. Six coordinated initiatives: Rural Health Information Network (RHIN), Pili Ola Telehealth Network, Rural Infrastructure for Care Access (RICA), and three others. Monitor: HIePRO (hiepro.ehawaii.gov) for procurements once agreement is finalized.",
     "cmsApplicationUrl": "https://engage.hawaii.gov/wp-content/uploads/2026/01/Compiled-RHT-Application_Redacted29.pdf",
     "rhtpEmail": "",
     "programName": "Hawaii Rural Health Transformation Program",
     "programAddress": "Executive Chambers, State Capitol, 415 South Beretania Street, Honolulu, HI 96813",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Idaho",
@@ -208,12 +208,12 @@
     "applicationLink": "",
     "awardAmount": "$185,974,368",
     "leadAgency": "Idaho Department of Health and Welfare (DHW)",
-    "notes": "Idaho received $186.0M for FY2026. Funding will be subawarded in accordance with Idaho procurement law. Public input survey conducted Sept 5-30, 2025. No specific RFA/RFP or subaward details available yet. Contact: IdahoRHTP@dhw.idaho.gov.",
+    "notes": "Idaho received $186.0M annually for five years (~$930M total). Funding will be subawarded in accordance with Idaho procurement law. Plans include telehealth expansion, workforce recruitment/training, disease prevention, and 3.5% set-aside for tribal health care programs. No RFP or procurement posted on Idaho Division of Purchasing website or DHW program page. Monitor: purchasing.idaho.gov. Contact: IdahoRHTP@dhw.idaho.gov.",
     "cmsApplicationUrl": "https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=35081&dbid=0&repo=PUBLIC-DOCUMENTS&cr=1",
     "rhtpEmail": "IdahoRHTP@dhw.idaho.gov",
     "programName": "Idaho Rural Health Transformation Program",
     "programAddress": "Idaho Department of Health and Welfare, 450 West State Street, 4th Floor, Boise, ID 83720",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Illinois",
@@ -235,39 +235,39 @@
   },
   {
     "state": "Indiana",
-    "programPageUrl": "https://www.in.gov/fssa/policiesinfoforms/indiana-rural-health-transformation-program-grant-application-working-group/",
-    "fundingOpportunityPosted": "No - RFA/RFP Planned",
-    "opportunityType": "RFI/RFP (planned)",
+    "programPageUrl": "https://www.in.gov/grow-rural-health/",
+    "fundingOpportunityPosted": "Imminent",
+    "opportunityType": "Regional Grant Application",
     "vendorEligible": "Yes",
-    "applicationDeadline": "",
-    "applicationOpenDate": "TBD (near future)",
+    "applicationDeadline": "July 1, 2026",
+    "applicationOpenDate": "March 1, 2026",
     "applicationLink": "",
     "awardAmount": "$206,927,897",
     "leadAgency": "Indiana Family and Social Services Administration (FSSA) / Indiana Department of Health",
-    "notes": "Indiana received $206.9M for FY2026 for 'GROW: Cultivating Hoosier Health' initiative. After CMS submission, the state began assessing vendor needs with follow-ups to occur as RFIs or RFPs 'in the near future.' Monitor Indiana Department of Administration current business opportunities: in.gov/idoa/procurement/current-business-opportunities/. Contact: GrowRuralHealth@health.in.gov. Documentation available: Project Summary, Full Project Narrative, Budget Narrative, Rural Community Health Survey Results.",
+    "notes": "Indiana received $206.9M for FY2026. GROW regional grant application framework published. $600M over 5 years across 8 regional coalitions ($120M annually, $40M-$100M per region). Application materials published by March 1, 2026. TA period: March-July 2026. Applications due July 1, 2026 (no late submissions). Review/scoring: July-September 2026. Grant period begins October 1, 2026. MUST apply as regional coalition - individual applications NOT accepted. Priority: 64 HRSA-designated rural counties + 9 partially-rural counties. Capital costs capped at 20%, EMR at 5%. State-managed application portal available by March 1. Also monitor in.gov/idoa/procurement/current-business-opportunities/ for non-regional procurements. Regional Grants page: in.gov/grow-rural-health/regional-grants/. Contact: GrowRuralHealth@health.in.gov.",
     "cmsApplicationUrl": "https://www.in.gov/fssa/files/RHTP-NarrativeIN.pdf",
     "rhtpEmail": "GrowRuralHealth@health.in.gov",
     "programName": "GROW: Cultivating Hoosier Health",
     "programAddress": "Indiana Family and Social Services Administration, 402 West Washington Street, Indianapolis, IN 46204",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Iowa",
     "programPageUrl": "https://hhs.iowa.gov/initiatives/healthy-hometowns-iowas-rural-health-transformation-plan",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "N/A",
-    "vendorEligible": "TBD",
-    "applicationDeadline": "",
-    "applicationOpenDate": "",
+    "fundingOpportunityPosted": "Yes",
+    "opportunityType": "Multiple RFPs (awarded)",
+    "vendorEligible": "Yes",
+    "applicationDeadline": "Various (see program page)",
+    "applicationOpenDate": "December 2025 (ongoing)",
     "applicationLink": "",
     "awardAmount": "$209,040,064",
     "leadAgency": "Iowa Department of Health and Human Services",
-    "notes": "Iowa received $209.0M for FY2026 under 'Healthy Hometowns' plan. The proposal aims to build a high-quality, sustainable system of care in rural communities. Project Narrative and Project Summary available on program page. No downstream subgrant or vendor opportunities posted yet.",
+    "notes": "Iowa received $209.0M for FY2026. FIRST STATE IN THE NATION to award RHTP vendor funding. On Jan 30, 2026, Governor Reynolds announced $78.6M+ in competitive RFP awards. Active/awarded RFPs: (1) RFP PHTHORC26009 - Best and Brightest Medical Equipment ($66M, MRI/CT/robotic surgery/linear accelerators), awards finalized; (2) RFP PHTHORC26010 - Best and Brightest Rural Health Workforce ($12.6M, physician/NP/PA recruitment), awards finalized; (3) Health Hub TA Provider and Communities of Care TA Provider contracts awarded Feb 2026. Additional opportunities in pipeline: Cancer Health Hub TA, Cancer Screening, EMS Community Care, Centers of Excellence, Combat Cancer Health Hubs. Health Hub Awardees anticipated to start Oct 1, 2026. Contact: healthyhometowns@hhs.iowa.gov or John McMullen (515) 416-8565.",
     "cmsApplicationUrl": "https://hhs.iowa.gov/media/17491/download?inline",
-    "rhtpEmail": "",
+    "rhtpEmail": "healthyhometowns@hhs.iowa.gov",
     "programName": "Healthy Hometowns",
     "programAddress": "Iowa Department of Health and Human Services, Lucas Building, 321 East 12th Street, Des Moines, IA 50319",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Kansas",
@@ -312,16 +312,16 @@
     "opportunityType": "TBD",
     "vendorEligible": "TBD",
     "applicationDeadline": "",
-    "applicationOpenDate": "Notifications expected January 2026",
+    "applicationOpenDate": "Slipped past January 2026; TBD",
     "applicationLink": "",
     "awardAmount": "$208,374,448",
     "leadAgency": "Louisiana Department of Health (LDH)",
-    "notes": "Louisiana received $208.4M for FY2026. LDH indicated notification of funding opportunities expected January 2026 after CMS Year 1 funding distribution. Contact: RHTP@la.gov for information or to share input.",
+    "notes": "Louisiana received $208.4M for FY2026 (among highest nationally, top 3 in Southeast). Julie Foster Hagan named Executive Director for RHTP. January 2026 notification target has been missed - no funding opportunity notifications posted as of Feb 2026. Focus areas: chronic/complex conditions, behavioral health, perinatal/postpartum, cancer disparities, workforce, infrastructure (telehealth, EHR). Nearly 1.1M rural residents targeted; 37% on Medicaid. RHTS Webinar presentation (12/4/2025) and community meeting materials available. Contact: RHTP@la.gov.",
     "cmsApplicationUrl": "https://ldh.la.gov/assets/docs/Secretary/RHTP/RHTP-Application.pdf",
     "rhtpEmail": "RHTP@la.gov",
     "programName": "Rural Health Transformation and Sustainability Program",
     "programAddress": "Louisiana Department of Health, 628 N. 4th Street, Baton Rouge, LA 70802",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Maine",
@@ -352,12 +352,12 @@
     "applicationLink": "",
     "awardAmount": "$168,180,838",
     "leadAgency": "Maryland Department of Health",
-    "notes": "Maryland received $168.2M for FY2026. Application includes project narrative, project summary, and stakeholder/community listening session resources. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Maryland received $168.2M for FY2026. Program page explicitly states upcoming 'opportunities to apply for the RHTP Committee and to submit proposals for competitive subrecipient funding.' Currently in discussion with CMS regarding approved programs and adjusted budget details. Two categories planned: 'immediate impact funds' (shovel-ready activities) and 'transformation funds' (competitive). Sept 2025 RFI received 325+ responses. Monitor program page and state procurement website for announcements. Contact: mdh.transformruralhealth@maryland.gov.",
     "cmsApplicationUrl": "https://health.maryland.gov/pophealth/Documents/Rural%20Health/RHTP/MD-Project-Narrative-CMS-RHT-26-001-Cover-Updated-Watermark-%283%29.pdf",
     "rhtpEmail": "mdh.transformruralhealth@maryland.gov",
     "programName": "Maryland Rural Health Transformation Program",
     "programAddress": "Maryland Department of Health, 201 W. Preston Street, Baltimore, MD 21201",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Massachusetts",
@@ -388,12 +388,12 @@
     "applicationLink": "",
     "awardAmount": "$173,128,201",
     "leadAgency": "Michigan Department of Health and Human Services (MDHHS)",
-    "notes": "Michigan received $173.1M for FY2026. MDHHS engaged with rural health providers, community partners, Medicaid beneficiaries, and rural community residents to inform strategy. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Michigan received $173.1M for FY2026 (CMS approved all activities at reduced scale). MDHHS launched RHTP Listserv for future Grant Funding Opportunity notices - subscribe at MDHHS-RHTP@michigan.gov. Seeking applicants for Rural Health Transformation Advisory Council (announced Jan 13, 2026) - advisory role, not funding. Grants will be available once MDHHS receives final budget approval from CMS. Three priorities: Make Rural America Healthy Again, Sustainable Access, Workforce Development.",
     "cmsApplicationUrl": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/Medicaid/RHT-Project-Narrative-Final_Compressed.pdf",
     "rhtpEmail": "MDHHS-RHTP@michigan.gov",
     "programName": "Michigan Rural Health Transformation Program",
     "programAddress": "Michigan Department of Health and Human Services, 333 S. Grand Ave, P.O. Box 30195, Lansing, MI 48909",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Minnesota",
@@ -424,30 +424,30 @@
     "applicationLink": "",
     "awardAmount": "$205,907,220",
     "leadAgency": "Mississippi State Department of Health",
-    "notes": "Mississippi received $205.9M for FY2026. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Mississippi received $205.9M for FY2026. As of Feb 4, 2026, legislators pushing bills to require competitive bidding for vendors/subcontractors under RHTP (statewide health assessments, medical equipment, workforce programs, health IT systems). Bills would require quarterly legislative reporting and prioritize subgrantees in rural areas that haven't received similar appropriations in past 5 years. A House-passed bill would designate a state health information exchange via competitive bidding. Six initiatives: statewide rural health assessment, Coordinated Regional Integrated Systems, Workforce Expansion, Health Technology Advancement, Building Rural Infrastructure.",
     "cmsApplicationUrl": "https://governorreeves.ms.gov/wp-content/uploads/RHTP-Application.pdf",
     "rhtpEmail": "",
     "programName": "Mississippi Rural Health Transformation Program",
     "programAddress": "Mississippi Division of Medicaid, 550 High Street, Suite 1000, Jackson, MS 39201",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Missouri",
-    "programPageUrl": "https://mydss.mo.gov/mhd/hot-tips/invitation-comment-rural-health-transformation-program",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "N/A",
-    "vendorEligible": "TBD",
+    "programPageUrl": "https://mydss.mo.gov/mhd/rural-health",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
+    "opportunityType": "RFI/RFP (roadmap published)",
+    "vendorEligible": "Yes",
     "applicationDeadline": "",
-    "applicationOpenDate": "",
+    "applicationOpenDate": "Q1 2026 (RFIs), Q3 2026 (RFPs)",
     "applicationLink": "",
     "awardAmount": "$216,276,818",
     "leadAgency": "Missouri Department of Social Services",
-    "notes": "Missouri received $216.3M for FY2026. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Missouri received $216.3M for FY2026 (9th largest). Detailed procurement roadmap published on dedicated Rural Health page. Upcoming opportunities: Social Care Referral Platform/CIE RFI (Q1 2026), Ambient AI RFI (Q1 2026), Remote Patient Technology feedback (Q2 2026), Social Care Referral Platform/CIE RFP (Q3 2026). Program envisions 7 regional coordinating networks and up to 30 community hubs (2-5 counties each). Plans to hire 100+ people (90 for hubs, 20-25 for regional networks). Largest budget item: 'digital backbone' for data sharing ($364M over 5 years). MHA, Missouri Behavioral Health Council, and Missouri Primary Care Association are tier-one stakeholders. Monitor mydss.mo.gov/mhd/rural-health for new opportunities. ToRCH details: mydss.mo.gov/mhd/ToRCH.",
     "cmsApplicationUrl": "https://mydss.mo.gov/sites/mydss/files/media/pdf/2025/11/RHTP%20Application%20Narrative.pdf",
     "rhtpEmail": "",
     "programName": "ToRCH Care (Transformation of Rural Community Health Care)",
     "programAddress": "Missouri Department of Social Services, MO HealthNet Division, 615 Howerton Court, P.O. Box 6500, Jefferson City, MO 65102-6500",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Montana",
@@ -456,52 +456,52 @@
     "opportunityType": "Competitive Bidding / Grants",
     "vendorEligible": "Yes",
     "applicationDeadline": "",
-    "applicationOpenDate": "TBD (after Jan 30 budget deadline)",
+    "applicationOpenDate": "~March 2026 (after CMS budget review)",
     "applicationLink": "",
     "awardAmount": "$233,509,359",
     "leadAgency": "Montana Department of Public Health and Human Services (DPHHS)",
-    "notes": "Montana received $233.5M for FY2026. Fund distribution plans being designed; finalization expected after January 30 budget deadline. Most initiatives will involve competitive bidding via bids.mt.gov. Alternative approaches include grant applications and inter-agency contracts. Eligible applicants: tribal nations, government agencies, health care providers, educational institutions, nonprofits, and other partners. Sign up for updates at ruralhealth.mt.gov. Contact: HHSRuralHealthTransformation@mt.gov.",
+    "notes": "Montana received $233.5M for FY2026 (4th highest, up to $1.2B over 5 years). First Stakeholder Advisory Committee meeting held Jan 22, 2026 at MSU with 600+ participants. Revised budget submitted Jan 30; CMS has 30-day review (~March 1). First RFPs expected ~March 2026. Most initiatives via competitive bidding at bids.mt.gov; some via government-to-government contracts or grant applications. Five core initiatives: Workforce, Sustainable Access, Innovative Care, Community Health & Prevention, Technology Innovation. Eligible: tribal nations, government agencies, health care providers, educational institutions, nonprofits. Sign up: ruralhealth.mt.gov. Contact: HHSRuralHealthTransformation@mt.gov.",
     "cmsApplicationUrl": "https://dphhs.mt.gov/assets/RuralHealthTransformation/RHTP-Plan.pdf",
     "rhtpEmail": "HHSRuralHealthTransformation@mt.gov",
     "programName": "Montana Rural Health Transformation Program",
     "programAddress": "Montana Department of Public Health and Human Services, P.O. Box 4210, Helena, MT 59604-4210",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Nebraska",
-    "programPageUrl": "https://dhhs.ne.gov/Pages/Rural-Health.aspx",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "N/A",
+    "programPageUrl": "https://dhhs.ne.gov/Pages/Rural-Health-Transformation.aspx",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
+    "opportunityType": "Multiple RFAs (planned)",
     "vendorEligible": "TBD",
     "applicationDeadline": "",
-    "applicationOpenDate": "",
+    "applicationOpenDate": "After CMS budget revision approval (~March 2026)",
     "applicationLink": "",
     "awardAmount": "$218,529,075",
     "leadAgency": "Nebraska Department of Health and Human Services",
-    "notes": "Nebraska received $218.5M for FY2026. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Nebraska received $218.5M for FY2026. State intends to release multiple RFAs for organizations to apply for funds. However, Nebraska must revise application materials submitted to CMS before work can begin, which is delaying solicitation release. Revised budgets due to CMS by Jan 30, 2026 with 30-day review period - meaning funding may not flow until March 2026 at earliest. Monitor dedicated RHTP page and DHHS Contract Opportunities page. Contact: dhhs.rhtp@nebraska.gov.",
     "cmsApplicationUrl": "https://dhhs.ne.gov/Documents/NE%20Final%20Project%20Narrative%20RHTP%202025.pdf",
     "rhtpEmail": "dhhs.rhtp@nebraska.gov",
     "programName": "Make Rural Nebraska Healthy Again",
     "programAddress": "Nebraska Department of Health and Human Services, 301 Centennial Mall South, Lincoln, NE 68508",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Nevada",
     "programPageUrl": "https://nvha.nv.gov/Community/Rural_Health_Transformation/",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "N/A",
-    "vendorEligible": "TBD",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
+    "opportunityType": "Multiple grants (planned)",
+    "vendorEligible": "Yes",
     "applicationDeadline": "",
-    "applicationOpenDate": "",
+    "applicationOpenDate": "Spring/Summer 2026",
     "applicationLink": "",
     "awardAmount": "$179,931,608",
     "leadAgency": "Nevada Health Authority",
-    "notes": "Nevada received $179.9M for FY2026. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Nevada received $179.9M for FY2026. Program page confirms applications and procurement requirements will be announced 'this spring and summer.' RHTSC Steering Committee application closed Jan 19, 2026. Four funded initiatives with allocations: RHOAP virtual specialty mentorship/RPM/AI (15%, ~$27M/yr), Flex Fund for rural provider infrastructure (20%, ~$36M/yr), Workforce Recruitment and Rural Access (40%, ~$72M/yr), Rural Health Innovation and Technology Grant (15%, ~$27M/yr). Strong preference for awards to rural CAHs, CCBHCs, clinics, FQHCs, school-based health centers. Sign up for NVHA ListServ for announcements. Contact: RHTP@nvha.nv.gov.",
     "cmsApplicationUrl": "https://nvha.nv.gov/uploadedFiles/nvhanvgov/content/Community/Project%20Narrative.pdf",
     "rhtpEmail": "RHTP@nvha.nv.gov",
     "programName": "Rural Health Outcomes Accelerator Program (RHOAP)",
     "programAddress": "Nevada Health Authority, 9850 Double R Blvd, Reno, NV 89521",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "New Hampshire",
@@ -514,12 +514,12 @@
     "applicationLink": "",
     "awardAmount": "$204,016,550",
     "leadAgency": "New Hampshire Department of Health and Human Services",
-    "notes": "New Hampshire received $204.0M for FY2026, the largest award among New England states. Focus includes expanding CCBHCs for behavioral health/SUD integration. Implementation planning underway. Monitor: dhhs.nh.gov RHTP page and Open RFPs page. No downstream subgrant or vendor application posted yet.",
+    "notes": "New Hampshire received $204.0M for FY2026, the largest award among New England states. Governor Ayotte established GO-NORTH (Governor's Office of New Opportunities & Rural Transformational Health) to oversee implementation. 'Granite Strong. Future Ready.' plan focuses on preventive health, sustainable access, workforce, innovative payment models, technology/digital health. Over 300 stakeholders contributed input. Implementation planning underway with 'initial investments expected to support rural providers beginning in 2026.' Monitor: dhhs.nh.gov RHTP page and Open RFPs page. Contact: RHTF@dhhs.nh.gov.",
     "cmsApplicationUrl": "https://www.dhhs.nh.gov/sites/g/files/ehbemt476/files/inline-documents/sonh/rhtc-project-narrative.pdf",
     "rhtpEmail": "RHTF@dhhs.nh.gov",
     "programName": "Granite Strong. Future Ready.",
     "programAddress": "New Hampshire Department of Health and Human Services, 129 Pleasant Street, Concord, NH 03301",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "New Jersey",
@@ -527,17 +527,17 @@
     "fundingOpportunityPosted": "Yes",
     "opportunityType": "RFA (Posted)",
     "vendorEligible": "Yes",
-    "applicationDeadline": "See RFA document",
-    "applicationOpenDate": "February 1, 2026",
-    "applicationLink": "",
+    "applicationDeadline": "January 20, 2026 (CLOSED)",
+    "applicationOpenDate": "December 30, 2025",
+    "applicationLink": "https://dohsage.intelligrants.com/",
     "awardAmount": "$147,250,806",
     "leadAgency": "New Jersey Department of Health",
-    "notes": "New Jersey received $147.3M for FY2026 (smallest state award). RFA HAS BEEN POSTED. First annual project/budget period: Feb 1, 2026 - Oct 30, 2026 (OBBBA funding period Dec 31, 2025 - Oct 30, 2026). Applications evaluated through electronic grants system. Applicants may apply to one or more activities (Activity A, B, C, and/or D) with separate submissions required for each. Apply via NJ DOH Notice of Grant portal.",
+    "notes": "New Jersey received $147.3M for FY2026 (smallest state award). RFA application window CLOSED (opened Dec 30, 2025, closed Jan 20, 2026). Now in review/award phase. $27.5M distributed via four activity areas: Activity A - Rural Preventive Health ($8M, up to 16 awards of $200K-$800K), Activity B - Telehealth & RPM ($9M, up to 10 awards of $200K-$1M), Activity C - Training & Capacity Building ($500K, up to 3 awards of $50K-$250K), Activity D - Workforce Recruitment/Retention ($10M, single award). Applied via NJ DOH SAGE IntelliGrants portal. RFA document: healthapps.nj.gov/noticeofgrant/documents/DOHP26RHT_rfa.pdf. Project/budget period: Feb 1 - Oct 30, 2026. Eligible: municipal/county governments, educational institutions, hospitals, nonprofits, clinics, CBOs, tribal organizations serving rural NJ. Contact: RHTP.Application@doh.nj.gov.",
     "cmsApplicationUrl": "https://www.nj.gov/health/fhs/primarycare/rural-health/2025-12-03EXCERPT%20NJRHT_Application.pdf",
     "rhtpEmail": "RHTP.Application@doh.nj.gov",
     "programName": "New Jersey Rural Health Transformation Program",
     "programAddress": "New Jersey Department of Health, P.O. Box 360, Trenton, NJ 08625-0360",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "New Mexico",
@@ -550,12 +550,12 @@
     "applicationLink": "",
     "awardAmount": "$211,484,741",
     "leadAgency": "New Mexico Health Care Authority (HCA)",
-    "notes": "New Mexico received $211.5M for FY2026. HCA previously issued RFP 26-630-8000-0007 for 'Consultant Support for RHTP Application' which closed September 17, 2025. This was for consultant support, NOT downstream subgrants. No downstream subgrant or vendor application has been posted yet for actual program implementation.",
+    "notes": "New Mexico received $211.5M for FY2026. Guidehouse awarded consultant support contract for application preparation. Funding will be distributed through two primary mechanisms: direct subawards and competitive procurements/applications. HCA previously issued RFP 26-630-8000-0007 for consultant support (closed Sept 17, 2025) and RFI for stakeholder input (closed Oct 10, 2025) - both were pre-application, NOT downstream vendor funding. No downstream subgrant or vendor application posted yet. Monitor HCA Open RFPs page (hca.nm.gov/lookingforinformation/open-rfps/).",
     "cmsApplicationUrl": "https://www.hca.nm.gov/wp-content/uploads/State-of-New-Mexico-RHT-Program-Application-Package-Including-Attachments-and-Other-Required-Forms.pdf",
     "rhtpEmail": "",
     "programName": "New Mexico Rural Health Transformation Program",
     "programAddress": "New Mexico Health Care Authority, P.O. Box 2348, Santa Fe, NM 87504-2348",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "New York",
@@ -582,16 +582,16 @@
     "opportunityType": "RFA (forthcoming)",
     "vendorEligible": "Yes",
     "applicationDeadline": "",
-    "applicationOpenDate": "Early 2026 (after CMS approval)",
+    "applicationOpenDate": "April 2026+ (after March office stand-up)",
     "applicationLink": "",
     "awardAmount": "$213,008,356",
     "leadAgency": "North Carolina Department of Health and Human Services (NCDHHS)",
-    "notes": "North Carolina received $213.0M for FY2026. Six integrated initiatives: workforce, access, technology, behavioral health, chronic disease, payment models. 420+ stakeholders engaged. Details on funding flow, subgrants, and payment mechanisms will be shared after CMS approval and through future RFAs. NCDHHS will post application info on RHTP webpage following state/federal administrative steps. No more than 10% for administrative expenses. FAQ page available. Monitor: ncdhhs.gov RHTP page.",
+    "notes": "North Carolina received $213.0M for FY2026. NC ROOTS Hubs are regional, locally governed networks coordinating care across primary care, behavioral health, workforce, value-based payment, digital health. Forthcoming RFA will detail eligibility, governance requirements, and selection criteria for Hub Lead Entities. Jan 16, 2026 town hall held (recording on program page). Jan 30 revised budget due to CMS. Dedicated Rural Health Transformation office to be stood up within NCDHHS by end of March 2026 - RFA unlikely before April. FAQ page available at ncdhhs.gov RHTP site. Contact: monitor ncdhhs.gov RHTP page.",
     "cmsApplicationUrl": "https://www.ncdhhs.gov/north-carolina-rural-health-transformation-application/download?attachment",
     "rhtpEmail": "",
     "programName": "NC ROOTS (Rural Organizations Orchestrating Transformation for Sustainability)",
     "programAddress": "NC Department of Health and Human Services, 2001 Mail Service Center, Raleigh, NC 27699-2000",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "North Dakota",
@@ -600,34 +600,34 @@
     "opportunityType": "Subaward Grants (rolling)",
     "vendorEligible": "Yes",
     "applicationDeadline": "Rolling basis",
-    "applicationOpenDate": "Anticipated January 2026",
+    "applicationOpenDate": "February-March 2026 (slipped from Jan)",
     "applicationLink": "",
     "awardAmount": "$198,936,970",
     "leadAgency": "North Dakota Health and Human Services",
-    "notes": "North Dakota received $198.9M for FY2026. Subaward opportunities anticipated release January 2026 on a rolling basis. Provider Readiness Survey conducted November 2025. Awards will require agreement between HHS and awarded entity. State aims to limit administrative burden. Award process includes mechanism to prioritize impact to communities in need and/or tribal and rural/frontier communities. Contact: rhtp@nd.gov.",
+    "notes": "North Dakota received $198.9M for FY2026 ($500M+ over 5 years). January 2026 subaward target was missed. Grants page live at hhs.nd.gov/rural-health-transformation/grants but shows 'Coming Soon' for all four initiative categories. Awaiting CMS approval of grant application process before live links can be posted. Legislature approved $398M for first two years via special session (bills signed by Governor Armstrong). Budget: $116M access, $33.4M technology, $32.2M workforce, $17.1M healthy lifestyles. Short application turnaround expected once grants open - must commit funds by Oct 2026. Tribal liaison being hired. GovDelivery signup: public.govdelivery.com/accounts/NDDHHS/subscriber/new?topic_id=NDDHHS_189. Contact: rhtp@nd.gov.",
     "cmsApplicationUrl": "https://www.hhs.nd.gov/sites/www/files/documents/nd-rhtp-project-narrative.pdf",
     "rhtpEmail": "rhtp@nd.gov",
     "programName": "North Dakota Rural Health Transformation Program",
     "programAddress": "North Dakota Health and Human Services, 600 East Boulevard Ave., Bismarck, ND 58505-0250",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Ohio",
     "programPageUrl": "https://odh.ohio.gov/know-our-programs/rural-health-transformation-program",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "N/A",
-    "vendorEligible": "TBD",
-    "applicationDeadline": "",
-    "applicationOpenDate": "",
+    "fundingOpportunityPosted": "Yes",
+    "opportunityType": "RFP (active)",
+    "vendorEligible": "Yes",
+    "applicationDeadline": "March 10, 2026",
+    "applicationOpenDate": "January 2, 2026",
     "applicationLink": "",
     "awardAmount": "$202,030,262",
     "leadAgency": "Ohio Department of Health",
-    "notes": "Ohio received $202.0M for FY2026. Application includes Executive Summary and Project Narrative; webinar held during application development. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Ohio received $202.0M for FY2026. ACTIVE VENDOR RFP: 'Rural Health Workforce Pipeline; Pathways Upskilling and Retention' (SRC0000036107). Posted Jan 2, 2026, deadline March 10, 2026. Estimated $5M-$15M annually, up to $60M total contract value. Contract period: April 1, 2026 - June 30, 2027 with renewals through June 30, 2031. Scope: statewide workforce pipeline strategy across high schools, career tech, community colleges, universities, and employers in 73 rural counties. Includes apprenticeships, CHW training, recruitment incentives, 6-month housing stipends for 5-year rural service commitments. One award anticipated. Five initiative pillars: Rural Health Innovation Hubs, Emergency Care Transformation, School-Based Health Centers, OH SEE Expansion, Rural Workforce Pipeline. Additional RFPs for other pillars expected. Note: original ODH program page URL may have changed.",
     "cmsApplicationUrl": "https://odh.ohio.gov/wps/wcm/connect/gov/8bdd742f-890a-42db-a390-a7d15a39dcdc/Ohio%2BRHT%2BPROGRAM%2BNARRATIVE.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE.Z18_K9I401S01H7F40QBNJU3SO1F56-8bdd742f-890a-42db-a390-a7d15a39dcdc-pFuxMR0",
     "rhtpEmail": "",
     "programName": "Ohio Rural Health Transformation Program",
     "programAddress": "Ohio Department of Health, 246 N. High Street, Columbus, OH 43215",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Oklahoma",
@@ -640,12 +640,12 @@
     "applicationLink": "",
     "awardAmount": "$223,476,949",
     "leadAgency": "Oklahoma State Department of Health",
-    "notes": "Oklahoma received $223.5M for FY2026. Application includes project narrative and budget narrative. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Oklahoma received $223.5M for FY2026 (one of highest allocations). State is currently in 30-day CMS review period for budget revisions (award exceeded original $200M projection by $23M). Program page states: 'After approval, funding opportunities will be posted to the RHT Program website as they become available.' Some programs pre-designated to OHCA, which may issue own RFPs independently. Monitor: oklahoma.gov/health/rhtp.html, Oklahoma Central Purchasing, and OHCA Procurement pages. Contact: OklahomaRHTP@health.ok.gov.",
     "cmsApplicationUrl": "https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/health-promotion/rhtp/Project%20Narrative.pdf",
     "rhtpEmail": "OklahomaRHTP@health.ok.gov",
     "programName": "Oklahoma Rural Health Transformation Program",
     "programAddress": "Oklahoma State Department of Health, 123 Robert S. Kerr Ave., Suite 1702, Oklahoma City, OK 73102-6406",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Oregon",
@@ -730,30 +730,30 @@
     "applicationLink": "",
     "awardAmount": "$189,477,607",
     "leadAgency": "South Dakota Department of Health",
-    "notes": "South Dakota received $189.5M for FY2026. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "South Dakota received $189.5M for FY2026. On Jan 27, 2026, House voted 56-11 to approve HB 1044 granting spending authority for RHTP for first two years. Bill advanced to Senate - legislative spending authority is prerequisite before vendor solicitations can be issued. Plan includes $500M health infrastructure modernization, $125M sustainability grants, $3.5M for CHWs. 10 strategic initiative areas listed on program page. Monitor legislative status of HB 1044 and DOH program page.",
     "cmsApplicationUrl": "https://doh.sd.gov/media/lyfbrd2k/sd_rhtproject-narrative-final.pdf",
     "rhtpEmail": "",
     "programName": "South Dakota Rural Health Transformation Project",
     "programAddress": "South Dakota Department of Health, 600 East Capitol Avenue, Pierre, SD 57501-2536",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Tennessee",
     "programPageUrl": "https://www.tn.gov/health/rural.html",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "N/A",
+    "fundingOpportunityPosted": "Imminent",
+    "opportunityType": "Competitive Opportunities",
     "vendorEligible": "TBD",
     "applicationDeadline": "",
-    "applicationOpenDate": "",
+    "applicationOpenDate": "Coming weeks (Feb-Mar 2026)",
     "applicationLink": "",
     "awardAmount": "$206,888,882",
     "leadAgency": "Tennessee Department of Health",
-    "notes": "Tennessee received $206.9M for FY2026 under 'Rural Health Access for Tennessee's Future.' Plan proposes investment reversing rural hospital decline, extending care access, modernizing technology, strengthening local economies, improving outcomes for mothers/children/older adults. Full application document available as PDF. Related: TN Rural Health Care Center of Excellence at UTHSC has separate grants (planning up to $100K, implementation up to $500K, deadline Jan 15, 2026). Contact: Rural.Health@tn.gov. Monitor TN DOH rural health page and Central Procurement Office for RFPs.",
+    "notes": "Tennessee received $206.9M for FY2026 ($1B over 5 years). Joint Ways and Means Committee voted unanimously Jan 14, 2026 to accept federal funds. Program page now states: 'Check this Page in the Upcoming Weeks for Information on Competitive Opportunities.' Existing Healthcare Resiliency Program (HRP) at tn.gov/health/hrp.html awards competitive grants for Capital Investments and Practice Transformation - likely model for RHTP distribution. Legislation being introduced in 2026 to eliminate certificate of need and enable full scope of practice (prerequisites tied to RHTP funding). Contact: Rural.Health@tn.gov. Monitor TN DOH rural health page and Central Procurement Office.",
     "cmsApplicationUrl": "https://www.tn.gov/content/dam/tn/health/TN_RHTF_Application_Full_Document.pdf",
     "rhtpEmail": "Rural.Health@tn.gov",
     "programName": "Better Care, Closer to Home",
     "programAddress": "Tennessee Department of Health, 710 James Robertson Parkway, Nashville, TN 37243",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Texas",
@@ -766,48 +766,48 @@
     "applicationLink": "",
     "awardAmount": "$281,319,361",
     "leadAgency": "Texas Health and Human Services Commission (HHSC)",
-    "notes": "Texas received $281.3M for FY2026, the LARGEST state award. 'Rural Texas Strong' six-part strategy: Lone Star Advanced AI and Telehealth, Infrastructure and Capital Investments, Make Rural Texans Healthy Again (wellness/nutrition), workforce development, cybersecurity, equipment upgrades. HHSC will use a competitive process to attract and select funding recipients. Eligible applicants: local governments, rural hospitals, rural FQHCs, rural behavioral health providers, and other qualified applicants. Applications expected in spring 2026. Monitor: HHSC Grants webpage at hhs.texas.gov.",
+    "notes": "Texas received $281.3M for FY2026, the LARGEST state award. 'Rural Texas Strong' six-part strategy. IMPORTANT: HHSC 'is not meeting with potential vendors or applicants to maintain fairness for all parties' - formal quiet period in effect. Six initiatives with specific procurement types: (1) Prevention/wellness - direct awards to rural hospital districts; (2) Patient health portals - RFP; (3) Lone Star Advanced AI and Telehealth - RFP; (4) Healthcare workforce - RFA; (5) Cybersecurity - RFO; (6) Equipment/infrastructure - RFA. Applications expected spring 2026. Subscribe via GovDelivery or monitor Electronic State Business Daily (ESBD). Contact: RuralTexasStrong@hhs.texas.gov.",
     "cmsApplicationUrl": "https://pfd.hhs.texas.gov/sites/default/files/documents/rural-hlth-prgm/rural-txstrong-prjct-narr.pdf",
     "rhtpEmail": "RuralTexasStrong@hhs.texas.gov",
     "programName": "Rural Texas Strong: Supporting Health and Wellness",
     "programAddress": "Texas Health and Human Services Commission, 4601 W. Guadalupe St., Austin, TX 78751",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Utah",
     "programPageUrl": "https://dhhs.utah.gov/ruralhealth/",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "N/A",
-    "vendorEligible": "TBD",
+    "fundingOpportunityPosted": "Imminent",
+    "opportunityType": "Multiple RFPs (planned)",
+    "vendorEligible": "Yes",
     "applicationDeadline": "",
-    "applicationOpenDate": "",
+    "applicationOpenDate": "Overdue (was January 2026)",
     "applicationLink": "",
     "awardAmount": "$195,743,566",
     "leadAgency": "Utah Department of Health and Human Services",
-    "notes": "Utah received $195.7M for FY2026. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Utah received $195.7M for FY2026 ($1B over 5 years). DHHS previously stated plans to issue multiple RFPs 'as early as January 2026' with short submission timelines - this target has slipped. RFIs may also be issued as precursors to formal RFPs. Program page still reads 'actively preparing in anticipation of the Notice of Award' despite award being confirmed Dec 29, 2025. Seven outcome-driven initiatives with itemized budgets in transformation plan. RFPs could appear any week - short turnaround expected when they drop. Contact: ruralhealth@utah.gov.",
     "cmsApplicationUrl": "https://dhhs.utah.gov/wp-content/uploads/Rural-Health-Transformation-Plan.pdf",
     "rhtpEmail": "ruralhealth@utah.gov",
     "programName": "Utah Rural Health Transformation Program",
     "programAddress": "Utah Department of Health and Human Services, 195 North 1950 West, Salt Lake City, UT 84116",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Vermont",
     "programPageUrl": "https://healthcarereform.vermont.gov/hr1rural-health-transformation-fund",
-    "fundingOpportunityPosted": "No",
-    "opportunityType": "N/A",
-    "vendorEligible": "TBD",
+    "fundingOpportunityPosted": "No - RFA/RFP Planned",
+    "opportunityType": "RFPs and Grants (planned)",
+    "vendorEligible": "Yes",
     "applicationDeadline": "",
     "applicationOpenDate": "",
     "applicationLink": "",
     "awardAmount": "$195,053,740",
     "leadAgency": "Vermont Agency of Human Services",
-    "notes": "Vermont received $195.1M for FY2026 under 'Vermont H.R.1/Rural Health Transformation Fund.' No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Vermont received $195.1M for FY2026 (among highest per-capita awards). AHS announced it will 'roll out RFPs and procurement options, some as grants and some as contracts.' Plans to post full application and summary on website, set up listserv, and conduct listening webinars for prospective applicants. Nonrural-based providers may apply for projects impacting rural communities. Compressed spending window - agencies must spend by September with reporting 60 days before year-end, creating urgency for rapid procurement. Jan 8, 2026 presentation to House Appropriations available. Monitor AHS website and sign up for forthcoming listserv.",
     "cmsApplicationUrl": "https://healthcarereform.vermont.gov/sites/hcr/files/documents/RHTP%2011-12-2025.pdf",
     "rhtpEmail": "",
     "programName": "Vermont Rural Health Transformation Program",
     "programAddress": "Vermont Agency of Human Services, 280 State Drive, Center Building, Waterbury, VT 05671-1080",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Virginia",
@@ -820,12 +820,12 @@
     "applicationLink": "",
     "awardAmount": "$189,544,888",
     "leadAgency": "Virginia Department of Medical Assistance Services (DMAS)",
-    "notes": "Virginia received $189.5M for FY2026 under 'VA Rural Vitality' initiative. Four key initiatives: CareIQ, Homegrown Health Heroes, Connected Care Closer to Home, Live Well Together. Application submitted by DMAS. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Virginia received $189.5M for FY2026 under 'VA Rural Vitality' initiative. DMAS aims to hire core team staff in early 2026. Implementation support contractors will help launch 'ready-to-launch programs' first. Four initiatives: CareIQ, Homegrown Health Heroes, Connected Care Closer to Home, Live Well Together. Virginia Center for Health Innovation (VCHI) leading independent evaluation. Note: original program page at hhr.virginia.gov may return 404 - check DMAS website. Monitor: DMAS procurement and Virginia Business Opportunities (eVA) portal.",
     "cmsApplicationUrl": "https://www.hhr.virginia.gov/media/governorvirginiagov/secretary-of-health-and-human-resources/pdf/RHC-Transformation-Project-Narrative.pdf",
     "rhtpEmail": "",
     "programName": "VA Rural Vitality",
     "programAddress": "Department of Medical Assistance Services, 600 East Broad Street, Suite 1300, Richmond, VA 23219",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Washington",
@@ -838,12 +838,12 @@
     "applicationLink": "",
     "awardAmount": "$181,257,515",
     "leadAgency": "Washington State Health Care Authority",
-    "notes": "Washington received $181.3M for FY2026. Proposed financial assistance to support healthcare workforce housing for clinical and support staff. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Washington received $181.3M for FY2026. IMPORTANT: Washington's expected timeline shows CMS approval and funding notification July-September 2026, with first round of funds distributed October 1, 2026 - substantially behind other states. Investment areas: hospital infrastructure, technology, maternal health, new facilities, healthcare workforce housing. Tribal consultation conducted (Dear Tribal Leader Letter Sept 2025). Monitor: HCA program page for announcements.",
     "cmsApplicationUrl": "https://www.hca.wa.gov/assets/program/rhtp-project-narrative.pdf",
     "rhtpEmail": "",
     "programName": "Washington Rural Health Transformation Program",
     "programAddress": "Washington State Health Care Authority, 626 8th Avenue SE, Olympia, WA 98501",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "West Virginia",
@@ -856,12 +856,12 @@
     "applicationLink": "",
     "awardAmount": "$199,476,099",
     "leadAgency": "Office of Governor Patrick Morrisey",
-    "notes": "West Virginia received $199.5M for FY2026. At least $500M over program lifetime. Governor developed seven flagship initiatives. Detailed Summary, Federal Requirements, Strategic Priorities, Flagship Initiatives, and Public Input Process documents available on program page. No downstream RFA, RFP, or subgrant application has been posted yet. Contact: 304.558.2000.",
+    "notes": "West Virginia received $199.5M for FY2026 (nearly double guaranteed minimum). WV Department of Health launched expansive hiring effort for implementation - positions are 'temporary by design' as a time-limited, performance-driven initiative. House of Delegates passing bills (as recently as Feb 3, 2026) to streamline fund deployment. New DOH program page: health.wv.gov/rural-health-transformation-program. Seven flagship initiatives: Connected Care Grid, Rural Health Link, Mountain State Care Force, Health to Prosperity Pipeline, Personal Health Accelerator, HealthTech Appalachia, value-based payment models. Funds awarded based on need and readiness with emphasis on measurable outcomes. Contact: RHTP@wv.gov.",
     "cmsApplicationUrl": "https://governor.wv.gov/sites/default/files/2025-12/02_WV%20Project%20Narrative_vF.pdf",
     "rhtpEmail": "RHTP@wv.gov",
     "programName": "West Virginia Rural Health Transformation Program",
     "programAddress": "Office of the Governor, State Capitol, 1900 Kanawha Blvd. E, Charleston, WV 25305",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Wisconsin",
@@ -874,12 +874,12 @@
     "applicationLink": "",
     "awardAmount": "$203,670,005",
     "leadAgency": "Wisconsin Department of Health Services (DHS)",
-    "notes": "Wisconsin received $203.7M for FY2026. Three initiatives: strengthen rural health workforce, drive rural technology/innovation, transform rural care through partnerships. DHS will select a vendor to help implement the program. Competitive grants planned for rural regions across seven Healthcare Emergency Readiness Coalitions regions. DHS currently recruiting management team. Sign up for email updates on program page. No specific RFA or application details posted yet.",
+    "notes": "Wisconsin received $203.7M for FY2026. RHTP Advisory Council application open through February 27, 2026 (survey.alchemer.com/s3/8621599/DRAFT-RHTP-Advisory-Council-Application) - advisory role, not funding. DHS still recruiting internal management team. 2026 funds distributed in early January, may be spent through Sept 30, 2027. Three initiatives: workforce, technology/innovation, care transformation through partnerships. Plans include competitive grants for innovative workforce projects, closed-loop referral systems, telehealth, multi-sector partnership grants. Subscribe for updates: public.govdelivery.com/accounts/WIDHS/subscriber/new?topic_id=WIDHS_75.",
     "cmsApplicationUrl": "https://www.dhs.wisconsin.gov/business/dhs-rhtp-application-narrative.pdf",
     "rhtpEmail": "",
     "programName": "Building a Healthier Future for Rural Wisconsin",
     "programAddress": "Wisconsin Department of Health Services, 1 W. Wilson St., Madison, WI 53703",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   },
   {
     "state": "Wyoming",
@@ -892,11 +892,11 @@
     "applicationLink": "",
     "awardAmount": "$205,004,743",
     "leadAgency": "Wyoming Department of Health",
-    "notes": "Wyoming received $205.0M for FY2026. No downstream RFA, RFP, or subgrant application has been posted yet.",
+    "notes": "Wyoming received $205.0M for FY2026 ($5M more than requested, second-largest per-capita award behind Alaska). Legislature budget session commenced February 9, 2026 - must appropriate funds and establish statutory frameworks before programs can launch. WDH needs to 'issue requests for proposals for various initiatives' - RFPs confirmed coming but cannot be released until legislature acts. Proposed oversight: projects over $500K reviewed by Management Council or legislative body, smaller grants handled by WDH and new advisory committee. Key elements: CAH Basic incentive program, EMS consolidation grants, medical education pipeline with 5-year service commitments.",
     "cmsApplicationUrl": "https://health.wyo.gov/wp-content/uploads/2025/11/Rural-Health-Transformation-in-Wyoming-final-application.pdf",
     "rhtpEmail": "",
     "programName": "Rural Health Transformation in Wyoming",
     "programAddress": "Wyoming Department of Health, 2300 Capitol Ave, Cheyenne, WY 82002",
-    "lastUpdated": "2026-01-31"
+    "lastUpdated": "2026-02-04"
   }
 ]
