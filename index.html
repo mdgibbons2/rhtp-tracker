@@ -75,6 +75,8 @@
     flex-shrink: 0;
   }
   .dot-active { background: #FFD1DC; }
+  .dot-active-rolling { background: #4A90D9; }
+  .dot-reopened { background: #FF69B4; }
   .dot-forthcoming { background: #333; }
   .dot-closed { background: #9370DB; }
   .dot-planned { background: #999; }
@@ -201,6 +203,8 @@
     white-space: nowrap;
   }
   .badge-yes { background: #FFD1DC; color: #333; }
+  .badge-active-rolling { background: #4A90D9; color: #fff; }
+  .badge-reopened { background: #FF69B4; color: #fff; font-weight: 700; }
   .badge-forthcoming { background: #333; color: #fff; }
   .badge-closed { background: #9370DB; color: #fff; }
   .badge-planned { background: #999; color: #fff; }
@@ -506,8 +510,10 @@
     <select id="filterStatus" onchange="applyCustomFilters()">
       <option value="all">All States</option>
       <option value="posted">Opportunity Posted</option>
+      <option value="active-rolling">Active (Rolling)</option>
+      <option value="reopened">Reopened</option>
       <option value="forthcoming">Forthcoming / Coming Soon</option>
-      <option value="closed">Closed (Review/Award Phase)</option>
+      <option value="closed">Closed (No Further Solicitations)</option>
       <option value="planned">RFA/RFP Planned</option>
       <option value="none">No Opportunity Yet</option>
     </select>
@@ -562,6 +568,8 @@
     <div class="modal-field"><label>Subaward App Status</label>
       <select id="editFundingOpportunityPosted">
         <option value="Yes">Yes</option>
+        <option value="Active (Rolling)">Active (Rolling)</option>
+        <option value="Reopened">Reopened</option>
         <option value="Forthcoming">Forthcoming</option>
         <option value="Closed">Closed</option>
         <option value="No">No</option>
@@ -611,6 +619,8 @@ let dt = null;
 function getStatusCategory(item) {
   const f = item.fundingOpportunityPosted.toLowerCase();
   if (f === 'yes') return 'posted';
+  if (f.includes('active') && f.includes('rolling')) return 'active-rolling';
+  if (f === 'reopened') return 'reopened';
   if (f === 'forthcoming') return 'forthcoming';
   if (f === 'closed') return 'closed';
   if (f.includes('rfa') || f.includes('rfp') || f.includes('competitive') || f.includes('planned') || f.includes('notification') || f.includes('interest')) return 'planned';
@@ -620,6 +630,8 @@ function getStatusCategory(item) {
 function getBadgeClass(item) {
   const cat = getStatusCategory(item);
   if (cat === 'posted') return 'badge-yes';
+  if (cat === 'active-rolling') return 'badge-active-rolling';
+  if (cat === 'reopened') return 'badge-reopened';
   if (cat === 'forthcoming') return 'badge-forthcoming';
   if (cat === 'closed') return 'badge-closed';
   if (cat === 'planned') return 'badge-planned';
@@ -670,14 +682,16 @@ function toggleNotes(btn) {
 }
 
 function renderStats() {
-  const counts = { posted: 0, forthcoming: 0, closed: 0, planned: 0, none: 0 };
+  const counts = { posted: 0, 'active-rolling': 0, reopened: 0, forthcoming: 0, closed: 0, planned: 0, none: 0 };
   data.forEach(d => counts[getStatusCategory(d)]++);
-  document.getElementById('statsBar').innerHTML =
-    '<div class="stat-item"><span class="stat-dot dot-active"></span> <span class="stat-count">' + counts.posted + '</span> Posted</div>'
-    + '<div class="stat-item"><span class="stat-dot dot-forthcoming"></span> <span class="stat-count">' + counts.forthcoming + '</span> Forthcoming</div>'
-    + '<div class="stat-item"><span class="stat-dot dot-closed"></span> <span class="stat-count">' + counts.closed + '</span> Closed</div>'
-    + '<div class="stat-item"><span class="stat-dot dot-planned"></span> <span class="stat-count">' + counts.planned + '</span> Planned</div>'
+  let html = '<div class="stat-item"><span class="stat-dot dot-active"></span> <span class="stat-count">' + counts.posted + '</span> Posted</div>';
+  if (counts['active-rolling'] > 0) html += '<div class="stat-item"><span class="stat-dot dot-active-rolling"></span> <span class="stat-count">' + counts['active-rolling'] + '</span> Active (Rolling)</div>';
+  if (counts.reopened > 0) html += '<div class="stat-item"><span class="stat-dot dot-reopened"></span> <span class="stat-count">' + counts.reopened + '</span> Reopened</div>';
+  html += '<div class="stat-item"><span class="stat-dot dot-forthcoming"></span> <span class="stat-count">' + counts.forthcoming + '</span> Forthcoming</div>';
+  if (counts.closed > 0) html += '<div class="stat-item"><span class="stat-dot dot-closed"></span> <span class="stat-count">' + counts.closed + '</span> Closed</div>';
+  html += '<div class="stat-item"><span class="stat-dot dot-planned"></span> <span class="stat-count">' + counts.planned + '</span> Planned</div>'
     + '<div class="stat-item stat-total" style="margin-left:auto;color:#888;">Total: <span class="stat-count">50</span> states</div>';
+  document.getElementById('statsBar').innerHTML = html;
 }
 
 function renderGlobalDate() {
@@ -724,6 +738,8 @@ function exportToExcel() {
   xml += '<Style ss:ID="Default"><Font ss:FontName="Calibri" ss:Size="11"/></Style>\n';
   xml += '<Style ss:ID="Header"><Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#3A3A3A" ss:Pattern="Solid"/><Alignment ss:Horizontal="Center" ss:WrapText="1"/></Style>\n';
   xml += '<Style ss:ID="Posted"><Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1"/><Interior ss:Color="#D5E8D4" ss:Pattern="Solid"/></Style>\n';
+  xml += '<Style ss:ID="ActiveRolling"><Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#4A90D9" ss:Pattern="Solid"/></Style>\n';
+  xml += '<Style ss:ID="Reopened"><Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#FF69B4" ss:Pattern="Solid"/></Style>\n';
   xml += '<Style ss:ID="Forthcoming"><Font ss:FontName="Calibri" ss:Size="11"/><Interior ss:Color="#FFF2CC" ss:Pattern="Solid"/></Style>\n';
   xml += '<Style ss:ID="Closed"><Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#9370DB" ss:Pattern="Solid"/></Style>\n';
   xml += '<Style ss:ID="Planned"><Font ss:FontName="Calibri" ss:Size="11"/><Interior ss:Color="#E8E8E8" ss:Pattern="Solid"/></Style>\n';
@@ -738,6 +754,8 @@ function exportToExcel() {
     const cat = getStatusCategory(d);
     let rs = '';
     if (cat === 'posted') rs = ' ss:StyleID="Posted"';
+    else if (cat === 'active-rolling') rs = ' ss:StyleID="ActiveRolling"';
+    else if (cat === 'reopened') rs = ' ss:StyleID="Reopened"';
     else if (cat === 'forthcoming') rs = ' ss:StyleID="Forthcoming"';
     else if (cat === 'closed') rs = ' ss:StyleID="Closed"';
     else if (cat === 'planned') rs = ' ss:StyleID="Planned"';
