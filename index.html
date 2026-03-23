@@ -901,7 +901,9 @@ function getNextSteps(item) {
 function renderNextSteps(nextSteps) {
   if (!nextSteps || !nextSteps.length) return '<span style="color:#999;">-</span>';
   var today = new Date().toISOString().slice(0, 10);
-  var sorted = nextSteps.slice().sort(function(a, b) {
+  var visible = nextSteps.filter(function(s) { return s.isShown !== false; });
+  if (!visible.length) return '<span style="color:#999;">-</span>';
+  var sorted = visible.slice().sort(function(a, b) {
     if (!a.date && !b.date) return 0;
     if (!a.date) return 1;
     if (!b.date) return -1;
@@ -919,14 +921,38 @@ function renderNextSteps(nextSteps) {
   }).join('');
 }
 
-function addNextStepRow(date, label) {
+function addNextStepRow(date, label, isShown) {
+  if (isShown === undefined) isShown = true;
   var container = document.getElementById('editNextSteps');
   var row = document.createElement('div');
   row.className = 'next-step-row';
-  row.innerHTML = '<input type="date" class="step-date" value="' + (date || '') + '">'
-    + '<input type="text" class="step-label" value="' + escHtml(label || '') + '" placeholder="Description">'
-    + '<button type="button" class="btn-remove-step" onclick="this.parentElement.remove()" title="Remove">&times;</button>';
+  row.dataset.isShown = isShown ? 'true' : 'false';
+  if (!isShown) row.style.opacity = '0.35';
+  var hideBtn = isShown
+    ? '<button type="button" class="btn-remove-step" onclick="hideNextStepRow(this)" title="Hide">&times;</button>'
+    : '<button type="button" class="btn-remove-step" onclick="showNextStepRow(this)" title="Show" style="color:#38a169;">+</button>';
+  row.innerHTML = '<input type="date" class="step-date" value="' + (date || '') + '"' + (!isShown ? ' disabled' : '') + '>'
+    + '<input type="text" class="step-label" value="' + escHtml(label || '') + '" placeholder="Description"' + (!isShown ? ' disabled' : '') + '>'
+    + hideBtn;
   container.appendChild(row);
+}
+
+function hideNextStepRow(btn) {
+  var row = btn.parentElement;
+  row.dataset.isShown = 'false';
+  row.style.opacity = '0.35';
+  row.querySelector('.step-date').disabled = true;
+  row.querySelector('.step-label').disabled = true;
+  btn.outerHTML = '<button type="button" class="btn-remove-step" onclick="showNextStepRow(this)" title="Show" style="color:#38a169;">+</button>';
+}
+
+function showNextStepRow(btn) {
+  var row = btn.parentElement;
+  row.dataset.isShown = 'true';
+  row.style.opacity = '1';
+  row.querySelector('.step-date').disabled = false;
+  row.querySelector('.step-label').disabled = false;
+  btn.outerHTML = '<button type="button" class="btn-remove-step" onclick="hideNextStepRow(this)" title="Hide">&times;</button>';
 }
 
 function renderLinks(d) {
@@ -970,9 +996,9 @@ function renderUpcomingItems() {
   var allSteps = [];
   data.forEach(function(item) {
     var steps = item.nextSteps || [];
-    steps.forEach(function(step) {
-      if (step.date && step.date >= today) {
-        allSteps.push({ date: step.date, label: step.label, state: item.state });
+    steps.forEach(function(step, stepIdx) {
+      if (step.date && step.date >= today && step.isShown !== false) {
+        allSteps.push({ date: step.date, label: step.label, state: item.state, _stateIdx: data.indexOf(item), _stepIdx: stepIdx });
       }
     });
   });
@@ -997,11 +1023,8 @@ function renderUpcomingItems() {
 function deleteUpcomingItem(idx) {
   var item = window._upcomingItems[idx];
   if (!item) return;
-  var stateObj = data.find(function(d) { return d.state === item.state; });
-  if (!stateObj || !stateObj.nextSteps) return;
-  stateObj.nextSteps = stateObj.nextSteps.filter(function(s) {
-    return !(s.date === item.date && s.label === item.label);
-  });
+  // Soft-delete: set isShown to false instead of removing
+  data[item._stateIdx].nextSteps[item._stepIdx].isShown = false;
   renderUpcomingItems();
   // Save to Firebase
   function doSave(user) {
@@ -1135,7 +1158,7 @@ function openEditModal(stateIndex) {
   var stepsContainer = document.getElementById('editNextSteps');
   stepsContainer.innerHTML = '';
   var steps = item.nextSteps || [];
-  steps.forEach(function(step) { addNextStepRow(step.date, step.label); });
+  steps.forEach(function(step) { addNextStepRow(step.date, step.label, step.isShown !== false); });
   document.getElementById('editApplicationLink').value = item.applicationLink || '';
   document.getElementById('editAwardAmount').value = item.awardAmount || '';
   document.getElementById('editLeadAgency').value = item.leadAgency || '';
@@ -1172,8 +1195,9 @@ function saveEdit() {
   stepRows.forEach(function(row) {
     var date = row.querySelector('.step-date').value;
     var label = row.querySelector('.step-label').value.trim();
+    var isShown = row.dataset.isShown !== 'false';
     if (date || label) {
-      item.nextSteps.push({ date: date, label: label });
+      item.nextSteps.push({ date: date, label: label, isShown: isShown });
     }
   });
   // Auto-compute applicationDeadline for backward compat / Excel export
