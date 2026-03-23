@@ -800,8 +800,17 @@
 <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/3.0.4/js/dataTables.responsive.min.js"></script>
 <script>
-const JSONBIN_ID = '69bec028b7ec241ddc8c8ea4';
-const JSONBIN_KEY = '$2a$10$6JX6ofTJtikmxiWlTay2ueAXQfloPs2sYFkz3PjHoZ004FiZnoHAS';
+// GitHub API backend
+const GH_REPO = 'mdgibbons2/rhtp-tracker';
+const GH_FILE = 'rhtp_results.json';
+
+function getGhToken() {
+  var token = sessionStorage.getItem('gh_token');
+  if (token) return token;
+  token = prompt('Enter your GitHub Personal Access Token to save changes:\n\n(This is stored only in your browser session and cleared when you close the tab.)');
+  if (token) sessionStorage.setItem('gh_token', token);
+  return token;
+}
 
 let data = [];
 let dt = null;
@@ -1159,35 +1168,47 @@ function saveEdit() {
   dt.draw(false);
   renderStats();
 
-  // Save to JSONBin
+  // Save to GitHub
   var saveBtn = document.querySelector('#editModal .btn-save');
+  var ghToken = getGhToken();
+  if (!ghToken) { saveBtn.textContent = 'No token - cannot save'; return; }
   saveBtn.textContent = 'Saving...';
   saveBtn.disabled = true;
-  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_ID, {
-    method: 'PUT',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-Access-Key': JSONBIN_KEY
-    },
-    body: JSON.stringify(data)
+  var apiUrl = 'https://api.github.com/repos/' + GH_REPO + '/contents/' + GH_FILE;
+  // First get current file SHA (required by GitHub API)
+  fetch(apiUrl, { headers: { 'Authorization': 'Bearer ' + ghToken } })
+  .then(function(r) { if (!r.ok) throw new Error('Failed to get file SHA'); return r.json(); })
+  .then(function(fileInfo) {
+    var content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
+    return fetch(apiUrl, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'Bearer ' + ghToken,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: 'Update ' + item.state + ' via tracker UI',
+        content: content,
+        sha: fileInfo.sha
+      })
+    });
   })
   .then(function(r) {
     if (!r.ok) throw new Error('Save failed');
     renderGlobalDate();
     closeEditModal();
   })
-  .catch(function() {
+  .catch(function(err) {
+    sessionStorage.removeItem('gh_token');
     saveBtn.textContent = 'Save Failed - Retry';
     saveBtn.disabled = false;
+    console.error('Save error:', err);
   });
 }
 
-fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_ID + '/latest', {
-  headers: { 'X-Access-Key': JSONBIN_KEY, 'X-Bin-Meta': 'false' }
-})
-  .then(r => { if (!r.ok) throw new Error(r.status); return r; })
-  .catch(() => fetch('rhtp_results.json'))
-  .then(r => r.json())
+// Load data directly from GitHub Pages (same origin, no API key needed)
+fetch('rhtp_results.json')
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(d => {
     data = d;
     renderStats();
