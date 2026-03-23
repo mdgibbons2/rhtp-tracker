@@ -247,6 +247,181 @@
     cursor: pointer;
   }
   .btn-export:hover { background: #4a4a4a; }
+
+  /* Next Steps column */
+  .next-step-item {
+    font-size: 12px;
+    line-height: 1.6;
+    white-space: nowrap;
+  }
+  .next-step-item + .next-step-item {
+    margin-top: 1px;
+  }
+  .next-step-past {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  .next-step-date {
+    font-weight: 600;
+  }
+
+  /* Next Steps editor in modal */
+  .next-step-row {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+    align-items: center;
+  }
+  .next-step-row input.step-date {
+    width: 145px;
+    flex-shrink: 0;
+    padding: 5px 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+  .next-step-row input.step-label {
+    flex: 1;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+  .btn-remove-step {
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 4px 8px;
+    cursor: pointer;
+    color: #999;
+    font-size: 16px;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .btn-remove-step:hover {
+    background: #fee;
+    border-color: #c66;
+    color: #c00;
+  }
+  .btn-add-step {
+    background: none;
+    border: 1px dashed #ccc;
+    border-radius: 4px;
+    padding: 5px 12px;
+    cursor: pointer;
+    color: #666;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 4px;
+  }
+  .btn-add-step:hover {
+    background: #f9f9f9;
+    border-color: #999;
+  }
+
+  /* Upcoming panel */
+  .upcoming-toggle {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background: #2a2a2a;
+    color: #fff;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    padding: 12px 8px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transition: background 0.2s, right 0.3s;
+    box-shadow: -2px 0 8px rgba(0,0,0,0.15);
+  }
+  .upcoming-toggle:hover { background: #444; }
+  .upcoming-toggle.panel-open { right: 340px; }
+
+  .upcoming-panel {
+    position: fixed;
+    top: 0;
+    right: -340px;
+    width: 340px;
+    height: 100vh;
+    background: #fff;
+    border-left: 1px solid #ddd;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.1);
+    z-index: 999;
+    transition: right 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .upcoming-panel.open { right: 0; }
+
+  .upcoming-header {
+    background: #2a2a2a;
+    color: #fff;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .upcoming-header h3 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+  .upcoming-close {
+    background: none;
+    border: none;
+    color: #aaa;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+  }
+  .upcoming-close:hover { color: #fff; }
+
+  .upcoming-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0;
+  }
+
+  .upcoming-item {
+    padding: 12px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.15s;
+  }
+  .upcoming-item:hover { background: #f9f9f9; }
+  .upcoming-item-date {
+    font-size: 11px;
+    font-weight: 700;
+    color: #e8590c;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .upcoming-item-label {
+    font-size: 13px;
+    color: #333;
+    margin-top: 2px;
+    line-height: 1.4;
+  }
+  .upcoming-item-state {
+    font-size: 11px;
+    color: #888;
+    margin-top: 2px;
+  }
+  .upcoming-empty {
+    padding: 40px 20px;
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+  }
+
   .footer {
     padding: 20px 32px;
     font-size: 11px;
@@ -540,8 +715,8 @@
         <th>Subaward App</th>
         <th>Type</th>
         <th>Vendor Eligible</th>
+        <th>Next Steps</th>
         <th>Open Date</th>
-        <th>Deadline</th>
         <th>Links</th>
         <th></th>
         <th>Program Name</th>
@@ -555,6 +730,16 @@
     </thead>
     <tbody></tbody>
   </table>
+</div>
+
+<!-- Upcoming Items Panel -->
+<button class="upcoming-toggle" id="upcomingToggle" onclick="toggleUpcomingPanel()">UPCOMING</button>
+<div class="upcoming-panel" id="upcomingPanel">
+  <div class="upcoming-header">
+    <h3><i class="ri-calendar-event-line"></i> &nbsp;Upcoming Across All States</h3>
+    <button class="upcoming-close" onclick="toggleUpcomingPanel()">&times;</button>
+  </div>
+  <div class="upcoming-body" id="upcomingBody"></div>
 </div>
 
 <div class="modal-backdrop" id="modalBackdrop" onclick="closeEditModal()"></div>
@@ -584,7 +769,11 @@
       <select id="editVendorEligible"><option value="Yes">Yes</option><option value="TBD">TBD</option></select>
     </div>
     <div class="modal-field"><label>Application Open Date</label><input type="text" id="editApplicationOpenDate"></div>
-    <div class="modal-field"><label>Application Deadline</label><input type="text" id="editApplicationDeadline"></div>
+    <div class="modal-field">
+      <label>Next Steps</label>
+      <div id="editNextSteps"></div>
+      <button type="button" class="btn-add-step" onclick="addNextStepRow()">+ Add Step</button>
+    </div>
     <div class="modal-field"><label>Application Link</label><input type="url" id="editApplicationLink"></div>
     <div class="modal-field"><label>Award Amount</label><input type="text" id="editAwardAmount"></div>
     <div class="modal-field"><label>Lead Agency</label><input type="text" id="editLeadAgency"></div>
@@ -653,6 +842,60 @@ function parseAward(s) {
   return parseInt(s.replace(/[^0-9]/g, '')) || 0;
 }
 
+function escHtml(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function formatStepDate(isoDate) {
+  var parts = isoDate.split('-');
+  var d = new Date(parts[0], parts[1] - 1, parts[2]);
+  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  var now = new Date();
+  var str = months[d.getMonth()] + ' ' + d.getDate();
+  if (d.getFullYear() !== now.getFullYear()) str += ', ' + d.getFullYear();
+  return str;
+}
+
+function getNextSteps(item) {
+  if (item.nextSteps && item.nextSteps.length) return item.nextSteps;
+  if (item.applicationDeadline) {
+    return [{ date: '', label: item.applicationDeadline }];
+  }
+  return [];
+}
+
+function renderNextSteps(nextSteps) {
+  if (!nextSteps || !nextSteps.length) return '<span style="color:#999;">-</span>';
+  var today = new Date().toISOString().slice(0, 10);
+  var sorted = nextSteps.slice().sort(function(a, b) {
+    if (!a.date && !b.date) return 0;
+    if (!a.date) return 1;
+    if (!b.date) return -1;
+    return a.date.localeCompare(b.date);
+  });
+  return sorted.map(function(step) {
+    var isPast = step.date && step.date < today;
+    var cls = isPast ? 'next-step-item next-step-past' : 'next-step-item';
+    var dateStr = step.date ? formatStepDate(step.date) : '';
+    var sep = dateStr && step.label ? ' - ' : '';
+    return '<div class="' + cls + '">'
+      + (dateStr ? '<span class="next-step-date">' + dateStr + '</span>' : '')
+      + sep + escHtml(step.label)
+      + '</div>';
+  }).join('');
+}
+
+function addNextStepRow(date, label) {
+  var container = document.getElementById('editNextSteps');
+  var row = document.createElement('div');
+  row.className = 'next-step-row';
+  row.innerHTML = '<input type="date" class="step-date" value="' + (date || '') + '">'
+    + '<input type="text" class="step-label" value="' + escHtml(label || '') + '" placeholder="Description">'
+    + '<button type="button" class="btn-remove-step" onclick="this.parentElement.remove()" title="Remove">&times;</button>';
+  container.appendChild(row);
+}
+
 function renderLinks(d) {
   const links = [];
   if (d.programPageUrl && d.programPageUrl.startsWith('http'))
@@ -679,6 +922,41 @@ function toggleNotes(btn) {
   if (!el) return;
   el.classList.toggle('notes-expanded');
   btn.textContent = el.classList.contains('notes-expanded') ? 'less' : 'more';
+}
+
+function toggleUpcomingPanel() {
+  var panel = document.getElementById('upcomingPanel');
+  var toggle = document.getElementById('upcomingToggle');
+  var isOpen = panel.classList.toggle('open');
+  toggle.classList.toggle('panel-open', isOpen);
+  if (isOpen) renderUpcomingItems();
+}
+
+function renderUpcomingItems() {
+  var today = new Date().toISOString().slice(0, 10);
+  var allSteps = [];
+  data.forEach(function(item) {
+    var steps = item.nextSteps || [];
+    steps.forEach(function(step) {
+      if (step.date && step.date >= today) {
+        allSteps.push({ date: step.date, label: step.label, state: item.state });
+      }
+    });
+  });
+  allSteps.sort(function(a, b) { return a.date.localeCompare(b.date); });
+  var top = allSteps.slice(0, 10);
+  var body = document.getElementById('upcomingBody');
+  if (!top.length) {
+    body.innerHTML = '<div class="upcoming-empty">No upcoming items with dates found.</div>';
+    return;
+  }
+  body.innerHTML = top.map(function(item) {
+    return '<div class="upcoming-item">'
+      + '<div class="upcoming-item-date">' + formatStepDate(item.date) + '</div>'
+      + '<div class="upcoming-item-label">' + escHtml(item.label) + '</div>'
+      + '<div class="upcoming-item-state">' + escHtml(item.state) + '</div>'
+      + '</div>';
+  }).join('');
 }
 
 function renderStats() {
@@ -721,7 +999,7 @@ function exportToExcel() {
     { key: 'opportunityType', label: 'Opportunity Type' },
     { key: 'vendorEligible', label: 'Vendor Eligible' },
     { key: 'applicationOpenDate', label: 'Application Open Date' },
-    { key: 'applicationDeadline', label: 'Application Deadline' },
+    { key: 'applicationDeadline', label: 'Next Steps' },
     { key: 'programPageUrl', label: 'Program Page URL' },
     { key: 'cmsApplicationUrl', label: 'CMS Application PDF' },
     { key: 'rhtpEmail', label: 'RHTP Email' },
@@ -791,7 +1069,11 @@ function openEditModal(stateIndex) {
   document.getElementById('editOpportunityType').value = item.opportunityType || '';
   document.getElementById('editVendorEligible').value = item.vendorEligible === 'Yes' ? 'Yes' : 'TBD';
   document.getElementById('editApplicationOpenDate').value = item.applicationOpenDate || '';
-  document.getElementById('editApplicationDeadline').value = item.applicationDeadline || '';
+  // Populate Next Steps editor
+  var stepsContainer = document.getElementById('editNextSteps');
+  stepsContainer.innerHTML = '';
+  var steps = item.nextSteps || [];
+  steps.forEach(function(step) { addNextStepRow(step.date, step.label); });
   document.getElementById('editApplicationLink').value = item.applicationLink || '';
   document.getElementById('editAwardAmount').value = item.awardAmount || '';
   document.getElementById('editLeadAgency').value = item.leadAgency || '';
@@ -822,7 +1104,21 @@ function saveEdit() {
   item.opportunityType = document.getElementById('editOpportunityType').value;
   item.vendorEligible = document.getElementById('editVendorEligible').value;
   item.applicationOpenDate = document.getElementById('editApplicationOpenDate').value;
-  item.applicationDeadline = document.getElementById('editApplicationDeadline').value;
+  // Collect next steps from editor
+  var stepRows = document.querySelectorAll('#editNextSteps .next-step-row');
+  item.nextSteps = [];
+  stepRows.forEach(function(row) {
+    var date = row.querySelector('.step-date').value;
+    var label = row.querySelector('.step-label').value.trim();
+    if (date || label) {
+      item.nextSteps.push({ date: date, label: label });
+    }
+  });
+  // Auto-compute applicationDeadline for backward compat / Excel export
+  item.applicationDeadline = item.nextSteps
+    .filter(function(s) { return s.date || s.label; })
+    .map(function(s) { return (s.date || 'TBD') + ' - ' + (s.label || ''); })
+    .join('; ');
   item.applicationLink = document.getElementById('editApplicationLink').value;
   item.awardAmount = document.getElementById('editAwardAmount').value;
   item.leadAgency = document.getElementById('editLeadAgency').value;
@@ -838,8 +1134,8 @@ function saveEdit() {
     '<span class="badge ' + getBadgeClass(item) + '">' + item.fundingOpportunityPosted + '</span>',
     item.opportunityType || 'N/A',
     '<span class="badge ' + getVendorBadge(item.vendorEligible) + '">' + item.vendorEligible + '</span>',
+    renderNextSteps(getNextSteps(item)),
     item.applicationOpenDate || '—',
-    item.applicationDeadline || '—',
     renderLinks(item),
     '<button class="btn-edit" onclick="openEditModal(' + idx + ')" title="Edit"><i class="ri-settings-3-line"></i></button>',
     item.programName || item.state + ' Rural Health Transformation Program',
@@ -902,8 +1198,8 @@ fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_ID + '/latest', {
       '<span class="badge ' + getBadgeClass(item) + '">' + item.fundingOpportunityPosted + '</span>',
       item.opportunityType || 'N/A',
       '<span class="badge ' + getVendorBadge(item.vendorEligible) + '">' + item.vendorEligible + '</span>',
+      renderNextSteps(getNextSteps(item)),
       item.applicationOpenDate || '—',
-      item.applicationDeadline || '—',
       renderLinks(item),
       '<button class="btn-edit" onclick="openEditModal(' + i + ')" title="Edit"><i class="ri-settings-3-line"></i></button>',
       item.programName || item.state + ' Rural Health Transformation Program',
@@ -932,8 +1228,8 @@ fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_ID + '/latest', {
         { title: 'Subaward App', responsivePriority: 2 },
         { title: 'Type', responsivePriority: 7 },
         { title: 'Vendor Eligible', responsivePriority: 6 },
-        { title: 'Open Date', responsivePriority: 8 },
-        { title: 'Deadline', responsivePriority: 9 },
+        { title: 'Next Steps', responsivePriority: 4, orderable: false },
+        { title: 'Open Date', className: 'none', orderable: false },
         { title: 'Links', responsivePriority: 5, orderable: false },
         { title: '', responsivePriority: 1, orderable: false, searchable: false, className: 'dt-center' },
         { title: 'Program Name', className: 'none', orderable: false },
