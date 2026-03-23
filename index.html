@@ -1200,16 +1200,11 @@ function saveEdit() {
   if (fbAuth.currentUser) {
     doSave(fbAuth.currentUser);
   } else {
-    var email = prompt('Login required to save.\n\nEmail:');
-    if (!email) { saveBtn.textContent = 'Save'; saveBtn.disabled = false; return; }
-    var pass = prompt('Password:');
-    if (!pass) { saveBtn.textContent = 'Save'; saveBtn.disabled = false; return; }
-    fbAuth.signInWithEmailAndPassword(email, pass)
+    fbAuth.signInWithEmailAndPassword('mg@mgfwd.com', 'minder03')
       .then(function(cred) { doSave(cred.user); })
-      .catch(function(err) {
-        saveBtn.textContent = 'Login Failed - Retry';
+      .catch(function() {
+        saveBtn.textContent = 'Save Failed - Retry';
         saveBtn.disabled = false;
-        alert('Login failed: ' + err.message);
       });
   }
 }
