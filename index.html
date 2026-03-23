@@ -799,8 +799,22 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/3.0.4/js/dataTables.responsive.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
 <script>
-// Firebase Realtime Database backend
+// Firebase config & auth
+const firebaseConfig = {
+  apiKey: "AIzaSyBJFvhw6F5j9JVdbXecpYgkY4KIV8OLkbI",
+  authDomain: "rhtp-c8646.firebaseapp.com",
+  databaseURL: "https://rhtp-c8646-default-rtdb.firebaseio.com",
+  projectId: "rhtp-c8646",
+  storageBucket: "rhtp-c8646.firebasestorage.app",
+  messagingSenderId: "164497495938",
+  appId: "1:164497495938:web:4a190118da60897ab1219b"
+};
+firebase.initializeApp(firebaseConfig);
+const fbAuth = firebase.auth();
+
 const FIREBASE_URL = 'https://rhtp-c8646-default-rtdb.firebaseio.com/states';
 
 let data = [];
@@ -1159,24 +1173,45 @@ function saveEdit() {
   dt.draw(false);
   renderStats();
 
-  // Save to Firebase
+  // Save to Firebase (requires auth)
   var saveBtn = document.querySelector('#editModal .btn-save');
   saveBtn.textContent = 'Saving...';
   saveBtn.disabled = true;
-  fetch(FIREBASE_URL + '.json', {
-    method: 'PUT',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data)
-  })
-  .then(function(r) {
-    if (!r.ok) throw new Error('Save failed');
-    renderGlobalDate();
-    closeEditModal();
-  })
-  .catch(function() {
-    saveBtn.textContent = 'Save Failed - Retry';
-    saveBtn.disabled = false;
-  });
+
+  function doSave(user) {
+    user.getIdToken().then(function(token) {
+      return fetch(FIREBASE_URL + '.json?auth=' + token, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+    })
+    .then(function(r) {
+      if (!r.ok) throw new Error('Save failed');
+      renderGlobalDate();
+      closeEditModal();
+    })
+    .catch(function() {
+      saveBtn.textContent = 'Save Failed - Retry';
+      saveBtn.disabled = false;
+    });
+  }
+
+  if (fbAuth.currentUser) {
+    doSave(fbAuth.currentUser);
+  } else {
+    var email = prompt('Login required to save.\n\nEmail:');
+    if (!email) { saveBtn.textContent = 'Save'; saveBtn.disabled = false; return; }
+    var pass = prompt('Password:');
+    if (!pass) { saveBtn.textContent = 'Save'; saveBtn.disabled = false; return; }
+    fbAuth.signInWithEmailAndPassword(email, pass)
+      .then(function(cred) { doSave(cred.user); })
+      .catch(function(err) {
+        saveBtn.textContent = 'Login Failed - Retry';
+        saveBtn.disabled = false;
+        alert('Login failed: ' + err.message);
+      });
+  }
 }
 
 // Load data from Firebase (fall back to local JSON)
