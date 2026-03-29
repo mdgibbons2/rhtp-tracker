@@ -1,0 +1,40 @@
+name: Sync RHTP data to Firebase
+
+on:
+  push:
+    branches: [main]
+    paths: [rhtp_results.json]
+  workflow_dispatch: # allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Authenticate with Firebase
+        id: auth
+        run: |
+          RESPONSE=$(curl -sf "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${{ secrets.FIREBASE_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{"email":"${{ secrets.FIREBASE_EMAIL }}","password":"${{ secrets.FIREBASE_PASSWORD }}","returnSecureToken":true}')
+          TOKEN=$(echo "$RESPONSE" | jq -r '.idToken')
+          if [ -z "$TOKEN" ] || [ "$TOKEN" = "null" ]; then
+            echo "::error::Firebase authentication failed"
+            exit 1
+          fi
+          echo "::add-mask::$TOKEN"
+          echo "token=$TOKEN" >> "$GITHUB_OUTPUT"
+
+      - name: Push data to Firebase
+        run: |
+          RESPONSE=$(curl -sf -X PUT \
+            "https://rhtp-c8646-default-rtdb.firebaseio.com/states.json?auth=${{ steps.auth.outputs.token }}" \
+            -H "Content-Type: application/json" \
+            -d @rhtp_results.json)
+          COUNT=$(echo "$RESPONSE" | jq 'length')
+          echo "Pushed $COUNT state records to Firebase"
+          if [ "$COUNT" -ne 50 ]; then
+            echo "::error::Expected 50 states, got $COUNT"
+            exit 1
+          fi
