@@ -688,23 +688,9 @@
       padding: 12px;
     }
   }
-  .env-banner {
-    background: #ff9800;
-    color: #fff;
-    text-align: center;
-    padding: 6px 12px;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    display: none;
-  }
-  .env-banner.env-development { background: #ff9800; display: block; }
-  .env-banner.env-staging { background: #2196F3; display: block; }
 </style>
 </head>
 <body>
-
-<div class="env-banner" id="envBanner"></div>
 
 <div class="header">
   <h1>RHTP Vendor / Subaward Application Tracker</h1>
@@ -834,69 +820,20 @@
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
 <script>
-// Environment configuration
-const ENV_CONFIGS = {
-  production: {
-    firebaseConfig: {
-      apiKey: "AIzaSyBJFvhw6F5j9JVdbXecpYgkY4KIV8OLkbI",
-      authDomain: "rhtp-c8646.firebaseapp.com",
-      databaseURL: "https://rhtp-c8646-default-rtdb.firebaseio.com",
-      projectId: "rhtp-c8646",
-      storageBucket: "rhtp-c8646.firebasestorage.app",
-      messagingSenderId: "164497495938",
-      appId: "1:164497495938:web:4a190118da60897ab1219b"
-    },
-    firebaseUrl: 'https://rhtp-c8646-default-rtdb.firebaseio.com/states',
-    readOnly: false
-  },
-  development: {
-    firebaseConfig: null,
-    firebaseUrl: null,
-    readOnly: true
-  },
-  staging: {
-    firebaseConfig: {
-      apiKey: "AIzaSyBJFvhw6F5j9JVdbXecpYgkY4KIV8OLkbI",
-      authDomain: "rhtp-c8646.firebaseapp.com",
-      databaseURL: "https://rhtp-c8646-default-rtdb.firebaseio.com",
-      projectId: "rhtp-c8646",
-      storageBucket: "rhtp-c8646.firebasestorage.app",
-      messagingSenderId: "164497495938",
-      appId: "1:164497495938:web:4a190118da60897ab1219b"
-    },
-    firebaseUrl: 'https://rhtp-c8646-default-rtdb.firebaseio.com/states',
-    readOnly: true
-  }
-};
-
-function detectEnvironment() {
-  var params = new URLSearchParams(window.location.search);
-  var envParam = params.get('env');
-  if (envParam && ENV_CONFIGS[envParam]) return envParam;
-  var host = window.location.hostname;
-  if (host === 'localhost' || host === '127.0.0.1' || host === '') return 'development';
-  return 'production';
-}
-
-const CURRENT_ENV = detectEnvironment();
-const ENV = ENV_CONFIGS[CURRENT_ENV];
-
-// Show environment banner for non-production
-(function() {
-  var banner = document.getElementById('envBanner');
-  if (CURRENT_ENV !== 'production') {
-    banner.className = 'env-banner env-' + CURRENT_ENV;
-    banner.textContent = CURRENT_ENV.toUpperCase() + ' ENVIRONMENT' + (ENV.readOnly ? ' (Read-Only)' : '');
-  }
-})();
-
 // Firebase config & auth
-if (ENV.firebaseConfig) {
-  firebase.initializeApp(ENV.firebaseConfig);
-}
-const fbAuth = ENV.firebaseConfig ? firebase.auth() : null;
+const firebaseConfig = {
+  apiKey: "AIzaSyBJFvhw6F5j9JVdbXecpYgkY4KIV8OLkbI",
+  authDomain: "rhtp-c8646.firebaseapp.com",
+  databaseURL: "https://rhtp-c8646-default-rtdb.firebaseio.com",
+  projectId: "rhtp-c8646",
+  storageBucket: "rhtp-c8646.firebasestorage.app",
+  messagingSenderId: "164497495938",
+  appId: "1:164497495938:web:4a190118da60897ab1219b"
+};
+firebase.initializeApp(firebaseConfig);
+const fbAuth = firebase.auth();
 
-const FIREBASE_URL = ENV.firebaseUrl;
+const FIREBASE_URL = 'https://rhtp-c8646-default-rtdb.firebaseio.com/states';
 
 let data = [];
 let dt = null;
@@ -1090,7 +1027,6 @@ function deleteUpcomingItem(idx) {
   data[item._stateIdx].nextSteps[item._stepIdx].isShown = false;
   renderUpcomingItems();
   // Save to Firebase
-  if (ENV.readOnly) return;
   function doSave(user) {
     user.getIdToken().then(function(token) {
       return fetch(FIREBASE_URL + '.json?auth=' + token, {
@@ -1100,9 +1036,9 @@ function deleteUpcomingItem(idx) {
       });
     });
   }
-  if (fbAuth && fbAuth.currentUser) {
+  if (fbAuth.currentUser) {
     doSave(fbAuth.currentUser);
-  } else if (fbAuth) {
+  } else {
     fbAuth.signInWithEmailAndPassword('mg@mgfwd.com', 'minder03')
       .then(function(cred) { doSave(cred.user); });
   }
@@ -1309,12 +1245,6 @@ function saveEdit() {
   renderStats();
 
   // Save to Firebase (requires auth)
-  if (ENV.readOnly) {
-    renderGlobalDate();
-    closeEditModal();
-    return;
-  }
-
   var saveBtn = document.querySelector('#editModal .btn-save');
   saveBtn.textContent = 'Saving...';
   saveBtn.disabled = true;
@@ -1338,9 +1268,9 @@ function saveEdit() {
     });
   }
 
-  if (fbAuth && fbAuth.currentUser) {
+  if (fbAuth.currentUser) {
     doSave(fbAuth.currentUser);
-  } else if (fbAuth) {
+  } else {
     fbAuth.signInWithEmailAndPassword('mg@mgfwd.com', 'minder03')
       .then(function(cred) { doSave(cred.user); })
       .catch(function() {
@@ -1351,7 +1281,8 @@ function saveEdit() {
 }
 
 // Load data from Firebase (fall back to local JSON)
-(FIREBASE_URL ? fetch(FIREBASE_URL + '.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }) : Promise.reject('no firebase'))
+fetch(FIREBASE_URL + '.json')
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .catch(() => fetch('rhtp_results.json').then(r => r.json()))
   .then(d => {
     data = d;
