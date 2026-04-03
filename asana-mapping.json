@@ -1,0 +1,315 @@
+{
+  "sections": {
+    "Active - Deadline Soon": "1213902013654490",
+    "Active - Open": "1213902053363513",
+    "Forthcoming": "1213902053370980",
+    "Planned": "1213902053363515",
+    "No Activity": "1213902053352111",
+    "Closed / Monitoring": "1213902035333903",
+    "Submitted": "1213902396491021"
+  },
+  "customFields": {
+    "Opportunity Status": {
+      "gid": "1213902053445932",
+      "options": {
+        "Posted": "1213902053445933",
+        "Active (Rolling)": "1213902053445934",
+        "Reopened": "1213902053445935",
+        "Forthcoming": "1213902053445936",
+        "Planned": "1213902053445937",
+        "No Activity": "1213902053445938",
+        "Closed": "1213902053445939"
+      }
+    },
+    "Vivo Priority": {
+      "gid": "1213902053370788",
+      "options": {
+        "High": "1213902053370789",
+        "Medium": "1213902053370790",
+        "Low": "1213902053370791",
+        "Not Assessed": "1213902053370792"
+      }
+    },
+    "Vivo Eligibility": {
+      "gid": "1213901975629650",
+      "options": {
+        "Eligible (Direct)": "1213901975629651",
+        "Eligible (Registration Needed)": "1213901975629652",
+        "Requires Local Partner": "1213901975629653",
+        "Subgrant Only": "1213901975629654",
+        "Not Eligible": "1213901975629655",
+        "TBD": "1213901975629656"
+      }
+    },
+    "Local Partner": {
+      "gid": "1213902013831772"
+    },
+    "Last Researched": {
+      "gid": "1213902035476519"
+    },
+    "Next Deadline": {
+      "gid": "1213902013808985"
+    }
+  },
+  "states": {
+    "Alabama": {
+      "taskGid": "1213902114628808",
+      "subtasks": {}
+    },
+    "Alaska": {
+      "taskGid": "1213916793596373",
+      "subtasks": {}
+    },
+    "Arizona": {
+      "taskGid": "1213901975663304",
+      "subtasks": {
+        "Grant opportunities begin posting (April 2026)": "1213902053415341",
+        "All grant opportunities posted by May 2026": "1213902053470836",
+        "Grant applications reviewed and awarded (August 2026)": "1213916793672373"
+      }
+    },
+    "Arkansas": {
+      "taskGid": "1213902035554412",
+      "subtasks": {}
+    },
+    "California": {
+      "taskGid": "1213902035546071",
+      "subtasks": {}
+    },
+    "Colorado": {
+      "taskGid": "1213901975618318",
+      "subtasks": {
+        "RHTP Advisory Committee Meeting (3-5 PM MT)": "1213902114847341"
+      }
+    },
+    "Connecticut": {
+      "taskGid": "1213902013854294",
+      "subtasks": {}
+    },
+    "Delaware": {
+      "taskGid": "1213902114911253",
+      "subtasks": {
+        "Rural Library-Based Health Access RFP deadline (Bid 8997)": "removed",
+        "Healthy Living in Rural Delaware / CGM Program RFP deadline (Bid 8996)": "1213902114659830",
+        "Rural Community Health Hubs RFP deadline (Bid 8989)": "removed"
+      }
+    },
+    "Florida": {
+      "taskGid": "1213902035546195",
+      "subtasks": {}
+    },
+    "Georgia": {
+      "taskGid": "1213901975876244",
+      "subtasks": {
+        "GME Fellowship Expansion Grant approvals begin (rolling)": "1213902114899354"
+      }
+    },
+    "Hawaii": {
+      "taskGid": "1213902013962187",
+      "subtasks": {}
+    },
+    "Idaho": {
+      "taskGid": "1213902035593168",
+      "subtasks": {
+        "RFPs and competitive subgrant solicitations posting (April-June 2026)": "1213902035547651",
+        "Contracts and subgrants executed (July-September 2026)": "1213902035581065"
+      }
+    },
+    "Illinois": {
+      "taskGid": "1213902114948715",
+      "subtasks": {}
+    },
+    "Indiana": {
+      "taskGid": "1213902053365081",
+      "subtasks": {
+        "GROW Regional Grants Letter of Intent due": "1213902114948726",
+        "GROW Regional Grants Full Application due": "1213902114960758",
+        "Award announcements and funding period begins": "1213902053624609"
+      }
+    },
+    "Iowa": {
+      "taskGid": "1213902035547660",
+      "subtasks": {}
+    },
+    "Kansas": {
+      "taskGid": "1213902053388459",
+      "subtasks": {
+        "Regional Partnership Grant Program (RPGP) deadline - $44M available": "1213902035593180"
+      }
+    },
+    "Kentucky": {
+      "taskGid": "1213901975921664",
+      "subtasks": {}
+    },
+    "Louisiana": {
+      "taskGid": "1213901975626792",
+      "subtasks": {}
+    },
+    "Maine": {
+      "taskGid": "1213916793672392",
+      "subtasks": {}
+    },
+    "Maryland": {
+      "taskGid": "1213902114879506",
+      "subtasks": {
+        "Rural Health Transformation Committee quarterly meeting": "1213902035615476"
+      }
+    },
+    "Massachusetts": {
+      "taskGid": "1213902014031477",
+      "subtasks": {}
+    },
+    "Michigan": {
+      "taskGid": "1213902114827990",
+      "subtasks": {}
+    },
+    "Minnesota": {
+      "taskGid": "1213902114983404",
+      "subtasks": {
+        "Rural CCBHCs/CMHCs informational webinar 1-2 PM": "1213902053620988",
+        "Tribal Nations informational webinar 2-3 PM": "1213901975935866",
+        "Technical assistance requests due": "removed",
+        "Final application deadline (rolling - apply early)": "removed"
+      }
+    },
+    "Mississippi": {
+      "taskGid": "1213902013811784",
+      "subtasks": {}
+    },
+    "Missouri": {
+      "taskGid": "1213901975890162",
+      "subtasks": {
+        "Remote Patient Technology feedback opportunity (Q2 2026)": "1213902115013820",
+        "Social Care Referral Platform / Community Information Exchange RFP (Q3 2026)": "1213902114979790"
+      }
+    },
+    "Montana": {
+      "taskGid": "1213902014043939",
+      "subtasks": {}
+    },
+    "Nebraska": {
+      "taskGid": "1213902053575467",
+      "subtasks": {
+        "Food as Medicine / Regional Food Pantry Development RFA deadline": "removed",
+        "HCAR Advisory Board applications due (18 positions across 6 regions)": "1213902014061639",
+        "Rural Health Care Workforce Incentive and Sustainability RFA deadline": "removed"
+      }
+    },
+    "Nevada": {
+      "taskGid": "1213902053620997",
+      "subtasks": {
+        "RHIT Grant RFP release (May 2026)": "1213902013955151",
+        "RHIT Grant awards announced (September 2026)": "1213902114969907"
+      }
+    },
+    "New Hampshire": {
+      "taskGid": "1213902014083962",
+      "subtasks": {}
+    },
+    "New Jersey": {
+      "taskGid": "1213902035543692",
+      "subtasks": {
+        "RFA application deadline (CLOSED)": "1213902035632481"
+      }
+    },
+    "New Mexico": {
+      "taskGid": "1213902035554445",
+      "subtasks": {}
+    },
+    "New York": {
+      "taskGid": "1213902114979799",
+      "subtasks": {}
+    },
+    "North Carolina": {
+      "taskGid": "1213902014113007",
+      "subtasks": {
+        "Hub Lead awards announced": "removed",
+        "Hub Lead contract period begins": "removed"
+      }
+    },
+    "North Dakota": {
+      "taskGid": "1213916812552469",
+      "subtasks": {
+        "Workforce Retention Grant application deadline": "removed"
+      }
+    },
+    "Ohio": {
+      "taskGid": "1213902053575487",
+      "subtasks": {}
+    },
+    "Oklahoma": {
+      "taskGid": "1213902053604313",
+      "subtasks": {
+        "Community-Led Wellness Hubs microgrants deadline at 11:59 PM CT": "removed"
+      }
+    },
+    "Oregon": {
+      "taskGid": "1213902035745436",
+      "subtasks": {}
+    },
+    "Pennsylvania": {
+      "taskGid": "1213902035544720",
+      "subtasks": {
+        "NEPA Rural Health Summit at King's College (8am-4pm)": "1213902013931633"
+      }
+    },
+    "Rhode Island": {
+      "taskGid": "1213902114879475",
+      "subtasks": {}
+    },
+    "South Carolina": {
+      "taskGid": "1213902035742950",
+      "subtasks": {}
+    },
+    "South Dakota": {
+      "taskGid": "1213902115124421",
+      "subtasks": {
+        "Rural Health Forward RFP deadline": "removed"
+      }
+    },
+    "Tennessee": {
+      "taskGid": "1213902237429399",
+      "subtasks": {}
+    },
+    "Texas": {
+      "taskGid": "1213902014182900",
+      "subtasks": {}
+    },
+    "Utah": {
+      "taskGid": "1213902013998562",
+      "subtasks": {
+        "Pre-application questionnaire due for RISE Clinical Preceptor Stipend": "removed",
+        "PATH Behavioral Health-Primary Care Integration RFP opens (est.)": "removed",
+        "RISE Clinical Preceptor Stipend and GME Strategic Plan RFPs open (est.)": "removed"
+      }
+    },
+    "Vermont": {
+      "taskGid": "1213902053788474",
+      "subtasks": {
+        "Dialysis/ventilator care and LNA training RFPs due at 4:30 PM": "removed"
+      }
+    },
+    "Virginia": {
+      "taskGid": "1213902035782390",
+      "subtasks": {}
+    },
+    "Washington": {
+      "taskGid": "1213902035626275",
+      "subtasks": {
+        "RHTP vendor/contractor webinar 10-10:45 AM PT": "1213902237527331"
+      }
+    },
+    "West Virginia": {
+      "taskGid": "1213902115081959",
+      "subtasks": {}
+    },
+    "Wisconsin": {
+      "taskGid": "1213902013981670",
+      "subtasks": {}
+    },
+    "Wyoming": {
+      "taskGid": "1213902014222329",
+      "subtasks": {}
+    }
+  }
+}

@@ -252,7 +252,8 @@
   .next-step-item {
     font-size: 12px;
     line-height: 1.6;
-    white-space: nowrap;
+    white-space: normal;
+    max-width: 400px;
   }
   .next-step-item + .next-step-item {
     margin-top: 1px;
@@ -1321,13 +1322,13 @@ fetch(FIREBASE_URL + '.json')
       },
       columns: [
         { title: 'State', className: 'state-name', responsivePriority: 1 },
-        { title: 'FY2026 Award', className: 'award-cell', responsivePriority: 3 },
+        { title: 'FY2026 Award', className: 'award-cell', responsivePriority: 4 },
         { title: 'Subaward App', responsivePriority: 2 },
         { title: 'Type', responsivePriority: 7 },
         { title: 'Vendor Eligible', responsivePriority: 6 },
-        { title: 'Next Steps', responsivePriority: 4, orderable: false },
+        { title: 'Next Steps', responsivePriority: 5, orderable: false },
         { title: 'Open Date', className: 'none', orderable: false },
-        { title: 'Links', responsivePriority: 5, orderable: false },
+        { title: 'Links', responsivePriority: 3, orderable: false },
         { title: '', responsivePriority: 1, orderable: false, searchable: false, className: 'dt-center' },
         { title: 'Program Name', className: 'none', orderable: false },
         { title: 'Address', className: 'none', orderable: false },
