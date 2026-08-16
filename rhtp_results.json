@@ -136,23 +136,15 @@
     "vendorEligible": "Yes"
   },
   {
-    "applicationDeadline": "Aug. 14, 2026 (Accelerator Partners; FM-OB Fellowship); Aug. 21, 2026 (EHR Modernization); Aug. 31, 2026 (WDRR)",
+    "applicationDeadline": "Aug. 21, 2026 (EHR Modernization); Aug. 31, 2026 (WDRR). CLOSED Aug. 14, 2026: Accelerator Partners and FM-OB Fellowship Subaward.",
     "applicationLink": "https://hcai.ca.gov/rural-health/calrht/funding/",
     "applicationOpenDate": "July 1, 2026 (Accelerator Partners); July 15, 2026 (FM-OB Fellowship); July 20, 2026 (EHR Modernization); July 31, 2026 (WDRR)",
     "awardAmount": "$233,639,308",
     "cmsApplicationUrl": "https://hcai.ca.gov/wp-content/uploads/2026/01/RHTP-Project-Narrative-1-2026.pdf",
     "fundingOpportunityPosted": "Yes",
-    "lastUpdated": "2026-08-06",
+    "lastUpdated": "2026-08-15",
     "leadAgency": "California Department of Health Care Access and Information (HCAI)",
     "nextSteps": [
-      {
-        "date": "2026-08-14",
-        "label": "Accelerator Partners application closes (BP1 planning amount $39.01M; $8M per applicant limit)"
-      },
-      {
-        "date": "2026-08-14",
-        "label": "Expand and Support Rural Workforce Capacity / FM-OB Fellowship Subaward application closes ($6.5M BP1)"
-      },
       {
         "date": "2026-08-21",
         "label": "EHR Modernization Grants application window closes ($11.65M BP1; up to $2M per subaward)"
@@ -160,6 +152,10 @@
       {
         "date": "2026-08-31",
         "label": "Workforce Development Recruitment and Retention (WDRR) organizational applications close ($54.17M BP1)"
+      },
+      {
+        "date": "",
+        "label": "CLOSED Aug. 14, 2026: Accelerator Partners ($39.01M planning; $8M/applicant) and FM-OB Fellowship Subaward ($6.5M) - awards pending"
       },
       {
         "date": "2026-10-01",
@@ -620,18 +616,18 @@
     "vendorEligible": "Yes"
   },
   {
-    "applicationDeadline": "August 14, 2026 (EMR Modernization, ~$30M)",
+    "applicationDeadline": "EMR Modernization (~$30M) closed August 14, 2026. Digital Health & AI Provider RFPs and Partner Sites Program listed coming soon; $28.5M APM opportunity not yet released.",
     "applicationLink": "https://www.mcd.org/rhtp-apps/emr-application-login",
     "applicationOpenDate": "July 20, 2026 (EMR Modernization applicant portal)",
     "awardAmount": "$190,008,051",
     "cmsApplicationUrl": "https://www.maine.gov/dhhs/sites/maine.gov.dhhs/files/webform/dhhs_web_request/_sid_/V2_SoM_RHTP_Project%20Narrative_11Dec25_CMS%20Response%20ADDED.pdf",
-    "fundingOpportunityPosted": "Yes",
-    "lastUpdated": "2026-08-06",
+    "fundingOpportunityPosted": "Closed",
+    "lastUpdated": "2026-08-15",
     "leadAgency": "Maine Department of Health and Human Services",
     "nextSteps": [
       {
-        "date": "2026-08-14",
-        "label": "EMR Modernization application deadline (~$30M) - apply at mcd.org/rhtp-apps/emr-application-login"
+        "date": "",
+        "label": "CLOSED Aug 14, 2026: EMR Modernization (~$30M) - award pending"
       },
       {
         "date": "",
@@ -639,7 +635,7 @@
       },
       {
         "date": "",
-        "label": "MCD 'Partner Sites Program' coming soon - organizations can become implementation partner sites"
+        "label": "MCD Partner Sites Program coming soon - organizations can become implementation partner sites"
       },
       {
         "date": "",
@@ -736,26 +732,22 @@
     "vendorEligible": "TBD"
   },
   {
-    "applicationDeadline": "Aug 11, 2026 3:00 PM (Chronic Disease Collaborative Care Fund / DHME-2027); Aug 12, 2026 3:00 PM (Care Closer to Home Transportation / ICATT-2027). Workforce for Wellness closed Aug 4, 2026.",
+    "applicationDeadline": "No open GFOs - Chronic Disease Collaborative Care Fund (DHME-2027) closed Aug 11 and Care Closer to Home Transportation (ICATT-2027) closed Aug 12, 2026; Workforce for Wellness closed Aug 4. Healthy Aging ($5M) and remaining Chronic Disease Collaborative Care ($15M) GFOs not yet released.",
     "applicationLink": "https://egrams-mi.com/mdhhs/user/home.aspx",
     "applicationOpenDate": "July 8, 2026 (first wave); July 17, 2026 (second wave)",
     "awardAmount": "$173,128,201",
     "cmsApplicationUrl": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/Medicaid/RHT-Project-Narrative-Final_Compressed.pdf",
-    "fundingOpportunityPosted": "Yes",
-    "lastUpdated": "2026-08-06",
+    "fundingOpportunityPosted": "Closed",
+    "lastUpdated": "2026-08-15",
     "leadAgency": "Michigan Department of Health and Human Services (MDHHS)",
     "nextSteps": [
       {
-        "date": "2026-08-11",
-        "label": "Chronic Disease Collaborative Care Fund (DHME-2027) applications due 3 p.m. via EGrAMS"
-      },
-      {
-        "date": "2026-08-12",
-        "label": "Care Closer to Home Transportation (ICATT-2027) applications due 3 p.m. via EGrAMS"
+        "date": "",
+        "label": "CLOSED Aug 11-12, 2026: Chronic Disease Collaborative Care Fund (DHME-2027) and Care Closer to Home Transportation (ICATT-2027) - awards pending"
       },
       {
         "date": "",
-        "label": "Watch EGrAMS 'Search Grants' (Open + Competitive) and the RHT listserv for additional GFOs, including the unreleased Healthy Aging ($5M) and remaining Chronic Disease Collaborative Care ($15M) funds"
+        "label": "Watch EGrAMS Search Grants (Open + Competitive) and the RHT listserv for the unreleased Healthy Aging ($5M) and remaining Chronic Disease Collaborative Care ($15M) GFOs"
       },
       {
         "date": "2026-10-01",
@@ -846,13 +838,9 @@
     "awardAmount": "$216,276,818",
     "cmsApplicationUrl": "https://mydss.mo.gov/sites/mydss/files/media/pdf/2025/11/RHTP%20Application%20Narrative.pdf",
     "fundingOpportunityPosted": "Yes",
-    "lastUpdated": "2026-08-06",
+    "lastUpdated": "2026-08-15",
     "leadAgency": "Missouri Department of Social Services",
     "nextSteps": [
-      {
-        "date": "2026-08-11",
-        "label": "Pre-proposal teleconference for Smart Growth / Service Line Modification IFB #DSS26015"
-      },
       {
         "date": "2026-08-23",
         "label": "RHT Home Visiting application period closes (Missouri Children's Trust Fund, $588,000/yr)"
@@ -1144,19 +1132,15 @@
     "vendorEligible": "TBD"
   },
   {
-    "applicationDeadline": "Trillium NC ROOTS Regions 2 & 5: August 24, 2026 at 4:00 PM EDT (NCCARE360 Adoption; Food Is Medicine Community Training Partner) and August 31, 2026 at 4:00 PM EDT (Food Is Medicine Program Expansion; LOCATe Implementation; I Gave Birth Implementation). NCDHHS Expanding School Health Centers to Rural Areas: August 12, 2026 at 5:00 PM (invited entities only).",
+    "applicationDeadline": "Trillium NC ROOTS Regions 2 & 5: August 24, 2026 4:00 PM EDT (NCCARE360 Adoption; Food Is Medicine Community Training Partner) and August 31, 2026 4:00 PM EDT (Food Is Medicine Program Expansion; LOCATe Implementation; I Gave Birth Implementation). CLOSED Aug 12: NCDHHS Expanding School Health Centers (invited entities only).",
     "applicationLink": "https://www.trilliumhealthresources.org/NCRootsHub",
     "applicationOpenDate": "July 30, 2026 (Trillium NC ROOTS Regions 2 & 5 RFAs); July 29, 2026 (NCDHHS School Health Centers)",
     "awardAmount": "$213,008,356",
     "cmsApplicationUrl": "https://www.ncdhhs.gov/north-carolina-rural-health-transformation-application/download?attachment",
     "fundingOpportunityPosted": "Yes",
-    "lastUpdated": "2026-08-06",
+    "lastUpdated": "2026-08-15",
     "leadAgency": "North Carolina Department of Health and Human Services (NCDHHS)",
     "nextSteps": [
-      {
-        "date": "2026-08-12",
-        "label": "NCDHHS Expanding School Health Centers to Rural Areas deadline, 5:00 PM (invited DCFW-contracted entities only)"
-      },
       {
         "date": "2026-08-24",
         "label": "Trillium NC ROOTS Regions 2 & 5 deadline, 4:00 PM EDT - NCCARE360 Adoption and Food Is Medicine Community Training Partner"
@@ -1171,11 +1155,15 @@
       },
       {
         "date": "",
-        "label": "Trillium award notifications for the July 30 RFA wave expected September/October 2026; Trillium says additional RFAs will follow"
+        "label": "CLOSED Aug 12, 2026: NCDHHS Expanding School Health Centers to Rural Areas (invited DCFW-contracted entities only)"
       },
       {
         "date": "",
-        "label": "Join the mailing/contact lists for all five Hub Leads - Impact Health (R1), Trillium (R2/R5), Vaya (R3, RHTP@vayahealth.com), UNC Health (R4), Access East (R6) - since Hub Leads, not NCDHHS, issue most subawards"
+        "label": "Trillium award notifications for the July 30 RFA wave expected September/October 2026; additional RFAs to follow"
+      },
+      {
+        "date": "",
+        "label": "Join the mailing/contact lists for all five Hub Leads - Impact Health (R1), Trillium (R2/R5), Vaya (R3, RHTP@vayahealth.com), UNC Health (R4), Access East (R6)"
       },
       {
         "date": "",
@@ -1378,13 +1366,9 @@
     "awardAmount": "$156,169,931",
     "cmsApplicationUrl": "https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2025-11/RI%20RHTP%20-%20Project%20Narrative%202025%2011-3.pdf",
     "fundingOpportunityPosted": "Yes",
-    "lastUpdated": "2026-08-06",
+    "lastUpdated": "2026-08-15",
     "leadAgency": "Rhode Island Department of Health (RIDOH) / EOHHS",
     "nextSteps": [
-      {
-        "date": "2026-08-13",
-        "label": "Rural Community Health Networks technical assistance session, 2 p.m. on Microsoft Teams"
-      },
       {
         "date": "2026-08-30",
         "label": "Rural Community Health Networks application deadline"
@@ -1486,14 +1470,6 @@
     "leadAgency": "Tennessee Department of Health",
     "nextSteps": [
       {
-        "date": "2026-08-14",
-        "label": "RFP 34320-19927 Asynchronous Provider-to-Provider E-Consult Services response deadline"
-      },
-      {
-        "date": "2026-08-14",
-        "label": "RFP 34320-19527 Pregnancy & Postpartum Mobile Device Education Application response deadline"
-      },
-      {
         "date": "2026-08-24",
         "label": "RFP 34320-19126 CHANT Call Center System response deadline"
       },
@@ -1504,6 +1480,10 @@
       {
         "date": "2026-09-03",
         "label": "RFP 34320-20827 Healthcare Management Consulting Services response deadline (2:00 p.m. CT)"
+      },
+      {
+        "date": "",
+        "label": "CLOSED Aug 14, 2026: RFP 34320-19927 E-Consult Services and RFP 34320-19527 Pregnancy & Postpartum Mobile App - in review"
       },
       {
         "date": "",
@@ -1688,19 +1668,15 @@
     "vendorEligible": "TBD"
   },
   {
-    "applicationDeadline": "Aug. 12, 2026 2:00 PM PST (RFA 2026HCA9 OTP Workforce Incentive); Aug. 20, 2026 2:00 PM PST (RFA 2026HCA14 Rural Hospitals Fund); Aug. 27, 2026 2:00 PM PST (RFA 2026HCA12 Provider Technology Fund)",
+    "applicationDeadline": "Aug. 20, 2026 2:00 PM PST (RFA 2026HCA14 Rural Hospitals Fund); Aug. 27, 2026 2:00 PM PST (RFA 2026HCA12 Provider Technology Fund). CLOSED Aug. 12, 2026: RFA 2026HCA9 OTP Workforce Incentive.",
     "applicationLink": "https://www.hca.wa.gov/about-hca/bids-and-contracts",
     "applicationOpenDate": "July 15, 2026 (2026HCA12); July 20, 2026 (2026HCA9); July 23, 2026 (2026HCA14)",
     "awardAmount": "$181,257,515",
     "cmsApplicationUrl": "https://www.hca.wa.gov/assets/program/rhtp-project-narrative.pdf",
     "fundingOpportunityPosted": "Yes",
-    "lastUpdated": "2026-08-06",
+    "lastUpdated": "2026-08-15",
     "leadAgency": "Washington State Health Care Authority",
     "nextSteps": [
-      {
-        "date": "2026-08-12",
-        "label": "RFA 2026HCA9 Rural OTP Workforce Incentive Program applications due 2:00 PM PST ($6.2M Year 1)"
-      },
       {
         "date": "2026-08-20",
         "label": "RFA 2026HCA14 Rural Hospitals Fund applications due 2:00 PM PST ($10.71M Year 1)"
@@ -1712,6 +1688,10 @@
       {
         "date": "2026-09-16",
         "label": "HCA quarterly public RHT Program webinar, 1-2 p.m., on Teams"
+      },
+      {
+        "date": "",
+        "label": "CLOSED Aug. 12, 2026: RFA 2026HCA9 Rural OTP Workforce Incentive ($6.2M) - award pending"
       },
       {
         "date": "2026-10-01",
