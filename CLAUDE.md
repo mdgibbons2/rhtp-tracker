@@ -61,7 +61,7 @@ When researching, if you find a PDF on a state's site, determine which type it i
 ### Rule 6: State-Specific Quirks
 - **Minnesota** uses `health.state.mn.us` (not `health.mn.gov`). Grants sub-page: `/facilities/ruralhealth/ruraltrans/grants.html`.
 - **Virginia's RHTP page** is on `dmas.virginia.gov` (DMAS is lead agency), not `hhr.virginia.gov`.
-- **Delaware** has no dedicated RHTP page — we link to the governor's press release as a placeholder.
+- **Delaware's RHTP page** is on the DHSS Division of Public Health site (`dhss.delaware.gov/dph/rural-health-transformation-program/`), which lists all 15 initiatives with Year 1 budgets. It replaced the governor's press release we used as a placeholder before the state had a dedicated page.
 - **South Carolina's RHTP content** lives within their general grants page (`scdhhs.gov/resources/grants`), not a standalone page.
 - **Kentucky** uses a SharePoint site (`ruralhealthplan.ky.gov`) that blocks all bots with 403.
 - **Ohio** has a dedicated solicitation reference documents page at `odh.ohio.gov/know-our-programs/rural-health-transformation-program/solicitation-reference-documents` — check this for new RFPs.
