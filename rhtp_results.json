@@ -275,7 +275,7 @@
     "state": "Delaware",
     "vendorEligible": "Yes",
     "bucket": 2,
-    "bucketReason": "Catalyst fund. The Delaware Rural Health Challenge carries $5M and the cleanest eligibility language anywhere - 'U.S.-based startups', no in-state nexus. But its accelerator operator is not confirmed, no startup window exists, and every dollar must be spent by Sept 30, 2027. Delaware's other vendor lines are telehealth hardware and food infrastructure, neither of which is ours. No aging content in any of its 15 initiatives.",
+    "bucketReason": "Catalyst fund. The Delaware Rural Health Challenge carries $5M and the cleanest eligibility language anywhere - 'U.S.-based startups', no in-state nexus. But its accelerator operator is not confirmed, no startup window exists, and every dollar must be spent by Sept 30, 2027. Delaware's other vendor lines are telehealth hardware and food infrastructure, neither of which is ours. No aging content in any of its 15 initiatives. Gate check, from our own Nebraska file: Impactiv was incorporated Oct 6, 2021 and has raised $2,275,000, so the under-ten-years and under-$50M tests both pass. The maturity test is answered the way Virginia and Nebraska answered it - the existing class programme is the evidence of feasibility, and the product being funded is the pre-commercial one.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$160M across 15 initiatives. The relevant piece is the Delaware Rural Health Challenge: a $5M accelerator run by Delaware Prosperity Partnership that recruits US startups directly and pays them against milestones.",
     "fitTags": [
@@ -331,16 +331,20 @@
     "leadAgency": "Georgia Department of Community Health (DCH)",
     "nextSteps": [
       {
-        "date": "2026-11-20",
-        "label": "GREAT Health Simulation Mannequins grant deadline (not a Vivo fit)"
-      },
-      {
         "date": "2026-12-17",
-        "label": "GREAT Health Advisory Council December meeting (date from the event URL; no time or location published)"
+        "label": "GREAT Health Advisory Council meets - the only visible surface of Initiative 5"
       },
       {
         "date": "",
-        "label": "Watch for the restructured Telehealth Enhancements opportunity, withdrawn from Year 1 and promised for a later funding year"
+        "label": "WATCH: the Telehealth Enhancements opportunity was formally withdrawn for Year 1, with DCH saying it intends to revisit and restructure it in a later funding year"
+      },
+      {
+        "date": "",
+        "label": "Year 1 awards fully committed as of Aug 27, 2026; Year 2 award of $221.7M received Nov 12. Any ARCHER opening would be a Year 2 track."
+      },
+      {
+        "date": "2026-11-20",
+        "label": "GREAT Health Simulation Mannequins grant closes (not a Vivo fit)"
       }
     ],
     "notes": "Two opportunities are open but neither fits Vivo: nursing simulation hardware and graduate medical education. The item that matters is what was withdrawn - DCH formally pulled the Telehealth Enhancements opportunity for Year 1 and said it 'fully intends to revisit and restructure' it in later funding years. That is the Georgia door to watch. Round 4 (Workforce Retention Technology / surgical robots, Jun 15 - Jul 15, 2026) is closed and awarded; no Year 2 / Round 5 opportunity is posted. Georgia has committed $103.8M of its $218.86M Year 1 award across three award phases, against a program of $1.4B over five years across five initiatives and 29 strategies, oriented to value-based care. Neither open NOFO states applicant-type or residency rules, and both are capital/education awards to Georgia rural providers and GME sponsors in practice, so a partner or subcontractor route is the realistic one. URL NOTE: greathealth.georgia.gov/funding-opportunities returns 404 - the live list is at /find-funding-opportunities. CMS emailed states Oct 30, 2026 that the competitive portion of Year 2 was delayed (base allocation available); on Nov 9, 2026 CMS announced full per-state FY2027 awards totaling ~$10B. Budget Period 2 runs Oct 31, 2026 - Oct 30, 2027.",
@@ -352,9 +356,9 @@
     "state": "Georgia",
     "vendorEligible": "Yes",
     "bucket": 1,
-    "bucketReason": "Eric's priority list - relationship. Also bucket 2: the ARCHER Tech Catalyst Fund is $45M with GTRI scouting companies rather than running an RFP.",
+    "bucketReason": "Eric's priority list - relationship, and that relationship is the only asset here. ARCHER is real money but there is no notice, no challenge statement and no portal: GTRI finds companies rather than soliciting them, and Georgia announced all Year 1 awards fully committed on Aug 27. Consumer Engagement Enhancements is bigger at $51M but it is an incumbent platform extension, and half its scope is diet and nutrition. Correction to our own file: the 'nutrition and weight loss' language belongs to that strategy, not to ARCHER - ARCHER's own wording is innovation and AI to improve healthcare efficiencies. Neither targets older adults.",
     "bucketConfidence": "unconfirmed",
-    "whatItIs": "The GREAT Health Program, $219M in Year 1 against $1.4B over five years. Most of it is hospital and workforce grants. The piece for us is ARCHER, a $45M technology catalyst fund where Georgia Tech Research Institute goes out and finds companies instead of posting an RFP.",
+    "whatItIs": "The GREAT Health Program, $219M in Year 1 and a further $221.7M for Year 2, against $1.4B over five years. Most of it is hospital and workforce grants. Initiative 5 holds the technology money: ARCHER, a $45M catalyst fund ($9M in Year 1) that Georgia Tech Research Institute manages by scouting companies, and Consumer Engagement Enhancements, $51M, which extends the state health plan's existing wellness platform.",
     "fitTags": [
       "tech",
       "aging"
@@ -655,7 +659,7 @@
     "state": "Louisiana",
     "vendorEligible": "Yes",
     "bucket": 2,
-    "bucketReason": "Catalyst fund, and the reason to care. Cohort 2 is committed on the state's own page with no date; Cohort 1 closed in June and awards are over a month late from 165+ applicants. Up to $3M per company, paid directly, no local partner required - the largest and cleanest direct check available. Note the separate Initiative 4 grant money splits physical activity from nutrition, and only the physical activity half is ours.",
+    "bucketReason": "Catalyst fund, and the reason to care. Cohort 2 is committed on the state's own page with no date; Cohort 1 closed in June and awards are over a month late from 165+ applicants. Up to $3M per company, paid directly, no local partner required - the largest and cleanest direct check available. Note the separate Initiative 4 grant money splits physical activity from nutrition, and only the physical activity half is ours. Gate check, from our own Nebraska file: Impactiv was incorporated Oct 6, 2021 and has raised $2,275,000, so the under-ten-years and under-$50M tests both pass. The maturity test is answered the way Virginia and Nebraska answered it - the existing class programme is the evidence of feasibility, and the product being funded is the pre-commercial one.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$208M in Year 1 across five initiatives, including 'Make Rural America Healthy Again' for physical activity and nutrition. Separately, Louisiana Economic Development runs a $20M-a-year Rural Tech Catalyst Fund that pays companies directly, up to $3M each.",
     "fitTags": [
@@ -793,19 +797,23 @@
     "nextSteps": [
       {
         "date": "",
-        "label": "ACTION: call WellWise - confirm whether the funded $166,667 Collaborative Care Integration award is the application Vivo was named on, and whether Vivo's scope survived into the CMS-approved workplan"
+        "label": "ACTION: ask WellWise directly what happened to DHME-2027. The public award list cannot answer it - it is six weeks old and never names the notice."
       },
       {
         "date": "",
-        "label": "ACTION: approach the eight Promoting Healthy Aging Blueprint awardees (PACE Central MI, PACE Northeast MI, Regions IIIC, IV, VII, 9, 10, 11 AAAs) about Year 2"
+        "label": "Sales list, no application involved: 30 organizations hold Chronic Disease Collaborative Care Fund money and are standing up programmes - Northern Michigan Public Health Alliance ($3M), UPCAP ($1.5M), Michigan Health Improvement Alliance ($1.5M), Thumb Community Health Partnership ($1M), Region IV AAA ($850K)"
+      },
+      {
+        "date": "",
+        "label": "Sales list: the 8 Promoting Healthy Aging Blueprint awardees - PACE Central MI and PACE Northeast MI ($500K each), Regions 9, 10 and 11 AAAs ($500K each), Regions IIIC, IV and VII AAAs ($166K each)"
+      },
+      {
+        "date": "",
+        "label": "Find out whether a company can lead on Michigan's rural technology catalyst fund; LEO announced $6.43M of technology money on Nov 13"
       },
       {
         "date": "2027-09-30",
-        "label": "Year 1 award performance period ends - Year 2 GFOs should post well before this"
-      },
-      {
-        "date": "",
-        "label": "Subscribe to the MDHHS RHTP newsletter; the Oct/Nov issue is overdue"
+        "label": "Year 1 award performance period ends - Year 2 grant notices should post well before this"
       }
     ],
     "notes": "AWARDS ARE PUBLISHED AND WELLWISE IS FUNDED. MDHHS posted its full subrecipient table (award notices as of Oct 1, 2026). Region 2 Area Agency on Aging - WellWise Services Area Agency on Aging received $166,667 - but under the Collaborative Care Integration and Sustainability Fund, NOT the Chronic Disease Collaborative Care Fund that DHME-2027 belonged to; that fund's money went elsewhere, including $850,000 to Region IV AAA. The award is also a third of the $500,000 ask. So either WellWise submitted more than once or MDHHS moved the application to a different fund and reshaped the scope, and whether Vivo's delivery role survived into the funded workplan is not visible publicly. MDHHS warns award amounts are contingent on CMS review and that workplans and budgets may be sent back for revision, so this is an award notice rather than a settled contract. This is a call to WellWise. Michigan also runs a Promoting Healthy Aging in Rural Communities Blueprint fund - the single best-matched fund line found in any state. Year 1 went entirely to AAAs and PACE organizations: PACE Central MI $500K, PACE Northeast MI $500K, Region IIIC AAA (Branch-St. Joseph) $166,667, Region IV AAA $166,667, Region VII AAA $166,666, Region 9 AAA (NEMCSA) $500K, Region 10 AAA (NW Michigan) $500K, Region 11 AAA (UPCAP) $500K. Those eight are a warm partner list for Year 2. Michigan also has the most permissive eligibility language found anywhere: the DHME-2027 GFO lists eligible applicants as 501c3 nonprofits, FOR-PROFIT ORGANIZATIONS, private and public entities, municipalities, transit agencies, local health departments, health systems, health plans, community-based coalitions, community foundations and similar, with no in-state requirement in that language - though every Year 1 award went to a Michigan organization. Michigan is the state where Vivo has the strongest case to apply as a named prime or co-applicant in Year 2. Award $173,128,201.02 across five initiatives. Newsletter runs roughly every two months; the September 2026 issue is the latest, so an Oct/Nov issue is overdue and is the thing to watch. URL NOTE: michigan.gov returns 403 to WebFetch but serves fine to curl with a browser user-agent - the CLAUDE.md bot-blocked note is only half true. CMS emailed states Oct 30, 2026 that the competitive portion of Year 2 was delayed (base allocation available); on Nov 9, 2026 CMS announced full per-state FY2027 awards totaling ~$10B. Budget Period 2 runs Oct 31, 2026 - Oct 30, 2027.",
@@ -817,9 +825,9 @@
     "state": "Michigan",
     "vendorEligible": "Yes",
     "bucket": 1,
-    "bucketReason": "Connection: WellWise Services AAA is funded and Vivo was written into its application. Not on Eric's list - added because the relationship is live. Michigan also runs a rural technology catalyst fund, put $6.43M of technology money out on Nov 13, and names for-profits as eligible with no in-state rule, so it is the one state where we could plausibly lead.",
+    "bucketReason": "Connection: Vivo is written into WellWise Services AAA's application for DHME-2027, the diabetes and hypertension notice. That outcome is still unknown - MDHHS's published award list is stamped Oct 1 and does not name DHME-2027 anywhere, and the $166,667 WellWise does appear with is a separate grant it won earlier in the summer, before our application. Michigan is also the one state whose grant notices name for-profits as eligible with no in-state rule, so it is where we could plausibly lead in Year 2, and it runs a rural technology catalyst fund.",
     "bucketConfidence": "confirmed",
-    "whatItIs": "$173M across five initiatives. Two matter: a Promoting Healthy Aging in Rural Communities Blueprint whose Year 1 money went entirely to Area Agencies on Aging and PACE organizations, and a rural technology catalyst fund, with $6.43M of technology money announced on Nov 13. Michigan's grant notices name for-profits as eligible with no in-state rule.",
+    "whatItIs": "$173M across five initiatives. Two matter to us. The Chronic Disease Collaborative Care Fund made 30 awards for diabetes, hypertension and chronic disease work - this is the fund DHME-2027 belonged to. The Promoting Healthy Aging in Rural Communities Blueprint went entirely to Area Agencies on Aging and PACE organizations. Michigan also runs a rural technology catalyst fund and put $6.43M of technology money out on Nov 13.",
     "fitTags": [
       "aging",
       "chronic",
@@ -1247,16 +1255,20 @@
     "leadAgency": "North Carolina Department of Health and Human Services (NCDHHS)",
     "nextSteps": [
       {
+        "date": "",
+        "label": "WATCH: NCDHHS Initiative Six plans a resource for deploying remote patient monitoring, chronic care management and 'virtual first care-type models' - closer to Vivo than anything in the Innovation Fund"
+      },
+      {
+        "date": "",
+        "label": "Approach the six NC ROOTS regional hubs, which fund local partners for physical activity and chronic disease work"
+      },
+      {
         "date": "2026-12-07",
-        "label": "RHIF full application due 11:59 PM - ACTION is to be named with a quote in rural providers' applications, now"
+        "label": "Rural Health Innovation Fund closes - NOT a Vivo fit (technology procurement; vendors cannot apply). Note the Sept 23 webinar deck says Nov 16 and the FAQ says Dec 7; the two official sources disagree"
       },
       {
         "date": "2027-01",
-        "label": "RHIF awards anticipated"
-      },
-      {
-        "date": "2027-07-30",
-        "label": "Round 1 projects must be complete"
+        "label": "Rural Health Innovation Fund awards anticipated; Year 1 Round 2 opens Feb 15, 2027 per the slides (the FAQ says March)"
       }
     ],
     "notes": "DATE CORRECTION: the Rural Health Innovation Fund full application is due Dec 7, 2026, NOT Nov 16 as previously recorded. The Nov 16 date came from launch-day news coverage and third-party trackers; the official NCDIT/NCBroadband page and its FAQ timeline both say Dec 7 at 11:59 PM. The readiness intake did close Oct 31 as expected. NC also received a $216 million award dated Nov 6, 2026. THE ACTIONABLE POINT: applicants must gather vendor QUOTES as part of the application, so every organization that completed intake by Oct 31 is shopping for solutions right now and has three weeks to assemble a submission. That is a live sales window, not an application Vivo can file. Eligibility is explicit and excludes Vivo as applicant: the applicant must be a health care organization under 10A NCAC 41A .0206(a)(1) - hospitals, physician practices, FQHCs, rural health clinics, behavioral health providers - with a facility in one of 85 federally designated rural counties or 40%+ rural patients, not sanctioned or debarred on SAM.gov or by NC Medicaid, and carrying a low or medium risk rating. For-profit status is not excluded but the applicant must be the rural provider. Funding is about $20M a year for up to five years and is REIMBURSEMENT-BASED, which matters for a vendor's cash flow. Round 1 projects must be complete by July 30, 2027; appeals run 21 calendar days from the determination email. Two live program pages both matter: the NCDHHS Office of Rural Health page and ncbroadband.gov/ruralhealthinnovation, where NCDIT runs RHIF. Past opportunities, all closed: NC ROOTS Hub Lead RFA (Apr 2), Expanding School Health Centers (Aug 12), NC Minority Diabetes Prevention Program (Jul 17), Mobile Integrated Health (May 20). CMS emailed states Oct 30, 2026 that the competitive portion of Year 2 was delayed (base allocation available); on Nov 9, 2026 CMS announced full per-state FY2027 awards totaling ~$10B. Budget Period 2 runs Oct 31, 2026 - Oct 30, 2027.",
@@ -1268,9 +1280,9 @@
     "state": "North Carolina",
     "vendorEligible": "Yes",
     "bucket": 1,
-    "bucketReason": "Eric's priority list - relationship, and ATI's best-scoring relationship state on both priorities and partners. Physical activity programs and aging in place are both written into NC ROOTS.",
+    "bucketReason": "Eric's priority list - relationship, and ATI's best-scoring relationship state on both priorities and partners. But be clear which North Carolina money is which. The Rural Health Innovation Fund closing Dec 7 is NOT ours: it buys technology, its own FAQ bars vendors from applying, it defines 'patient engagement tool' as portals and text reminders, and it wants turnkey purchases installed in six months. The vendor-quote requirement is a procurement formality for those five tiers, not a door. The real North Carolina thread is NC ROOTS, where physical activity programmes with senior centres and near-duals aging-in-place are written in, and Initiative Six, which plans a resource for deploying 'virtual first care-type models'.",
     "bucketConfidence": "confirmed",
-    "whatItIs": "Two tracks. NC ROOTS puts money through six regional hubs that fund local partners for physical activity and chronic disease work. Separately the Rural Health Innovation Fund gives rural providers about $20M a year to buy solutions - applicants need vendor quotes to submit.",
+    "whatItIs": "Two separate tracks. NC ROOTS puts money through six regional hubs that fund local partners for physical activity and chronic disease work. The Rural Health Innovation Fund is something else entirely: about $20M a year run by the state IT and broadband department to help rural providers buy technology, in five tiers - productivity software and hardware, certified EHR licences, FHIR and health-information-exchange connections, AI scribes and decision support, and remote monitoring or telehealth platforms.",
     "fitTags": [
       "aging",
       "chronic",
