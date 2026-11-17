@@ -74,7 +74,9 @@
       "chronic",
       "tech"
     ],
-    "fitBasis": "Senior supports with fall-prevention education; consumer-facing digital tools for people at risk of falls."
+    "fitBasis": "Senior supports with fall-prevention education; consumer-facing digital tools for people at risk of falls.",
+    "directApply": true,
+    "directApplyWhy": "Organizations may be based anywhere in the US if the project benefits rural Alaskans."
   },
   {
     "applicationDeadline": "CLOSED. Final two Year 1 solicitations (AOEO Provider Retention and Well-Being Microgrant, $1M; AOEO Transition to Practice, $3M) closed Oct 23, 2026",
@@ -103,15 +105,17 @@
     "rhtpEmail": "communications@azahcccs.gov",
     "state": "Arizona",
     "vendorEligible": "Yes",
-    "bucket": 1,
-    "bucketReason": "Direct application. RFGAs run through State of Arizona procurement, open to out-of-state for-profits. Year 1 included a $21M Innovative Care Pilot worth watching for reissue.",
+    "bucket": 4,
+    "bucketReason": "No relationship and no aging line. Arizona does run open procurement an out-of-state for-profit can answer, and Year 1 included a $21M Innovative Care Pilot, so it is worth watching for a Year 2 reissue.",
     "bucketConfidence": "confirmed",
     "whatItIs": "AHCCCS buys through RFGAs - state procurement open to out-of-state for-profits. Year 1 put out ten of them worth $95M, including a $21M Rural Health Innovative Care Pilot and $17M for telehealth adoption. All closed.",
     "fitTags": [
       "chronic",
       "tech"
     ],
-    "fitBasis": "Year 1 ran a $21M Rural Health Innovative Care Pilot and $17M for telehealth adoption."
+    "fitBasis": "Year 1 ran a $21M Rural Health Innovative Care Pilot and $17M for telehealth adoption.",
+    "directApply": true,
+    "directApplyWhy": "RFGAs through State of Arizona procurement, open to out-of-state for-profits."
   },
   {
     "applicationDeadline": "All four NOFOs CLOSED (THRIVE June 12, PACT July 10, RISE AR July 24, HEART Aug 7, 2026). AWARDS COMPLETE FOR YEAR 1: $149.3M announced Aug 27, 2026 (THRIVE, PACT) plus $54.6M announced Sept 24, 2026 (HEART $27.4M to 30 projects; RISE AR $27.2M to 24 projects) - roughly $204M of the $209M award. No Year 2 NOFO posted.",
@@ -173,7 +177,9 @@
     "fitTags": [
       "tech"
     ],
-    "fitBasis": "Technology and Tools initiative names consumer tech solutions."
+    "fitBasis": "Technology and Tools initiative names consumer tech solutions.",
+    "directApply": true,
+    "directApplyWhy": "Out-of-state applicants may apply if they meet state contracting requirements."
   },
   {
     "applicationDeadline": "RFA closed Aug 3, 2026 and is now AWARDED. On Sept 28, 2026 HCPF announced $169,587,181 to 91 applicants across roughly 250 projects in 52 rural/frontier counties and 3 rural census tract counties, from 112 eligible applications requesting more than $250M for 368 projects. The full awardee list with dollar amounts is published. There is no Round 2.",
@@ -275,7 +281,9 @@
     "fitTags": [
       "tech"
     ],
-    "fitBasis": "Telehealth and remote patient monitoring is a designated vendor line."
+    "fitBasis": "Telehealth and remote patient monitoring is a designated vendor line.",
+    "directApply": true,
+    "directApplyWhy": "Catalyst fund recruits U.S.-based startups with no in-state nexus."
   },
   {
     "applicationDeadline": "CLOSED - the six RFAs (033-038) closed June 17, 2026. AWARDS ANNOUNCED Aug 11, 2026 (~$188M, 80+ awards); AHCA's statutory deadline to finalize all awards is Sept 30, 2026. No next round posted as of Sept 28, 2026; AHCA's 'Coming Soon' RFQ/RFA tiles remain commented out of the live page.",
@@ -308,7 +316,9 @@
       "chronic",
       "maha"
     ],
-    "fitBasis": "Year 1 ran a Health and Lifestyle Initiative and a Preventive Care and Care-at-Home bundle."
+    "fitBasis": "Year 1 ran a Health and Lifestyle Initiative and a Preventive Care and Care-at-Home bundle.",
+    "directApply": true,
+    "directApplyWhy": "AHCA RFAs through MyFloridaMarketplace, open to out-of-state respondents."
   },
   {
     "applicationDeadline": "OPEN: GREAT Health Simulation Mannequins grant, deadline extended one week to Nov 20, 2026. Rural GME Development grant open with no published close date.",
@@ -527,8 +537,8 @@
     "rhtpEmail": "healthyhometowns@hhs.iowa.gov",
     "state": "Iowa",
     "vendorEligible": "Yes",
-    "bucket": 1,
-    "bucketReason": "Direct application - open competitive state RFPs, and Iowa was first in the country to award RHTP vendor money. Also the strongest bucket 3 case: Communities of Care writes Walk With Ease, CDSME, DSMES and National DPP into a requirement and names AAAs as the co-location partner, and we have no Iowa partner.",
+    "bucket": 3,
+    "bucketReason": "Strong fit, no partner. Communities of Care requires sites to offer or refer to Walk With Ease, CDSME, DSMES and the National DPP, and names Area Agencies on Aging as the co-location partner - no other state's plan does that. We have no Iowa partner. Iowa also buys through open RFPs, so we could bid directly if the right one posts.",
     "bucketConfidence": "confirmed",
     "whatItIs": "Iowa buys programming through open competitive state RFPs and was first in the country to award RHTP vendor money. Its Communities of Care initiative pays rural sites to co-locate services and requires them to offer or refer to Walk With Ease, CDSME, DSMES and the National DPP, with Area Agencies on Aging named as partners.",
     "fitTags": [
@@ -536,7 +546,9 @@
       "chronic",
       "maha"
     ],
-    "fitBasis": "Communities of Care requires sites to offer or refer to Walk With Ease, CDSME, DSMES and the National DPP, with AAAs named."
+    "fitBasis": "Communities of Care requires sites to offer or refer to Walk With Ease, CDSME, DSMES and the National DPP, with AAAs named.",
+    "directApply": true,
+    "directApplyWhy": "Open competitive state RFPs; first state in the country to award RHTP vendor money."
   },
   {
     "applicationDeadline": "OPEN: Community Health Worker + Accountable Food is Medicine (CHW+AFIM) and Non-Emergency Medical Transportation due Nov 18, 2026 12:00 PM CT. CLOSED: Regional Partnership Grant Program ($44M) and Transformative Capital Investment ($11M), due Nov 13, 2026.",
@@ -650,7 +662,9 @@
       "maha",
       "aging"
     ],
-    "fitBasis": "Make Rural America Healthy Again funds physical activity and nutrition; PACE retrofits. Only the activity half is ours."
+    "fitBasis": "Make Rural America Healthy Again funds physical activity and nutrition; PACE retrofits. Only the activity half is ours.",
+    "directApply": true,
+    "directApplyWhy": "Catalyst fund pays companies directly, no local partner required."
   },
   {
     "applicationDeadline": "OPEN: Community Health Worker RFA due Nov 30, 2026 5:00 PM ET. A 13-opportunity wave of MCD-administered digital health solicitations opened late Sept/early Oct and all closed by Nov 9.",
@@ -803,7 +817,7 @@
     "state": "Michigan",
     "vendorEligible": "Yes",
     "bucket": 1,
-    "bucketReason": "Connection: WellWise Services AAA is funded. Also bucket 2 - Michigan's CMS abstract names a rural technology catalyst fund and LEO put $6.43M of technology money out on Nov 13. Its grant notice names for-profits as eligible with no in-state rule.",
+    "bucketReason": "Connection: WellWise Services AAA is funded and Vivo was written into its application. Not on Eric's list - added because the relationship is live. Michigan also runs a rural technology catalyst fund, put $6.43M of technology money out on Nov 13, and names for-profits as eligible with no in-state rule, so it is the one state where we could plausibly lead.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$173M across five initiatives. Two matter: a Promoting Healthy Aging in Rural Communities Blueprint whose Year 1 money went entirely to Area Agencies on Aging and PACE organizations, and a rural technology catalyst fund, with $6.43M of technology money announced on Nov 13. Michigan's grant notices name for-profits as eligible with no in-state rule.",
     "fitTags": [
@@ -811,7 +825,9 @@
       "chronic",
       "tech"
     ],
-    "fitBasis": "Promoting Healthy Aging Blueprint, Chronic Disease Collaborative Care Fund, and a rural tech catalyst fund."
+    "fitBasis": "Promoting Healthy Aging Blueprint, Chronic Disease Collaborative Care Fund, and a rural tech catalyst fund.",
+    "directApply": true,
+    "directApplyWhy": "Grant notices name for-profit organizations as eligible, with no in-state rule."
   },
   {
     "applicationDeadline": "No open opportunities. MDH's grants page now states plainly: 'There are no current open grants and contracts opportunities.' Both September RFPs (Rural Maternity Care System analysis, SWIFT 2000018576, closed Sept 11; Rural Telehealth Services, SWIFT 2000018606, closed Sept 14) have been correctly refiled under 'Past Grants & Contracts Notices'. Awards still pending on both.",
@@ -929,14 +945,16 @@
     "rhtpEmail": "DSS.RHTP@dss.mo.gov",
     "state": "Missouri",
     "vendorEligible": "Yes",
-    "bucket": 1,
-    "bucketReason": "Direct application. Missouri runs a dedicated RHTP vendor page telling vendors to register and bid, alongside the Hub-mediated grant money.",
+    "bucket": 4,
+    "bucketReason": "No relationship and no aging line. Missouri does run a real vendor track, and the Digital Backbone's Category 4 invites custom digital health proposals, but a Missouri provider has to carry it.",
     "bucketConfidence": "confirmed",
     "whatItIs": "ToRCH Care routes grant money through 27 regional hubs, each with about $412,000, and a hub decides who is in. Missouri separately runs a vendor track with its own page telling vendors to register and bid on state procurements.",
     "fitTags": [
       "tech"
     ],
-    "fitBasis": "Digital Backbone Category 4 invites custom digital health proposals."
+    "fitBasis": "Digital Backbone Category 4 invites custom digital health proposals.",
+    "directApply": true,
+    "directApplyWhy": "A dedicated RHTP vendor page tells vendors to register and bid."
   },
   {
     "applicationDeadline": "CLOSED - all of them. Community Health Aide Program (CHAP) Technical Assistance RFP, DPHHS-RFP-2027-0700NAV, closed Oct 1, 2026 at 2 p.m. MDT as scheduled. Also closed: Emergency Medical Dispatch System RFP (DPHHS-RFP-2027-0692AB, Sept 23); DPHHS Community Integrated Health (CIH) Pilot Site Grant (Sept 15); Rural Health Care Workforce Retention RFI (DLI-RFI-2027-0091, Aug 31); DLI Rural Physician/APP Recruitment RFP (DLI-RFP-2026-0088DL, July 16); RHTP EMS Equipment Grants ($4M, Aug 15).",
@@ -1007,7 +1025,9 @@
       "tech",
       "aging"
     ],
-    "fitBasis": "NETECH funds consumer-facing health technology; ALF memory care incentives."
+    "fitBasis": "NETECH funds consumer-facing health technology; ALF memory care incentives.",
+    "directApply": true,
+    "directApplyWhy": "NETECH is open to all U.S.-based and U.S.-owned entities."
   },
   {
     "applicationDeadline": "OPEN: Children's Behavioral Health Workforce Recruitment and Rural Access Program due Dec 10, 2026; Medicaid Reentry RHIT/FLEX due Dec 15, 2026. All ten Year 1 RFAs are closed.",
@@ -1053,7 +1073,9 @@
       "chronic",
       "aging"
     ],
-    "fitBasis": "Rural Health Outcomes Accelerator funds evidence-based chronic disease work; first state PACE."
+    "fitBasis": "Rural Health Outcomes Accelerator funds evidence-based chronic disease work; first state PACE.",
+    "directApply": true,
+    "directApplyWhy": "Confirmed that out-of-state vendors may apply with a signed intent to contract."
   },
   {
     "applicationDeadline": "ROLLING: Critical Access and Acute Care Hospital RFA - priority deadline Nov 12, 2026 passed, now rolling while funds last. Primary Care Access RFA - initial deadline Oct 15 passed, now rolling. T-TAC Request for Qualifications - rolling, no deadline.",
@@ -1095,7 +1117,9 @@
       "chronic",
       "tech"
     ],
-    "fitBasis": "Lifestyle programmes, falls risk assessment and virtual-first care named in the primary care RFA."
+    "fitBasis": "Lifestyle programmes, falls risk assessment and virtual-first care named in the primary care RFA.",
+    "directApply": true,
+    "directApplyWhy": "The T-TAC consultant qualifications list is open to out-of-state firms."
   },
   {
     "applicationDeadline": "All closed - January 20, 2026 (DOHP26RHT, DFHS26RDI); February 17, 2026 (Building Rural Hospital Capacity OHCF26RHC); April 8, 2026 (EMS/Dispatch DPRE26AED); April 10, 2026 (Improving Chronic Disease Outcomes DOHP26CDO); April 15, 2026 (Community Health Workers); April 27, 2026 (Doula Integration)",
@@ -1162,12 +1186,14 @@
     "rhtpEmail": "Wenona.padgett@hca.nm.gov",
     "state": "New Mexico",
     "vendorEligible": "Yes",
-    "bucket": 1,
-    "bucketReason": "Direct application, probable. New Mexico runs RHTP as state procurement RFPs rather than grants, subject to an in-state resident-business preference.",
-    "bucketConfidence": "unconfirmed",
+    "bucket": 4,
+    "bucketReason": "No relationship, no aging line and nothing open. Procurement-based, which would help if something fitting posted.",
+    "bucketConfidence": "confirmed",
     "whatItIs": "New Mexico buys through state procurement RFPs rather than grants, including a $47M Rural Health Innovation Fund and statewide contractor roles. An in-state resident-business preference applies.",
     "fitTags": [],
-    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to."
+    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to.",
+    "directApply": true,
+    "directApplyWhy": "Run as state procurement RFPs, subject to an in-state resident-business preference."
   },
   {
     "applicationDeadline": "BP1 closed July 2026 (sources conflict: July 9 per the guidance, July 14 per the press release). BP2 RCHI funding guidance was expected November 2026 but could not be confirmed.",
@@ -1320,14 +1346,16 @@
     "state": "Ohio",
     "vendorEligible": "Yes",
     "bucket": 1,
-    "bucketReason": "Connection: Central Ohio AAA. Also a direct route - Ohio buys through OhioBuys procurement with vendor registration as the gate, not in-state status.",
+    "bucketReason": "Connection: Central Ohio AAA. Ohio also buys through OhioBuys procurement where vendor registration is the gate rather than in-state status, though nothing posted so far targets older adults.",
     "bucketConfidence": "confirmed",
     "whatItIs": "Ohio buys through OhioBuys state procurement, where vendor registration is the gate rather than in-state status - several awards are statewide technical assistance and programme contracts. $202M in Year 1. Nothing posted targets older adults.",
     "fitTags": [
       "chronic",
       "aging"
     ],
-    "fitBasis": "Healthier Ohio names Walk With Ease, EnhanceFitness and Tai Chi for Arthritis for older adults."
+    "fitBasis": "Healthier Ohio names Walk With Ease, EnhanceFitness and Tai Chi for Arthritis for older adults.",
+    "directApply": true,
+    "directApplyWhy": "OhioBuys procurement; vendor registration is the gate, not in-state status."
   },
   {
     "applicationDeadline": "OPEN: Community Paramedicine Consulting Services RFP due Nov 18, 2026 3:00 PM CST; OHCA EHR Expansion RFI due Dec 1, 2026; OSU tech co-op enrollment forms due Dec 1 and Dec 15, 2026; OHCA HIE and EHR Assistance due Dec 31, 2026.",
@@ -1372,7 +1400,9 @@
       "aging",
       "maha"
     ],
-    "fitBasis": "PACE expansion across 3-6 rural centres; a consumer prevention platform aimed at dual-eligibles."
+    "fitBasis": "PACE expansion across 3-6 rural centres; a consumer prevention platform aimed at dual-eligibles.",
+    "directApply": true,
+    "directApplyWhy": "One notice stated plainly that out-of-state entities may apply - read each one."
   },
   {
     "applicationDeadline": "No competitive opportunity is open. Catalyst Awards RFGP closed May 26, 2026 (awards announced July 7, 2026). Two new RHTP allocations announced Sept 30 and Oct 2, 2026 are DIRECT awards with no application process.",
@@ -1573,15 +1603,17 @@
     "rhtpEmail": "DOH.info@state.sd.us",
     "state": "South Dakota",
     "vendorEligible": "Yes",
-    "bucket": 1,
-    "bucketReason": "Direct application. Already competitively bid Chronic Disease Self-Management Programming and Caregiver Support Programming as standalone service contracts - the closest thing to buying Vivo's product off the shelf.",
+    "bucket": 3,
+    "bucketReason": "Strong fit, no partner. South Dakota has already competitively bid Chronic Disease Self-Management Programming and Caregiver Support Programming as standalone service contracts, which is the closest any state comes to buying Vivo's product off the shelf. Its roadmap scales chronic disease management statewide in spring 2027.",
     "bucketConfidence": "confirmed",
     "whatItIs": "South Dakota puts service contracts out to open competitive bid through its central portal, which is unusual. It has already bid Chronic Disease Self-Management Programming and Caregiver Support Programming as standalone contracts, and its roadmap scales chronic disease management statewide in spring 2027.",
     "fitTags": [
       "aging",
       "chronic"
     ],
-    "fitBasis": "Already bid CDSMP and Caregiver Support Programming as standalone service contracts."
+    "fitBasis": "Already bid CDSMP and Caregiver Support Programming as standalone service contracts.",
+    "directApply": true,
+    "directApplyWhy": "Open competitive service contracts through the state's central bidding portal."
   },
   {
     "applicationDeadline": "OPEN: Rural Healthcare Access Modernization Program (RAMP) - applications open, NO deadline published. TennCare Community Health Worker Infrastructure RFA released. UNVERIFIED: a tracker lists County Health Council CARE Grants open Sept 25 - Nov 20, 2026, which no TDH page corroborates.",
@@ -1618,8 +1650,8 @@
     "rhtpEmail": "RuralHealth@tn.gov",
     "state": "Tennessee",
     "vendorEligible": "Yes",
-    "bucket": 1,
-    "bucketReason": "Direct application. The RAMP FAQ names for-profits as eligible and makes Edison registration the gate, not domicile. Plan carries a dementia hub-and-spoke model with 'trained non-clinical staff'.",
+    "bucket": 3,
+    "bucketReason": "Strong fit, no partner. Project lines include chronic disease prevention, Healthy Active Rural Tennessee and a memory care network, and RAMP names for-profits as eligible - but we have no Tennessee relationship and TN posts to its Partner Portal before anywhere else.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$207M against $1B over five years, 138 projects announced. Project lines include chronic disease prevention, Healthy Active Rural Tennessee, and a memory care assessment network. The separate RAMP programme is $104M, mostly rural capital, and its FAQ names for-profits as eligible with Edison registration as the gate.",
     "fitTags": [
@@ -1627,7 +1659,9 @@
       "chronic",
       "maha"
     ],
-    "fitBasis": "Memory Care Assessment Network, chronic disease prevention, and Make Rural Tennessee Healthy Again."
+    "fitBasis": "Memory Care Assessment Network, chronic disease prevention, and Make Rural Tennessee Healthy Again.",
+    "directApply": true,
+    "directApplyWhy": "RAMP names for-profits as eligible; Edison registration is the gate, not domicile."
   },
   {
     "applicationDeadline": "CONFIRMED SLIP TO JANUARY 2027. Initiative 2 (Rural Texas Patients in the Driver's Seat) RFP due Jan 12, 2027, award notice Mar 8. Initiative 3 (Lonestar Advanced AI and Telehealth) RFP due Jan 12, 2027, award notice Mar 29. Initiative 5 (Unified Care Infrastructure and Rural Cyber Protection) Request for Offer due Jan 19, 2027, award notice Mar 5. Initiative 6 Part 2 TBD.",
@@ -1804,7 +1838,9 @@
       "chronic",
       "tech"
     ],
-    "fitBasis": "Community paramedicine names aging-in-place; the Consumer Tech RFA measures platform engagement at six months."
+    "fitBasis": "Community paramedicine names aging-in-place; the Consumer Tech RFA measures platform engagement at six months.",
+    "directApply": true,
+    "directApplyWhy": "The CareIQ fund takes applications from technology companies directly."
   },
   {
     "applicationDeadline": "A DOH rural provider incentives opportunity is stated to open November 2026, with no day and no deadline published.",
