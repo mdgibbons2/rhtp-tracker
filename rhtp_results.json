@@ -26,8 +26,28 @@
     "bucketReason": "No catalyst fund and no aging focus. Year 2 will reopen with changed rules; the only move is the notification signup at alabamarhtp.com.",
     "bucketConfidence": "confirmed",
     "whatItIs": "ADECA hands out grants in rounds. Year 1 ran two rounds worth $198M across 172 grants - workforce, community college training and facility capacity. Applications reopen for Year 2 with no dates yet.",
-    "fitTags": [],
-    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to."
+    "fitTags": [
+      "chronic",
+      "tech"
+    ],
+    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Out-of-state organizations may apply only if operating in Alabama and serving rural Alabama; most routes need a rural provider lead.",
+    "vivoFit": "No",
+    "vivoFitWhy": "Year 1 skewed to workforce, community college training and facility capacity. Year 2 will reopen with changed rules; the Rural Health Initiative did fund virtual care and chronic disease management, so it is worth a look when it posts.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Year 2 Alabama RHTP grants",
+        "url": "https://alabamarhtp.com",
+        "due": "Will reopen - no dates",
+        "desc": "Year 1 ran two rounds worth $198M.",
+        "tags": [
+          "chronic",
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED Oct 28, 2026 11:59 p.m. AK time (Year 2 / Fall 2026 cycle, opened Sept 30)",
@@ -76,7 +96,38 @@
     ],
     "fitBasis": "Senior supports with fall-prevention education; consumer-facing digital tools for people at risk of falls.",
     "directApply": true,
-    "directApplyWhy": "Organizations may be based anywhere in the US if the project benefits rural Alaskans."
+    "directApplyWhy": "Organizations may be based anywhere in the US if the project benefits rural Alaskans.",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "Organizations may be based anywhere in the US if the project benefits rural Alaskans. Alaska strongly encourages a local partner, and weak local partnership is a stated reason applications get deferred.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Vivo already holds an Alaska award, and ATI rated Alaska a standout: the plan funds senior supports including fall-prevention education, and consumer-facing digital tools for people at risk of falls.",
+    "planNextSteps": [
+      "The Spring 2027 cycle is where Year 1 continuation requests are decided - that is the route for our existing award. Opens early spring.",
+      "Statewide convening in Anchorage Jan 6-7, billed as a chance to meet technology vendors.",
+      "Alaska launches a Technology Innovation Catalyst Fund in Q2 2027."
+    ],
+    "rfps": [
+      {
+        "name": "Spring 2027 funding cycle",
+        "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/for-rhtp-applicants/",
+        "due": "Opens early spring 2027",
+        "desc": "Broad open application cycle through the Alaska Community Foundation; reviews Year 1 continuation requests. Awards as early as July 2027.",
+        "tags": [
+          "aging",
+          "chronic",
+          "tech"
+        ]
+      },
+      {
+        "name": "Technology Innovation Catalyst Fund",
+        "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
+        "due": "Launches Q2 2027",
+        "desc": "Alaska's rural tech catalyst fund, capped at $20M per budget period. Per-company size not published.",
+        "tags": [
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED. Final two Year 1 solicitations (AOEO Provider Retention and Well-Being Microgrant, $1M; AOEO Transition to Practice, $3M) closed Oct 23, 2026",
@@ -115,7 +166,32 @@
     ],
     "fitBasis": "Year 1 ran a $21M Rural Health Innovative Care Pilot and $17M for telehealth adoption.",
     "directApply": true,
-    "directApplyWhy": "RFGAs through State of Arizona procurement, open to out-of-state for-profits."
+    "directApplyWhy": "RFGAs through State of Arizona procurement, open to out-of-state for-profits.",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "Arizona buys through state procurement open to out-of-state for-profits.",
+    "vivoFit": "No",
+    "vivoFitWhy": "Not on current evidence. Everything is closed, the plan has no aging line, and we never read the scope of the two Year 1 solicitations that sounded relevant. Worth ten minutes if the Innovative Care Pilot is reissued in Year 2.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Rural Health Innovative Care Pilot Program (Year 1)",
+        "url": "https://www.azahcccs.gov/AHCCCS/Initiatives/RHTP/",
+        "due": "Closed - Year 2 reissue possible",
+        "desc": "$21M for innovative rural care models.",
+        "tags": [
+          "chronic"
+        ]
+      },
+      {
+        "name": "Telehealth Digital Transformation, Adoption and Care Coordination (Year 1)",
+        "url": "https://www.azahcccs.gov/AHCCCS/Initiatives/RHTP/",
+        "due": "Closed",
+        "desc": "$17M for telehealth adoption.",
+        "tags": [
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "All four NOFOs CLOSED (THRIVE June 12, PACT July 10, RISE AR July 24, HEART Aug 7, 2026). AWARDS COMPLETE FOR YEAR 1: $149.3M announced Aug 27, 2026 (THRIVE, PACT) plus $54.6M announced Sept 24, 2026 (HEART $27.4M to 30 projects; RISE AR $27.2M to 24 projects) - roughly $204M of the $209M award. No Year 2 NOFO posted.",
@@ -145,7 +221,21 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "Two grant programs, THRIVE and PACT, handed out $209M in 2026 and completed Year 1. Nothing open and no Year 2 structure published.",
     "fitTags": [],
-    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to."
+    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "No eligibility language for out-of-state for-profits has been found.",
+    "vivoFit": "No",
+    "vivoFitWhy": "Year 1 is complete, no Year 2 structure is published, and the plan has negligible aging or prevention programming content.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "THRIVE and PACT grants",
+        "url": "https://www.dfa.arkansas.gov/news/93-5-million-now-available-for-rural-health/",
+        "due": "Closed July 10, 2026",
+        "desc": "$209M awarded in 2026; nothing open.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "All four CalRHT Budget Period 1 opportunities remain CLOSED (Accelerator Partners and Expand and Support Rural Workforce Capacity Aug 14; EHR Modernization Aug 21; Workforce Development Recruitment & Retention Aug 31). AWARD NOTIFICATIONS ARE NOW GOING OUT via Submittable - HCAI's Grant Notifications FAQ dated Sept 29, 2026 confirms conditional selections, selections subject to modifications, and non-selections have been issued, and that applicants still under review \"will be notified regarding the status of your application by late October 2026.\" No CalRHT opportunity currently open; additional phases to be released over time.",
@@ -179,7 +269,23 @@
     ],
     "fitBasis": "Technology and Tools initiative names consumer tech solutions.",
     "directApply": true,
-    "directApplyWhy": "Out-of-state applicants may apply if they meet state contracting requirements."
+    "directApplyWhy": "Out-of-state applicants may apply if they meet state contracting requirements.",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "Out-of-state organizations may apply if they can meet state contracting requirements and provide services in rural California.",
+    "vivoFit": "No",
+    "vivoFitWhy": "Year 1 went to hospitals, EHR modernization and workforce, the competitive rounds are closed, and the plan carries no aging line. The Transformative Care Model initiative is the place a prevention round could appear.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "CalRHT Budget Year 2 rounds",
+        "url": "https://hcai.ca.gov/calrht/funding/",
+        "due": "Not posted",
+        "desc": "Three initiatives: Transformative Care Model, Workforce, Technology and Tools.",
+        "tags": [
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "RFA closed Aug 3, 2026 and is now AWARDED. On Sept 28, 2026 HCPF announced $169,587,181 to 91 applicants across roughly 250 projects in 52 rural/frontier counties and 3 rural census tract counties, from 112 eligible applications requesting more than $250M for 368 projects. The full awardee list with dollar amounts is published. There is no Round 2.",
@@ -212,7 +318,23 @@
       "chronic"
     ],
     "fitBasis": "Initiative 1 names DSMES and the National DPP as fundable, with no age framing.",
-    "sourceUrl": "https://hcpf.colorado.gov/rural-health-transformation-program"
+    "sourceUrl": "https://hcpf.colorado.gov/rural-health-transformation-program",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "There is no application left to make. The only route is selling to one of roughly 250 funded organizations.",
+    "vivoFit": "No",
+    "vivoFitWhy": "As a pursuit, no. The one RFA is awarded, the state has said there will be no second round, and the plan has no aging focus - ATI found the only older-adult mention is a transit statistic. What exists is a customer list: Initiative 1 put $44.7M into chronic disease work that names DSMES and the National DPP, so a funded awardee could buy an older-adult track from us without any new procurement.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Colorado RHTP RFA (single round)",
+        "url": "https://hcpf.colorado.gov/rural-health-transformation-program",
+        "due": "Closed Aug 3, 2026 - no second round",
+        "desc": "$169.6M awarded across about 250 projects. Initiative 1 covers chronic disease prevention, training and management.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "Closed - NOFO #26OHS001 closed July 7, 2026 at 2:00 PM ET; its Year 1 performance period began Sept 10, 2026 (no public award announcement found). No new RHTP solicitation posted as of Sept 15, 2026 (the OPM Request for Proposals page still lists only #26OHS001). Next announced procurement: a PACE Organization RFP expected late 2026 - early 2027, pending CMS approval.",
@@ -243,11 +365,51 @@
     "whatItIs": "$154M, but Connecticut may only fund the 31 proposals inside its own federally approved application - nothing outside that list is fundable. Three of the 31 are aging projects: a 10-week exercise and falls programme in up to 30 rural senior centres, a PACE hub for rural dual-eligibles, and a digital access programme for rural older adults.",
     "fitTags": [
       "aging",
-      "chronic",
+      "maha",
       "tech"
     ],
     "fitBasis": "Senior-centre exercise and falls programme, PACE hub for duals, digital access for older adults.",
-    "sourceUrl": "https://portal.ct.gov/dss/rural-health-transformation-program"
+    "sourceUrl": "https://portal.ct.gov/dss/rural-health-transformation-program",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Connecticut's one posted NOFO explicitly bars technology vendors from being lead applicant - subcontractor only, provider-led.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "ATI rated this the strongest aging plan in the country. Project 8 is an evidence-based structured exercise programme for strength, balance and falls prevention in up to 30 rural senior centres, run by the Department of Aging and Disability Services with the Area Agencies on Aging. Two more aging projects sit alongside it: a PACE hub for rural duals, and a digital access programme for rural older adults that pilots a virtual platform with online wellness programming. The hard problem is that the exercise budget already names Bingocize as contractor.",
+    "planNextSteps": [
+      "Ask RHTP-Questions@ct.gov whether the exercise programme will be competed or go to the budgeted vendor, and how content for the older-adult Virtual Platform will be sourced.",
+      "Watch for the PACE operator RFP expected late 2026 to early 2027; the operator contracts 50 to 200 outside providers including recreation services.",
+      "Connecticut can only fund the 31 proposals in its approved application, so nothing outside those can be pitched."
+    ],
+    "rfps": [
+      {
+        "name": "Project 8: Promoting Healthy Aging Through Engaging Exercise",
+        "url": "https://portal.ct.gov/dss/rural-health-transformation-program",
+        "due": "Never solicited - vendor named in the budget",
+        "desc": "10-week exercise programme in up to 30 rural senior centres. Inside a $701K older-adult engagement line that names Exercise Innovations/Bingocize.",
+        "tags": [
+          "aging",
+          "maha"
+        ]
+      },
+      {
+        "name": "Project 29: Bridging the Digital Divide - Virtual Platform pilot",
+        "url": "https://portal.ct.gov/dss/rural-health-transformation-program",
+        "due": "Not solicited",
+        "desc": "Devices and tech support for senior facilities plus a virtual platform offering online wellness and engagement programming for rural older adults.",
+        "tags": [
+          "aging",
+          "tech"
+        ]
+      },
+      {
+        "name": "PACE Organization RFP - Northwest Hills",
+        "url": "https://portal.ct.gov/dss/rural-health-transformation-program",
+        "due": "Expected late 2026 - early 2027",
+        "desc": "Selects a PACE operator for rural dual-eligibles. A subcontract route only, on a 2027+ timeline.",
+        "tags": [
+          "aging"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "",
@@ -285,7 +447,26 @@
     ],
     "fitBasis": "Telehealth and remote patient monitoring is a designated vendor line.",
     "directApply": true,
-    "directApplyWhy": "Catalyst fund recruits U.S.-based startups with no in-state nexus."
+    "directApplyWhy": "Catalyst fund recruits U.S.-based startups with no in-state nexus.",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "The fund says it will recruit 'U.S.-based startups' with no Delaware entity, domicile or in-state partner requirement.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "As a catalyst application, with a caveat. The eligibility language is the cleanest anywhere, but the stated product focus is consumer-facing technology such as remote monitoring and wearables, so a bid would land better paired with a device partner. Nothing else in Delaware fits: its 15 initiatives contain no aging content, and its other vendor lines are telehealth hardware and food.",
+    "planNextSteps": [
+      "Email CatalystFund@ChooseDelaware.com to get on the startup notification list.",
+      "Nothing to apply to yet: the accelerator operator has to be contracted and publish its Challenge Statements first. Every dollar must be spent by Sept 30, 2027, so when it moves it will move fast."
+    ],
+    "rfps": [
+      {
+        "name": "Delaware Rural Health Challenge / Rural Tech Catalyst Fund",
+        "url": "https://www.choosedelaware.com/why-delaware/innovation/catalyst-fund/",
+        "due": "No startup window yet",
+        "desc": "Up to $5M, milestone-based and non-dilutive, run by Delaware Prosperity Partnership through a contracted accelerator operator.",
+        "tags": [
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED - the six RFAs (033-038) closed June 17, 2026. AWARDS ANNOUNCED Aug 11, 2026 (~$188M, 80+ awards); AHCA's statutory deadline to finalize all awards is Sept 30, 2026. No next round posted as of Sept 28, 2026; AHCA's 'Coming Soon' RFQ/RFA tiles remain commented out of the live page.",
@@ -315,13 +496,38 @@
     "bucketConfidence": "unconfirmed",
     "whatItIs": "$210M. AHCA bought through RFAs on MyFloridaMarketplace, open to out-of-state for-profits, and awarded $188M in August across themed bundles - a Preventive Care and Care-at-Home Bundle, a Specialty and Acute Care Bundle, and a Health and Lifestyle Initiative.",
     "fitTags": [
-      "chronic",
-      "maha"
+      "maha",
+      "chronic"
     ],
     "fitBasis": "Year 1 ran a Health and Lifestyle Initiative and a Preventive Care and Care-at-Home bundle.",
     "directApply": true,
     "directApplyWhy": "AHCA RFAs through MyFloridaMarketplace, open to out-of-state respondents.",
-    "sourceUrl": "https://ahca.myflorida.com/rural-health-transformation-program.html"
+    "sourceUrl": "https://ahca.myflorida.com/rural-health-transformation-program.html",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "Florida ran these as AHCA RFAs through MyFloridaMarketplace, standard state procurement that an out-of-state for-profit can answer.",
+    "vivoFit": "No",
+    "vivoFitWhy": "Not yet demonstrable. 'Aging' does not appear in Florida's plan at all, nothing is open, and the Year 1 money is fully allocated. Two Year 1 bundle names sound like ours - Health and Lifestyle Initiative, and Preventive Care and Care-at-Home - but we have not read their scopes and neither was aimed at older adults. This flips if the Health and Lifestyle Initiative is reissued in Year 2 and its scope turns out to buy programming.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Health and Lifestyle Initiative (Year 1)",
+        "url": "https://ahca.myflorida.com/rural-health-transformation-program.html",
+        "due": "Closed Aug 2026 - Year 2 reissue possible",
+        "desc": "One of three themed RFA bundles; $188M awarded across all three in August.",
+        "tags": [
+          "maha"
+        ]
+      },
+      {
+        "name": "Preventive Care and Care-at-Home Bundle (Year 1)",
+        "url": "https://ahca.myflorida.com/rural-health-transformation-program.html",
+        "due": "Closed Aug 2026",
+        "desc": "Bundled RFA for preventive and home-based care models.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: GREAT Health Simulation Mannequins grant, deadline extended one week to Nov 20, 2026. Rural GME Development grant open with no published close date.",
@@ -363,11 +569,42 @@
     "bucketConfidence": "unconfirmed",
     "whatItIs": "The GREAT Health Program, $219M in Year 1 and $221.7M for Year 2 against $1.4B over five years. Mostly hospital capital and workforce grants - surgical robots, telepods, nursing simulation mannequins, graduate medical education. Initiative 5 holds the technology money: ARCHER, a $45M catalyst fund, and Consumer Engagement Enhancements at $51M.",
     "fitTags": [
-      "tech",
-      "aging"
+      "tech"
     ],
     "fitBasis": "ARCHER funds consumer-facing products prompting preventive care; a dementia training hub sits under workforce.",
-    "sourceUrl": "https://greathealth.georgia.gov/"
+    "sourceUrl": "https://greathealth.georgia.gov/",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "ARCHER funds companies directly. Everything else in Georgia goes to rural hospitals and providers.",
+    "vivoFit": "No",
+    "vivoFitWhy": "Nothing in Georgia can currently buy what we sell. ARCHER has no notice, no challenge statement and no portal - Georgia Tech Research Institute scouts companies itself - its stated focus is innovation and AI to improve healthcare efficiencies, and all Year 1 awards were committed on Aug 27. The $51M Consumer Engagement line extends the state health plan's existing wellness platform. The open notices are nursing mannequins and medical residencies. The plan names no older-adult line. This flips if Telehealth Enhancements is reissued or ARCHER opens a Year 2 track; until then the relationship is the only asset.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "ARCHER Tech Catalyst Fund",
+        "url": "https://greathealth.georgia.gov/about-program/georgias-application/4-proposed-initiatives-and-use-funds/initiative-five",
+        "due": "No open call; Year 1 committed",
+        "desc": "$45M total, up to $3M per company, managed by Georgia Tech Research Institute. Consumer-facing, care-enabling rural health technology.",
+        "tags": [
+          "tech"
+        ]
+      },
+      {
+        "name": "Telehealth Enhancements",
+        "url": "https://greathealth.georgia.gov/find-funding-opportunities",
+        "due": "Withdrawn for Year 1; to be restructured",
+        "desc": "Formally withdrawn, with the state saying it intends to revisit it in a later funding year.",
+        "tags": [
+          "tech"
+        ]
+      },
+      {
+        "name": "Simulation Mannequins and Rural GME grants",
+        "url": "https://greathealth.georgia.gov/find-funding-opportunities",
+        "due": "Mannequins Nov 20, 2026; GME open",
+        "desc": "Nursing simulation hardware and graduate medical education. Not ours.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED - nothing open. SHPDA2604 Care Quality Information Exchange (CQIE) Operation and Modernization closed Oct 5, 2026 at 7:00 PM HST and was AWARDED Oct 7, 2026 to Hawaii Health Information Exchange for $7,499,850. HTH-PHN-1-26 closed Sept 22, 2026 with no award posted in HANDS (projected contract start Oct 28, 2026). SHPDA2603, SHPDA2609 and SHPDA2610 are all closed and awarded.",
@@ -401,10 +638,40 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "$189M routed through named intermediaries - the hospital planning agency, the primary care association, the medical school, the rural health association - rather than open vendor bids. Procurements that do run go through the HANDS portal.",
     "fitTags": [
-      "aging"
+      "aging",
+      "maha",
+      "tech"
     ],
     "fitBasis": "The CHW initiative names elder health, fall prevention and physical activity support.",
-    "sourceUrl": "https://rhtp.hawaii.gov/"
+    "sourceUrl": "https://rhtp.hawaii.gov/",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Hawaii routes money through named intermediaries rather than open vendor bids.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Narrow but real. The community health worker initiative names elder health, 'in particular, fall prevention and physical activity support', in a single sentence. The delivery model is the problem: the one procurement this year wanted an employer of record for six community health workers, which is staffing.",
+    "planNextSteps": [
+      "Watch the Pili Ola telehealth network, which funds virtual care access points in community centres, libraries and homes - a plausible host for live group classes."
+    ],
+    "rfps": [
+      {
+        "name": "Rural Infrastructure for Care Access - CHW model",
+        "url": "https://rhtp.hawaii.gov/funding-opportunities",
+        "due": "No open procurement",
+        "desc": "CHWs deployed for elder health, fall prevention and physical activity support.",
+        "tags": [
+          "aging",
+          "maha"
+        ]
+      },
+      {
+        "name": "Pili Ola Telehealth Network",
+        "url": "https://rhtp.hawaii.gov/funding-opportunities",
+        "due": "Not dated",
+        "desc": "Virtual care access points in schools, libraries, community centres and homes.",
+        "tags": [
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED - DHW states (page updated 9/22/26): \"All the funding opportunities for the first year of the Rural Health Transformation Program have closed.\" Final Year 1 closings: Crisis Intervention Training 9/21; SUD Prevention, Behavioral Health Prevention and Healthcare Infrastructure Support 9/18; Healthcare Career Advancement 9/17; Statewide Chronic Disease Education Network 9/15; Graduate Medical Education 9/14; School-Based Family Support Hubs, Chronic Disease Prevention and Cancer Screening, Idaho Cognitive Care Pathway Network, Cognitive Health Workforce Response Network and Diabetes Prevention and Management all 9/8.",
@@ -442,12 +709,52 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "Two separate channels with different rules: competitive RFPs through the state supplier portal, open to vendors, and subgrants restricted to Idaho rural providers. Year 1 ran a Statewide Chronic Disease Education Network, Chronic Disease Prevention and Cancer Screening, a Diabetes Prevention and Management Network, an Idaho Cognitive Care Pathway Network and a Cognitive Health Workforce Response Network.",
     "fitTags": [
-      "aging",
       "chronic",
-      "maha"
+      "maha",
+      "aging"
     ],
     "fitBasis": "Cognitive Care Pathway Network; diabetes prevention and chronic disease subgrants; Make America Healthy Again framing.",
-    "sourceUrl": "https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant"
+    "sourceUrl": "https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Subgrants are restricted to Idaho organizations, and the state's own FAQ says an out-of-state headquarters 'could be a challenge'. The route is being a local partner to a funded statewide lead.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Among the best-matched scopes in the country. The chronic disease prevention network lists structured physical activity classes, lifestyle behaviour-change series, community self-management, caregiver support, small group coaching and telehealth coaching platforms; the diabetes network pays local partners to deliver the National DPP and DSMES with older adults a priority population; and there are two cognitive health networks.",
+    "planNextSteps": [
+      "Get the lead subgrantee names from IdahoRHTP@dhw.idaho.gov - the leads run their own local subgrant rounds around January to April 2027.",
+      "Check whether we hold or can get CDC recognition for distance-learning DPP, which the diabetes network reports against.",
+      "Round 2 of about $183M waits on a legislative appropriation in January."
+    ],
+    "rfps": [
+      {
+        "name": "Chronic Disease Prevention and Cancer Screening (RHTPDIS1)",
+        "url": "https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/funding-opportunities-rural-health",
+        "due": "Closed Sept 8, 2026 - local subgrants ~Jan-Apr 2027",
+        "desc": "$2M to one or two statewide leads who pass funds to local partners for physical activity, self-management and coaching.",
+        "tags": [
+          "chronic",
+          "maha",
+          "aging"
+        ]
+      },
+      {
+        "name": "Diabetes Prevention and Management Network (RHTPDIA1)",
+        "url": "https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/funding-opportunities-rural-health",
+        "due": "Closed Sept 8, 2026 - local subgrants ~Jan-Apr 2027",
+        "desc": "$2M to leads who run competitive subgrants for National DPP and DSMES delivery.",
+        "tags": [
+          "chronic"
+        ]
+      },
+      {
+        "name": "Idaho Cognitive Care Pathway Network",
+        "url": "https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/funding-opportunities-rural-health",
+        "due": "Closed Sept 8, 2026",
+        "desc": "Dementia and cognitive care network; not reviewed in depth.",
+        "tags": [
+          "aging"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "June 17, 2026 (Hospital Transformation Planning Grant - CLOSED). No new competitive opportunity posted as of Oct 12, 2026, and the Year 1 Planning Grant awards remain unannounced. HFS anticipates Planning Grant awardee hospitals will apply for Years 2-5 competitive Implementation Grants by December 2026.",
@@ -486,10 +793,39 @@
     "whatItIs": "$193M, mostly hospital-centric. 97 rural hospitals hold planning grants of $356,853 each and submit implementation applications in December. Four pre-named collaboratives share up to $8M a year. A separate $80M fund distributes to rural hospitals through ICAHN for disease prevention.",
     "fitTags": [
       "chronic",
-      "aging"
+      "maha"
     ],
     "fitBasis": "AAAs encouraged to apply; an $80M fund buys chronic disease self-management and physical activity classes.",
-    "sourceUrl": "https://hfs.illinois.gov/info/fedresctr/ruralhealthtp.html"
+    "sourceUrl": "https://hfs.illinois.gov/info/fedresctr/ruralhealthtp.html",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Applicants are the eligible rural hospitals, partnered with their local health department. 'External vendor services' are an allowable cost.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "The hospital disease prevention fund names what we do as fundable - chronic disease self-management, diabetes prevention, nutrition and physical activity programmes - allows external vendors, and gives priority to programmes that partner with other organizations. The state plan also encourages Area Agencies on Aging to apply for hospital transformation money.",
+    "planNextSteps": [
+      "Ask Kathy Hull at ICAHN, Khull@icahn.org, when the disease prevention application window opens - it stays open only about ten working days.",
+      "Recruit three to five eligible hospitals now. Planning-grant hospitals submit implementation plans in December, so being written in is a December job."
+    ],
+    "rfps": [
+      {
+        "name": "ICAHN Hospital Disease Prevention Grant Program",
+        "url": "https://icahn.org/resources/rural-health-transformation-project/",
+        "due": "Opens on a date TBD, for ~10 working days",
+        "desc": "$14M in Year 1 for rural hospitals' evidence-based chronic disease prevention; project tiers up to $500K.",
+        "tags": [
+          "chronic",
+          "maha"
+        ]
+      },
+      {
+        "name": "Hospital Transformation Implementation Grants (Years 2-5)",
+        "url": "https://hfs.illinois.gov/info/fedresctr/ruralhealthtp.html",
+        "due": "Hospital applications due December 2026",
+        "desc": "$44M-$52M a year for planning-grant hospitals' new care models and regional partnerships.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "GROW Regional Grants closed July 1, 2026 and were AWARDED, launching Sept 1, 2026 ($120M across all eight regional coalitions). RESOLVED: the 11 statewide (non-regional) initiatives were NOT competitively solicited - the October 2026 program newsletter shows vendors and partners have been selected or contracted for all of them. No RHTP opportunity is open to outside applicants.",
@@ -518,8 +854,26 @@
     "bucketReason": "Three incidental aging mentions only. $600M already committed to eight regional coalitions whose conveners control who is in the proposal.",
     "bucketConfidence": "confirmed",
     "whatItIs": "GROW gave $120M to eight regional coalitions, whose conveners decide who is in the proposal, plus $87M to eleven statewide initiatives run by the health and family services agencies.",
-    "fitTags": [],
-    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to."
+    "fitTags": [
+      "chronic"
+    ],
+    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Regional coalition conveners control who is in each proposal.",
+    "vivoFit": "No",
+    "vivoFitWhy": "The money is committed to eight regional coalitions and eleven state-run initiatives, and the chronic disease line is cardiometabolic standards of care for clinicians, not programmes for patients.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "GROW regional grants",
+        "url": "https://www.in.gov/grow-rural-health/",
+        "due": "Awarded Sept 2026 - annual continuation",
+        "desc": "$120M to eight regional coalitions.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "No currently open RFP verified as of Nov 16, 2026",
@@ -554,13 +908,42 @@
     "whatItIs": "Iowa buys programming through open competitive state RFPs on iowagrants.gov and was first in the country to award RHTP vendor money, over $78.6M in January. Its Healthy Hometowns plan is built around chronic-disease hub-and-spoke networks: cardiovascular, cancer prevention, co-located Communities of Care sites and mobile integrated health.",
     "fitTags": [
       "aging",
-      "chronic",
-      "maha"
+      "chronic"
     ],
     "fitBasis": "Communities of Care requires sites to offer or refer to Walk With Ease, CDSME, DSMES and the National DPP, with AAAs named.",
     "directApply": true,
     "directApplyWhy": "Open competitive state RFPs; first state in the country to award RHTP vendor money.",
-    "sourceUrl": "https://hhs.iowa.gov/initiatives/healthy-hometowns-iowas-rural-health-transformation-plan"
+    "sourceUrl": "https://hhs.iowa.gov/initiatives/healthy-hometowns-iowas-rural-health-transformation-plan",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "The applicant must be the co-location site lead, physically located in rural Iowa. Awardees must subcontract at least two service delivery entities, which is our opening.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "The single best-matched requirement in any state plan. Communities of Care sites are required to offer or refer clients to DSMES, the National Diabetes Prevention Program, Chronic Disease Self-Management Education and Walk With Ease, with Area Agencies on Aging named as a co-location partner and dual-eligible clients tracked. Four of our programmes written into a mandatory requirement.",
+    "planNextSteps": [
+      "Find the roughly seven Communities of Care site leads - awards were due around Oct 16 - and offer a referral or subcontract for virtual self-management groups tied to their site metrics.",
+      "Introduce Vivo to the Iowa Primary Care Association, the Communities of Care technical assistance provider.",
+      "Browser check of iowagrants.gov for PHTHO and COMPADM postings: it cannot be read by automated checks and may hide a live RFP."
+    ],
+    "rfps": [
+      {
+        "name": "Communities of Care Co-Location Program (RFP COMPADM26005)",
+        "url": "https://hhs.iowa.gov/about/funding-opportunities",
+        "due": "Closed Sept 1, 2026 - awardees are the route",
+        "desc": "About $39.6M in the first year for about seven rural co-location pilots that must offer or refer to named evidence-based programmes.",
+        "tags": [
+          "aging",
+          "chronic"
+        ]
+      },
+      {
+        "name": "Cardiovascular Health Hub and Spoke (RFP COMPADM26007)",
+        "url": "https://hhs.iowa.gov/about/funding-opportunities",
+        "due": "Applications were due Nov 17, 2026",
+        "desc": "Rural cardiovascular networks; awardees must carry out chronic disease prevention and management activities. Only rural Iowa organizations may lead or join.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: Community Health Worker + Accountable Food is Medicine (CHW+AFIM) and Non-Emergency Medical Transportation due Nov 18, 2026 12:00 PM CT. CLOSED: Regional Partnership Grant Program ($44M) and Transformative Capital Investment ($11M), due Nov 13, 2026.",
@@ -598,10 +981,32 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "KDHE runs grant rounds for Kansas rural providers only. Year 2 put about $55M out across four grants, including a combined Community Health Worker and Accountable Food is Medicine grant - CHWs on care teams, plus medically tailored meals and produce prescriptions.",
     "fitTags": [
-      "chronic",
-      "aging"
+      "chronic"
     ],
-    "fitBasis": "CHWs on care teams for chronic disease; PACE expansion in two regions. The food half is not ours."
+    "fitBasis": "CHWs on care teams for chronic disease; PACE expansion in two regions. The food half is not ours.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Applicants must be Kansas rural providers - hospitals, clinics, health departments, long-term care facilities.",
+    "vivoFit": "No",
+    "vivoFitWhy": "The grant that looked closest pairs community health workers with food as medicine. The CHW half is staffing inside clinical care teams and the other half is medically tailored meals and produce prescriptions, neither of which is our product. Kansas's only aging line is PACE expansion in two regions.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Community Health Worker + Accountable Food is Medicine",
+        "url": "https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program",
+        "due": "Nov 18, 2026, noon CT",
+        "desc": "Part of about $55M in Year 2 grants to Kansas rural providers.",
+        "tags": [
+          "chronic"
+        ]
+      },
+      {
+        "name": "Regional Partnership and Transformative Capital grants",
+        "url": "https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program",
+        "due": "Closed Nov 13, 2026",
+        "desc": "$44M and $11M for provider partnerships and capital.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "Rolling: Definitive Mobile Dental Services open until funds are exhausted; Rural Dental Access considered on a rolling basis with Year 1 funding not guaranteed. Rapid Response to Recovery Transportation Support closed Nov 6, 2026.",
@@ -631,10 +1036,31 @@
     "bucketConfidence": "unconfirmed",
     "whatItIs": "Five initiatives - chronic care, maternal and infant health, rapid response to recovery, rural dental access and integrated emergency response. The relevant one is Rural Community Hubs for Chronic Care Innovation, at up to $3M per Area Development District for obesity and diabetes work, plus $500K for hub operations.",
     "fitTags": [
-      "chronic"
+      "chronic",
+      "maha"
     ],
     "fitBasis": "Rural Community Hubs target obesity and diabetes with physical activity and digital self-management.",
-    "sourceUrl": "https://ruralhealthplan.ky.gov"
+    "sourceUrl": "https://ruralhealthplan.ky.gov",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Hub leads must reside in their Area Development District with three years of physical presence. We would be a subrecipient or contractor to a hub lead.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "On chronic disease, not aging. Each hub funds two to four evidence-informed obesity and diabetes initiatives that integrate nutrition, physical activity programmes and digital self-management tools. A flag on our own records: our note says the hubs name Area Agencies on Aging and senior centres, but Kentucky's CMS narrative contains no aging language at all, so treat that claim as unverified.",
+    "planNextSteps": [
+      "Ask rchgrant@healthy-ky.org for the hub lead contacts in Big Sandy, Lake Cumberland and Purchase, and whether initiative subawards are still being chosen.",
+      "Pitch the hub leads a virtual diabetes prevention and physical activity initiative with metrics ready for their reporting."
+    ],
+    "rfps": [
+      {
+        "name": "Rural Community Hubs for Chronic Care Innovation - initiative subawards",
+        "url": "https://healthy-ky.org/rch",
+        "due": "Hub leads chosen June 2026 - subawards in progress",
+        "desc": "Up to $3M per region for obesity and diabetes initiatives, plus $500K for hub operations.",
+        "tags": [
+          "chronic",
+          "maha"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "All Budget Year 1 NOFOs closed (last was Regional Care Conveners and Food is Medicine, Aug 14, 2026). No Budget Year 2 NOFO posted.",
@@ -672,12 +1098,44 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "$208M in Year 1 across five initiatives, including 'Make Rural America Healthy Again' for physical activity and nutrition. Separately, Louisiana Economic Development runs a $20M-a-year Rural Tech Catalyst Fund that pays companies directly, up to $3M each.",
     "fitTags": [
-      "maha",
-      "aging"
+      "tech",
+      "chronic",
+      "maha"
     ],
     "fitBasis": "Make Rural America Healthy Again funds physical activity and nutrition; PACE retrofits. Only the activity half is ours.",
     "directApply": true,
-    "directApplyWhy": "Catalyst fund pays companies directly, no local partner required."
+    "directApplyWhy": "Catalyst fund pays companies directly, no local partner required.",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "The catalyst fund pays companies directly with no Louisiana partner required. The separate health department grants do need a Louisiana provider relationship.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Same motion as Virginia's CareIQ and Nebraska's NETECH: consumer-facing, technology-driven solutions for preventing and managing chronic disease, with a stated preference for solutions that directly deliver care. Up to $3M per company is the largest direct cheque available anywhere.",
+    "planNextSteps": [
+      "Sign up for Cohort 2 updates at la.io/rural today.",
+      "Draft the application before the window opens - windows have run about 30 days and Louisiana is over a month late naming Cohort 1 from 165+ applicants, so the timing will be abrupt.",
+      "Decide what we pitch: Eric's note is that it should differ from the Virginia and Nebraska submissions."
+    ],
+    "rfps": [
+      {
+        "name": "Rural Tech Catalyst Fund, Cohort 2",
+        "url": "https://la.io/rural/",
+        "due": "'Opening soon' - no date published",
+        "desc": "$20M a year run by Louisiana Economic Development; up to $3M per company, non-dilutive, paid against milestones.",
+        "tags": [
+          "tech",
+          "chronic"
+        ]
+      },
+      {
+        "name": "Initiative 4 grants: Make Rural America Healthy Again (Budget Year 2)",
+        "url": "https://ldh.la.gov/page/rhtp-funding-opportunities",
+        "due": "Not posted; stated to recur annually",
+        "desc": "Physical activity and nutrition interventions through community partnerships. Year 1 ran as Food is Medicine and Regional Care Conveners notices - only the physical activity half is ours.",
+        "tags": [
+          "maha",
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: Community Health Worker RFA due Nov 30, 2026 5:00 PM ET. A 13-opportunity wave of MCD-administered digital health solicitations opened late Sept/early Oct and all closed by Nov 9.",
@@ -715,11 +1173,38 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "$190M. MCD Global Health runs the digital health solicitations, the University of New England runs community health worker and evidence-based practice work, and the state says it intends to buy this by RFP rather than formula-fund it. A Community Health Worker RFA is open to Nov 30.",
     "fitTags": [
-      "aging",
-      "tech"
+      "chronic",
+      "aging"
     ],
     "fitBasis": "Older adults a declared priority population; geriatric telehealth contracted by RFP.",
-    "sourceUrl": "https://www.maine.gov/dhhs/ruralhealth"
+    "sourceUrl": "https://www.maine.gov/dhhs/ruralhealth",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Site grants require organizations operating in Maine, and vendor agreements require being authorized to do business in Maine.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Older adults are a declared priority population in the oldest state in the country, and Maine's plan pays a vendor to deliver evidence-based practice trainings and implementation funding across health areas. The open notice is community health worker deployment, which is staffing rather than our programme, so the fit is the evidence-based practice solicitation that has not posted.",
+    "planNextSteps": [
+      "Ask when the University of New England's evidence-based practice solicitation posts and whether out-of-state virtual providers may apply.",
+      "Line up two or three rural Maine partners - an Area Agency on Aging, an FQHC, a hospital - ready to co-propose."
+    ],
+    "rfps": [
+      {
+        "name": "UNE evidence-based practice activity proposals",
+        "url": "https://www.maine.gov/dhhs/ruralhealth",
+        "due": "Announced July 2026 - no timeline published",
+        "desc": "Part of a $12M UNE partnership; funds evidence-based practice training and implementation, with half of trainees from rural organizations.",
+        "tags": [
+          "chronic",
+          "aging"
+        ]
+      },
+      {
+        "name": "Community Health Worker RFA",
+        "url": "https://www.une.edu/cphp/chw-rfa",
+        "due": "Nov 30, 2026, 5:00 PM ET",
+        "desc": "CHW integration, training and deployment for rural Maine organizations. Staffing, not programming.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "CRISP Rural Health Connectivity Program is first-come, first-served while funds last - no closing date. Workforce Data Clearinghouse solicitation BPM058186 closed Aug 26, 2026.",
@@ -753,11 +1238,50 @@
     "bucketConfidence": "unconfirmed",
     "whatItIs": "$168M across three pillars for 18 rural counties. Money is issued by partner organizations - the health information exchange, the hospital commission, the labor department, county health departments - rather than by the state directly. Pillar 2 is sustainable access and innovative care; Pillar 3 is nutrition.",
     "fitTags": [
-      "aging",
-      "tech"
+      "chronic",
+      "tech",
+      "aging"
     ],
     "fitBasis": "Pillar 2 names rural AAAs; mobile health and CRISP connectivity lines.",
-    "sourceUrl": "https://health.maryland.gov/pophealth/Pages/Rural-Health-Transformation-Program.aspx"
+    "sourceUrl": "https://health.maryland.gov/pophealth/Pages/Rural-Health-Transformation-Program.aspx",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Funds are issued by partner organizations to regional partnerships with a single lead applicant; only partnerships of several organizations are eligible.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Moderate. The plan calls for technology-enabled chronic disease management for Maryland's older rural population and names technology vendors and Area Agencies on Aging among expected collaborators. The weak spot is that the AAA language is about their financial sustainability, not buying programming, and Pillar 3 is nutrition, which is not ours.",
+    "planNextSteps": [
+      "Budget Period 2 opportunities were scheduled to be issued by partners between November 2026 and March 2027 - ask mdh.transformruralhealth@maryland.gov which regions and lead health departments run them.",
+      "Find a regional lead early: the one county RFP we saw ran three weeks from release to deadline, too short to start a partner search cold."
+    ],
+    "rfps": [
+      {
+        "name": "Budget Period 2 regional Mobile Health RFPs",
+        "url": "https://health.maryland.gov/pophealth/Pages/RHTP-Procurement.aspx",
+        "due": "Expected Nov 2026 - Mar 2027",
+        "desc": "$23M line across 18 rural local health departments; community-based care teams, micro access points and CHW integration aimed at chronic disease.",
+        "tags": [
+          "chronic",
+          "tech"
+        ]
+      },
+      {
+        "name": "Pillar 2 Transformation Funds",
+        "url": "https://health.maryland.gov/pophealth/Pages/Rural-Health-Transformation-Program.aspx",
+        "due": "BP2 round not posted",
+        "desc": "$73M in Year 1 for service expansion, behavioral health and innovative care, including technology-enabled chronic disease management for older rural residents.",
+        "tags": [
+          "chronic",
+          "aging",
+          "tech"
+        ]
+      },
+      {
+        "name": "CRISP Rural Health Connectivity Program",
+        "url": "https://health.maryland.gov/pophealth/Pages/RHTP-Procurement.aspx",
+        "due": "Rolling, while funds last",
+        "desc": "Health information exchange connectivity for rural providers. IT, not ours.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED: Rural Partners RFA (BD-27-1039) bid opening Nov 9, 2026 5:00 PM ET, extended from Oct 26 by Amendment 2. No award announcement yet.",
@@ -792,10 +1316,39 @@
     "whatItIs": "$162M in Year 1 against an $800M five-year plan, for six designated rural hospitals plus rural clinics and practices. The Rural Partners RFA closed Nov 9 after being extended from Oct 26, and awards are not yet announced.",
     "fitTags": [
       "aging",
-      "tech"
+      "chronic"
     ],
     "fitBasis": "Healthy Rural Communities names aging adults as a programme population; Rural Digital Health Sandbox.",
-    "sourceUrl": "https://www.mass.gov/rural-health-transformation-program-rhtp"
+    "sourceUrl": "https://www.mass.gov/rural-health-transformation-program-rhtp",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "The Rural Partners RFA invited 'qualified rural entities' - Massachusetts organizations. We are a service they buy.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "ATI's strongest second-tier state. Healthy Rural Communities names aging adults as a programme population, the plan names Walk With Ease and Mass in Motion, and Councils on Aging and Area Agencies on Aging are named stakeholders. Nothing is open to us until the vendor procurements post.",
+    "planNextSteps": [
+      "Ask Amy Butcher, amy.butcher@mass.gov, when the vendor and technical-assistance procurements will post.",
+      "Start conversations with rural Councils on Aging so Vivo can be a named partner when Rural Partner awardees begin contracting."
+    ],
+    "rfps": [
+      {
+        "name": "RHTP Rural Partners RFA (BD-27-1039)",
+        "url": "https://www.mass.gov/rural-health-transformation-program-rhtp",
+        "due": "Closed Nov 9, 2026 - awards pending",
+        "desc": "Single front door for rural Massachusetts entities across six initiatives, including community chronic disease prevention and programmes for aging adults.",
+        "tags": [
+          "aging",
+          "chronic"
+        ]
+      },
+      {
+        "name": "Vendor and technical-assistance procurements",
+        "url": "https://www.mass.gov/rural-health-transformation-program-rhtp",
+        "due": "Promised - not posted",
+        "desc": "Separate procurements the RFA said may follow.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED: Year 1 GFO round including DHME-2027 (due Aug 11, 2026) is awarded. Award period Oct 1, 2026 - Sept 30, 2027. No Year 2 solicitation posted.",
@@ -841,14 +1394,52 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "$173M across five initiatives. The Chronic Disease Collaborative Care Fund made 30 awards for diabetes, hypertension and chronic disease work. The Promoting Healthy Aging in Rural Communities Blueprint went entirely to Area Agencies on Aging and PACE organizations. Michigan also runs a rural technology catalyst fund and put $6.43M of technology money out on Nov 13.",
     "fitTags": [
-      "aging",
       "chronic",
+      "aging",
       "tech"
     ],
     "fitBasis": "Promoting Healthy Aging Blueprint, Chronic Disease Collaborative Care Fund, and a rural tech catalyst fund.",
     "directApply": true,
     "directApplyWhy": "Grant notices name for-profit organizations as eligible, with no in-state rule.",
-    "sourceUrl": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program"
+    "sourceUrl": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "Michigan's grant notices name for-profit organizations as eligible with no in-state rule. A Michigan co-applicant still strengthens a bid, and every Year 1 award went to a Michigan organization.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "The best combination of fit and access in the country. Michigan funds a Promoting Healthy Aging in Rural Communities Blueprint and a Chronic Disease Collaborative Care Fund, both aimed at exactly the organizations that buy group programming - Area Agencies on Aging, PACE, community action agencies. It is also the one state where we could plausibly apply as the lead.",
+    "planNextSteps": [
+      "Watch for Year 2 grant notices; Year 1 awards run to Sept 30, 2027, so they should post well before then. Michigan's newsletter is the signal.",
+      "Find out whether a company can lead on the rural technology money LEO announced Nov 13.",
+      "The published award list is a sales list: 30 chronic disease awardees and 8 healthy aging awardees are standing up programmes now."
+    ],
+    "rfps": [
+      {
+        "name": "DHME-2027: Diabetes and Hypertension Management and Education",
+        "url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program",
+        "due": "Closed Aug 11, 2026 - outcome pending",
+        "desc": "About $2.5M for diabetes and hypertension management through local partnerships. Vivo is written into WellWise's application.",
+        "tags": [
+          "chronic"
+        ]
+      },
+      {
+        "name": "Promoting Healthy Aging in Rural Communities Blueprint",
+        "url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program/rhtp-subrecipients",
+        "due": "Awarded - Year 2 round not posted",
+        "desc": "$5M for care transitions through AAAs, rural PACE and home and community-based services. Year 1 went to six AAAs and two PACE organizations.",
+        "tags": [
+          "aging"
+        ]
+      },
+      {
+        "name": "Rural technology funding (Office of Rural Prosperity)",
+        "url": "https://www.michigan.gov/leo/news/2026/11/13/funding-announced-to-improve-health-care-in-rural-communities",
+        "due": "Announced Nov 13, 2026",
+        "desc": "About $6.43M for technology and technology-enabled projects in rural Michigan. Whether a company can lead is unknown.",
+        "tags": [
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "No open opportunities. MDH's grants page now states plainly: 'There are no current open grants and contracts opportunities.' Both September RFPs (Rural Maternity Care System analysis, SWIFT 2000018576, closed Sept 11; Rural Telehealth Services, SWIFT 2000018606, closed Sept 14) have been correctly refiled under 'Past Grants & Contracts Notices'. Awards still pending on both.",
@@ -878,11 +1469,30 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "$178M. Year 1 bought workforce and infrastructure through state RFPs - clinician burnout, a tele-buprenorphine line, telehealth access points, residencies and fellowships. Nothing has been open since August.",
     "fitTags": [
-      "aging",
-      "chronic"
+      "chronic",
+      "aging"
     ],
     "fitBasis": "Community care hubs referring to evidence-based self-management; names Walk With Ease.",
-    "sourceUrl": "https://www.health.state.mn.us/facilities/ruralhealth/ruraltrans/index.html"
+    "sourceUrl": "https://www.health.state.mn.us/facilities/ruralhealth/ruraltrans/index.html",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Year 1 eligibility was consistently in-state and institutional.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Moderate. Chronic disease work routes through community care hubs that refer to evidence-based self-management programmes, the plan names Walk With Ease, and the Minnesota Healthy Aging Council is a governing advisory body. Nothing has been open since August and no Year 2 slate is posted.",
+    "planNextSteps": [
+      "Watch for a repeat of the community and clinical linkages technical assistance contract, which ran through the state supplier portal rather than as a provider-only grant."
+    ],
+    "rfps": [
+      {
+        "name": "Community care hubs and clinical-community linkages",
+        "url": "https://www.health.state.mn.us/facilities/ruralhealth/ruraltrans/grants.html",
+        "due": "Nothing open since Aug 2026",
+        "desc": "Hub model referring rural residents to evidence-based chronic disease self-management programmes.",
+        "tags": [
+          "chronic",
+          "aging"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "BRIDGE Innovative Pilot Program: DATE CONFLICT - the website says Nov 17, 2026 5:00 PM CST, the NOFO's own funding table says Nov 16, 2026. Treat as closing now. EHR Replacement Program due Nov 23, 2026 5:00 PM CST. Statewide HIE/HDU RFP due November 2026, exact day not captured.",
@@ -922,7 +1532,30 @@
     "fitTags": [
       "chronic"
     ],
-    "fitBasis": "Pilot objective 3 names chronic disease care; telehealth alone is explicitly ineligible."
+    "fitBasis": "Pilot objective 3 names chronic disease care; telehealth alone is explicitly ineligible.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Applicants must already be serving Mississippi rural patients, and the applicant class is licensed providers or nonprofits.",
+    "vivoFit": "No",
+    "vivoFitWhy": "The pilot explicitly rules out telehealth that 'simply adds telehealth services to an existing practice', the named populations are children, families and maternal health rather than older adults, and we do not serve Mississippi patients today, which is itself an eligibility test.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "BRIDGE Innovative Pilot Program",
+        "url": "https://mississippirhtp.com/funding/",
+        "due": "Closing Nov 16-17, 2026",
+        "desc": "$16M, capped at $2M per organization, for innovative rural care pilots.",
+        "tags": [
+          "chronic"
+        ]
+      },
+      {
+        "name": "EHR Replacement Program",
+        "url": "https://mississippirhtp.com/funding/",
+        "due": "Nov 23, 2026",
+        "desc": "EHR replacement. Not ours.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: Workforce Retention and Enablers provider proposal window Nov 2 - Nov 22, 2026 (through your local ToRCH Care Hub). Digital Backbone Provider Application open, no published deadline.",
@@ -976,7 +1609,30 @@
     ],
     "fitBasis": "Digital Backbone Category 4 invites custom digital health proposals.",
     "directApply": true,
-    "directApplyWhy": "A dedicated RHTP vendor page tells vendors to register and bid."
+    "directApplyWhy": "A dedicated RHTP vendor page tells vendors to register and bid.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Grant money flows through 27 regional hubs to Missouri providers; a hub decides who is in.",
+    "vivoFit": "No",
+    "vivoFitWhy": "The newest money is workforce retention - housing, transport, training - and the Digital Backbone is a provider technology programme sorted by digital maturity, the same shape as the North Carolina fund we ruled out. Its 'Digital Innovation' category is the only possible hook and would need a Missouri provider to carry it. No aging line.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Digital Backbone Provider Application",
+        "url": "https://dss.mo.gov/mhd/rural-health",
+        "due": "Open - no deadline; webinar Nov 17",
+        "desc": "Provider technology funding in four digital-maturity categories; Category 4 allows custom digital health proposals.",
+        "tags": [
+          "tech"
+        ]
+      },
+      {
+        "name": "Workforce Retention and Enablers",
+        "url": "https://dss.mo.gov/mhd/rural-health",
+        "due": "Provider proposals Nov 2-22, 2026",
+        "desc": "About $11M through the hubs for recruiting and retaining rural staff.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED - all of them. Community Health Aide Program (CHAP) Technical Assistance RFP, DPHHS-RFP-2027-0700NAV, closed Oct 1, 2026 at 2 p.m. MDT as scheduled. Also closed: Emergency Medical Dispatch System RFP (DPHHS-RFP-2027-0692AB, Sept 23); DPHHS Community Integrated Health (CIH) Pilot Site Grant (Sept 15); Rural Health Care Workforce Retention RFI (DLI-RFI-2027-0091, Aug 31); DLI Rural Physician/APP Recruitment RFP (DLI-RFP-2026-0088DL, July 16); RHTP EMS Equipment Grants ($4M, Aug 15).",
@@ -1006,7 +1662,21 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "$233M in Year 1 and $473M to date, allocated through stakeholder-shaped agreements rather than competition. Montana has published no RFA, no eligibility rules and no procurement page at all.",
     "fitTags": [],
-    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to."
+    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Montana has published no eligibility rules or procurement channel at all.",
+    "vivoFit": "No",
+    "vivoFitWhy": "Community Health and Prevention is a named initiative, but there is no RFA, no eligibility criteria and no procurement page to assess. Nothing to act on until something posts.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "No solicitations published",
+        "url": "https://dphhs.mt.gov/RuralHealthTransformationProgram/",
+        "due": "Workforce webinar Jan 28, 2027",
+        "desc": "Funds are allocated through stakeholder agreements rather than open competition.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED: NETECH Rural Health Technology Catalyst Fund Cohort 1 opened Oct 23 and closed Nov 9, 2026 11:59 PM CST. Vivo applied. No decision date and no Cohort 2 published. Targeted RFA 2.5 (CAH-to-REH conversion) shows Applications Due: Ongoing.",
@@ -1045,11 +1715,31 @@
     "whatItIs": "NETECH, the Rural Health Technology Catalyst Fund, run by Invest Nebraska. Pays companies $250,000 to $1M directly against milestones, no local partner required. Cohort 1 closed Nov 9.",
     "fitTags": [
       "tech",
-      "aging"
+      "chronic"
     ],
     "fitBasis": "NETECH funds consumer-facing health technology; ALF memory care incentives.",
     "directApply": true,
-    "directApplyWhy": "NETECH is open to all U.S.-based and U.S.-owned entities."
+    "directApplyWhy": "NETECH is open to all U.S.-based and U.S.-owned entities.",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "NETECH is open to all U.S.-based and U.S.-owned entities, with Nebraska companies prioritized. Awardees must later provide agreements with the Nebraska sites where the technology is deployed.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Already applied. NETECH is Nebraska's rural tech catalyst fund.",
+    "planNextSteps": [
+      "No decision date is published. Worth one question through the NETECH question form.",
+      "No Cohort 2 is announced; Nebraska says more opportunities will follow in each funding year."
+    ],
+    "rfps": [
+      {
+        "name": "NETECH Rural Health Technology Catalyst Fund, Cohort 1",
+        "url": "https://nebraskaruralhealthtech.com/",
+        "due": "Applied Nov 9, 2026 - under review",
+        "desc": "$250,000 to $1M grants, not equity, paid against three milestones. Run by Invest Nebraska.",
+        "tags": [
+          "tech",
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: Children's Behavioral Health Workforce Recruitment and Rural Access Program due Dec 10, 2026; Medicaid Reentry RHIT/FLEX due Dec 15, 2026. All ten Year 1 RFAs are closed.",
@@ -1097,7 +1787,34 @@
     ],
     "fitBasis": "Rural Health Outcomes Accelerator funds evidence-based chronic disease work; first state PACE.",
     "directApply": true,
-    "directApplyWhy": "Confirmed that out-of-state vendors may apply with a signed intent to contract."
+    "directApplyWhy": "Confirmed that out-of-state vendors may apply with a signed intent to contract.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Out-of-state vendors may apply directly, but only with a signed intent to contract, letter of agreement or contract with a rural Nevada provider.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Vivo holds a Nevada award, and the Rural Health Outcomes Accelerator funds evidence-based chronic disease prevention and management with community and hybrid delivery. Nevada's own Q&A confirmed a virtual evidence-based chronic disease programme with no rural office can apply.",
+    "planNextSteps": [
+      "Read Nevada's Budget Period 2 Applicant Guide, linked from the NVHA About page - it likely holds the BP2 schedule. The December dates we carried earlier could not be verified and are removed.",
+      "Have a rural provider intent-to-contract in hand before the next Accelerator RFA posts."
+    ],
+    "rfps": [
+      {
+        "name": "Rural Health Outcomes Accelerator, Budget Period 2",
+        "url": "https://www.nvha.nv.gov/RHTP/rht-nofos/",
+        "due": "Not posted - NVHA says more opportunities are coming",
+        "desc": "Evidence-based chronic disease prevention and management; BP1 tiers ran $100K to $2.5M. BP2 share rises from 15% to 21% of Nevada's award.",
+        "tags": [
+          "chronic",
+          "aging"
+        ]
+      },
+      {
+        "name": "Children's Behavioral Health Workforce and Medicaid Reentry RFAs",
+        "url": "https://www.nvha.nv.gov/RHTP/rht-nofos/",
+        "due": "Dec 10 and Dec 15, 2026",
+        "desc": "Children's behavioral health workforce recruitment, and justice-involved reentry. Not ours.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "ROLLING: Critical Access and Acute Care Hospital RFA - priority deadline Nov 12, 2026 passed, now rolling while funds last. Primary Care Access RFA - initial deadline Oct 15 passed, now rolling. T-TAC Request for Qualifications - rolling, no deadline.",
@@ -1135,14 +1852,54 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "Run by the Foundation for Healthy Communities under the GO-NORTH brand, not by the state directly. Two RFAs are open on a rolling basis - critical access and acute care hospitals, and rural primary care - plus a rolling qualifications list for consultants. $204M in Year 2 brings the total over $408M.",
     "fitTags": [
-      "aging",
       "chronic",
+      "aging",
+      "maha",
       "tech"
     ],
     "fitBasis": "Lifestyle programmes, falls risk assessment and virtual-first care named in the primary care RFA.",
     "directApply": true,
     "directApplyWhy": "The T-TAC consultant qualifications list is open to out-of-state firms.",
-    "sourceUrl": "https://www.gonorth.nh.gov/program-overview"
+    "sourceUrl": "https://www.gonorth.nh.gov/program-overview",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Partner organizations must be in New Hampshire; a vendor or contractor may be out of state. So we are a paid contractor to an NH lead, not a funded partner.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "The primary care RFA names our work as eligible care models: lifestyle programmes for physical activity, linking patients to community wellness and disease-management programmes, chronic disease self-management support, health coaching and fall risk assessments. The Home Health and Community Care RFA would suit us better still but has slipped since mid-October.",
+    "planNextSteps": [
+      "Ask GO-NORTH-FHC@healthynh.org for introductions to primary care leads building regional partnerships - both RFAs are rolling while funds last.",
+      "Watch for the Home Health and Community Care RFA."
+    ],
+    "rfps": [
+      {
+        "name": "Rural Primary Care Access RFA",
+        "url": "https://healthynh.org/initiatives/rural-health-transformation-program/",
+        "due": "Rolling while funds last",
+        "desc": "About $15.5M for rural primary care regional partnerships; lifestyle programmes, self-management support and falls risk are eligible.",
+        "tags": [
+          "chronic",
+          "aging",
+          "maha"
+        ]
+      },
+      {
+        "name": "Home Health and Community Care RFA",
+        "url": "https://healthynh.org/initiatives/rural-health-transformation-program/",
+        "due": "'Coming soon' since mid-October",
+        "desc": "No date, amount or eligibility published yet.",
+        "tags": [
+          "aging"
+        ]
+      },
+      {
+        "name": "Critical Access and Acute Care Hospital RFA",
+        "url": "https://healthynh.org/initiatives/rural-health-transformation-program/",
+        "due": "Rolling; priority deadline passed Nov 12",
+        "desc": "Hospital operations, telehealth and outpatient expansion. A component role at most.",
+        "tags": [
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "All closed - January 20, 2026 (DOHP26RHT, DFHS26RDI); February 17, 2026 (Building Rural Hospital Capacity OHCF26RHC); April 8, 2026 (EMS/Dispatch DPRE26AED); April 10, 2026 (Improving Chronic Disease Outcomes DOHP26CDO); April 15, 2026 (Community Health Workers); April 27, 2026 (Doula Integration)",
@@ -1180,7 +1937,27 @@
       "aging",
       "chronic"
     ],
-    "fitBasis": "Vivo's own award: virtual exercise for rural older adults to cut fall risk and isolation."
+    "fitBasis": "Vivo's own award: virtual exercise for rural older adults to cut fall risk and isolation.",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "Vivo holds the award directly.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "This is our own funded programme - virtual exercise for rural older adults to cut fall risk and isolation.",
+    "planNextSteps": [
+      "Nothing is published about Year 2 selection. Ask our state programme officer directly.",
+      "New Jersey took the largest Year 2 cut of any state, down 3.3% to $142.3M, so expect a tighter round."
+    ],
+    "rfps": [
+      {
+        "name": "Year 2 continuation of Vivo's current award",
+        "url": "https://www.nj.gov/rural-health-transformation/",
+        "due": "No Year 2 process published",
+        "desc": "Year 1 award under Advancing Technology, Prevention and Workforce Capacity in Rural NJ. Future competitive funding 'will be posted as available'.",
+        "tags": [
+          "aging",
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "Rural Health Innovation Fund RFP #27-630-1000-0004 closed (July 27 per the RFP, Aug 3 per the landing page). Rooted in New Mexico workforce RFP closed Sept 4, 2026. Center for Rural Health Strategy and Innovation RFP #27-630-1000-0003 has no deadline published - the PDF must be opened to tell open from closed.",
@@ -1216,7 +1993,21 @@
     "fitTags": [],
     "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to.",
     "directApply": true,
-    "directApplyWhy": "Run as state procurement RFPs, subject to an in-state resident-business preference."
+    "directApplyWhy": "Run as state procurement RFPs, subject to an in-state resident-business preference.",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "Run as state procurement RFPs, subject to an in-state resident-business preference.",
+    "vivoFit": "No",
+    "vivoFitWhy": "All known solicitations are closed, the plan names no aging or programming line, and the Innovation Fund scope was never matched to our offering.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Rural Health Innovation Fund",
+        "url": "https://www.hca.nm.gov/lookingforinformation/open-rfps/",
+        "due": "Closed summer 2026",
+        "desc": "$47M for rural, frontier and tribal health projects.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "BP1 closed July 2026 (sources conflict: July 9 per the guidance, July 14 per the press release). BP2 RCHI funding guidance was expected November 2026 but could not be confirmed.",
@@ -1258,7 +2049,36 @@
       "aging"
     ],
     "fitBasis": "Prevention and chronic disease evidence-based interventions are allowable; BP2 widens to long-term care.",
-    "sourceUrl": "https://health.ny.gov/facilities/transforming_rural_healthcare/"
+    "sourceUrl": "https://health.ny.gov/facilities/transforming_rural_healthcare/",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "The lead must be a 501(c)(3) or municipal hospital in one of 47 rural counties. Partners and subcontractors need not be in a rural county.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Moderate. Allowable costs include prevention and chronic disease evidence-based interventions, the target measures are preventable ED visits and readmissions - which falls prevention and self-management move - and Budget Period 2 widens participation to long-term care. Scoring priority goes to maternal health, behavioral health and SUD, so we are a component of someone's project, not the centrepiece.",
+    "planNextSteps": [
+      "Browser check for the Budget Period 2 funding guidance - it was expected in November and the state site blocks automated checks.",
+      "Pick rural leads from the Round 1 awardee list with network or aging-care profiles and get named in their BP2 application. Demand ran about two to one in Round 1."
+    ],
+    "rfps": [
+      {
+        "name": "Rural Community Health Integration, Budget Period 2",
+        "url": "https://health.ny.gov/facilities/transforming_rural_healthcare/",
+        "due": "Guidance expected Nov 2026 - unconfirmed",
+        "desc": "Implementation grants to rural hospital-led projects; BP2 extends eligibility to other provider types including long-term care.",
+        "tags": [
+          "chronic",
+          "aging"
+        ]
+      },
+      {
+        "name": "Round 1 awardees",
+        "url": "https://health.ny.gov/facilities/transforming_rural_healthcare/awardees.htm",
+        "due": "Projects complete by June 30, 2027",
+        "desc": "$76.2M across 90 awards. Awardees may add vendors during the contract period with state approval.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: Rural Health Innovation Fund full application due Dec 7, 2026 11:59 PM. Readiness intake closed Oct 31, 2026. Awards anticipated January 2027.",
@@ -1300,12 +2120,54 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "Two separate tracks, and the distinction matters. NC ROOTS puts money through six regional hubs that fund local partners for physical activity and chronic disease work. The Rural Health Innovation Fund is something else: about $20M a year, run by the state IT and broadband department, to help rural providers buy technology in five tiers.",
     "fitTags": [
+      "tech",
       "aging",
       "chronic",
-      "tech"
+      "maha"
     ],
     "fitBasis": "Physical activity programmes with senior centres, near-duals aging-in-place, and RHIF buying solutions.",
-    "sourceUrl": "https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program"
+    "sourceUrl": "https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Every North Carolina route runs through an in-state organization: a regional hub's local partner, or a rural provider.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "But only through NC ROOTS, not the fund with the deadline. The state plan writes in evidence-based physical activity programmes delivered with schools, YMCAs and senior centres, and a 'near-duals' service to help Medicare patients age in place. ATI rated North Carolina the best of our relationship states on both priorities and partners. The Innovation Fund is a different thing entirely and is not ours.",
+    "planNextSteps": [
+      "Approach the NC ROOTS hub leads, who hold the chronic disease and aging-in-place money: Vaya (Region 3), UNC Health (Region 4), Impact Health (Region 1), Access East (Region 6), Trillium (Regions 2 and 5).",
+      "Ask each when their subgrant round opens and whether an out-of-state provider can be a subrecipient or only a contractor.",
+      "Read Initiative Six before the next refresh - it has not been assessed."
+    ],
+    "rfps": [
+      {
+        "name": "Rural Health Innovation Fund",
+        "url": "https://www.ncbroadband.gov/ruralhealthinnovation",
+        "due": "Dec 7, 2026",
+        "desc": "About $20M a year for rural providers to buy technology in five tiers: productivity software and hardware, certified EHR licences, FHIR and HIE connections, AI scribes, and remote monitoring or telehealth platforms. Vendors cannot apply. Not a Vivo fit.",
+        "tags": [
+          "tech"
+        ]
+      },
+      {
+        "name": "NC ROOTS regional hub subgrants",
+        "url": "https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program/rural-organizations-orchestrating-transformation-sustainability-roots-hub-leads",
+        "due": "No dates published",
+        "desc": "Six regional hubs fund local partners for primary care, prevention and chronic disease work, including physical activity programmes and aging-in-place support.",
+        "tags": [
+          "aging",
+          "chronic",
+          "maha"
+        ]
+      },
+      {
+        "name": "Initiative Six: digital health",
+        "url": "https://www.ncdhhs.gov/about/department-initiatives/rural-health-transformation-program/ncrhtp-initiative-six-digital-health",
+        "due": "No dates published",
+        "desc": "Plans a resource for helping providers deploy remote monitoring, chronic care management and 'virtual first care-type models'. Not yet assessed.",
+        "tags": [
+          "tech",
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "ALL Year 1 opportunities remain closed, and seven have now moved from Closed to AWARDED since the last check: Zero-Hour Physical Education, Community Gardens Project, Behavioral Health Promotion Community Grants, Train In Place, Workforce Retention Funding for Critical Access Hospitals, Rightsizing Health Care Delivery Systems (rural FQHCs and CAHs), and Mobile Mammography Unit Acquisition. No Year 2 opportunity has been posted.",
@@ -1334,7 +2196,7 @@
     "rhtpEmail": "rhtp@nd.gov",
     "state": "North Dakota",
     "vendorEligible": "TBD",
-    "bucket": 3,
+    "bucket": 4,
     "bucketReason": "ATI placed North Dakota in its second tier, though their read was that the state leans on AI and smart technology to keep older adults home rather than on physical activity. The hard blocker is explicit and structural: the state's own notices say for-profit providers may be subrecipients, not direct awardees. So we are capped at a subcontract regardless of fit. The senior-centre money is meals and farm-to-table, which is not ours. Three future opportunities are flagged with no dates, including community health worker support.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$199M issued in repeated grant rounds through August 2026, including a July round of about $50.5M across 11 opportunities. Year 1 funded community walking programmes, community gardens, zero-hour PE and school and hospital wellness equipment.",
@@ -1342,7 +2204,30 @@
       "maha"
     ],
     "fitBasis": "Make North Dakota Healthy Again. Its senior-centre money is meals and farm-to-table, which is not ours.",
-    "sourceUrl": "https://www.hhs.nd.gov/rural-health-transformation"
+    "sourceUrl": "https://www.hhs.nd.gov/rural-health-transformation",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "The state's notices say for-profit providers may be subrecipients, not direct awardees.",
+    "vivoFit": "No",
+    "vivoFitWhy": "Moved down from bucket 3. ATI put North Dakota in its second tier, but on a closer read its aging content is AI and smart-home technology to prevent falls, and senior-centre meals - neither is ours. The prevention grants that did fit, a community walking programme and wellness equipment, are all awarded, and we are capped at a subcontract regardless.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Make North Dakota Healthy Again grants (Year 1)",
+        "url": "https://www.hhs.nd.gov/rural-health-transformation/funding",
+        "due": "All closed or awarded by Aug 2026",
+        "desc": "Community walking programmes, gardens, school PE and wellness equipment.",
+        "tags": [
+          "maha"
+        ]
+      },
+      {
+        "name": "Flagged future opportunities",
+        "url": "https://www.hhs.nd.gov/rural-health-transformation/funding",
+        "due": "No dates",
+        "desc": "Non-emergency transport, community health worker support, clinical equipment.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "UNVERIFIED THIS RUN. Last confirmed: Rural Health Workforce Pipeline (DOH59715) closed Mar 2026; OhioSEE and RHT Cost Proposal (DOH61908) closed Aug 27, 2026. Dental Access Collaborative (RFP 61298) had an inquiry period opening Sept 28, 2026 - due date unknown and this is the most likely currently-open item.",
@@ -1380,13 +2265,43 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "$202M, bought through OhioBuys state procurement rather than provider grants. Awards so far include a rural hospital technical assistance centre, a dental access collaborative, a pharmacy initiative, clinically integrated networks and workforce pipeline work.",
     "fitTags": [
+      "aging",
       "chronic",
-      "aging"
+      "maha"
     ],
     "fitBasis": "Healthier Ohio names Walk With Ease, EnhanceFitness and Tai Chi for Arthritis for older adults.",
     "directApply": true,
     "directApplyWhy": "OhioBuys procurement; vendor registration is the gate, not in-state status.",
-    "sourceUrl": "https://odh.ohio.gov/know-our-programs/rural-health-transformation-program"
+    "sourceUrl": "https://odh.ohio.gov/know-our-programs/rural-health-transformation-program",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "The chronic disease solicitation restricts applicants to nonprofits and local health departments; for-profits are excluded as applicants but grantees may contract out work. The OhioBuys vendor contracts are open to us but none fits.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Healthier Ohio's community chronic disease grants require a physical activity strategy that names Walk with Ease, EnhanceFitness, Tai Chi for Arthritis and SilverSneakers for older adults, plus self-management education. Vivo can deliver those by video across multi-county rural service areas as the grantee's contractor - and we have the Central Ohio AAA relationship.",
+    "planNextSteps": [
+      "Get the RO27 grantee list from Erica.Gardner@odh.ohio.gov - awardees were not public at last check. Those local health departments and nonprofits are the buyers.",
+      "Grantee contracts cannot be submitted until the first quarterly payment is issued, so realistic contract timing is early 2027.",
+      "Browser check of the ODH page and OhioBuys: both returned errors to automated checks, so the current status is unverified."
+    ],
+    "rfps": [
+      {
+        "name": "Healthier Ohio Community-Level Chronic Disease Prevention (RO27)",
+        "url": "https://odh.ohio.gov/know-our-programs/rural-health-transformation-program",
+        "due": "Closed Sept 8, 2026 - awards pending; future rounds signalled",
+        "desc": "Up to $7M to local health departments and nonprofits in 73 non-urban counties; requires evidence-based physical activity for older adults and self-management education.",
+        "tags": [
+          "aging",
+          "chronic",
+          "maha"
+        ]
+      },
+      {
+        "name": "OhioBuys vendor contracts (TA centre, dental collaborative, pharmacy initiative)",
+        "url": "https://odh.ohio.gov/know-our-programs/rural-health-transformation-program",
+        "due": "Various; none verified open",
+        "desc": "Statewide technical assistance and programme contracts open to registered suppliers. None targets older adults.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: Community Paramedicine Consulting Services RFP due Nov 18, 2026 3:00 PM CST; OHCA EHR Expansion RFI due Dec 1, 2026; OSU tech co-op enrollment forms due Dec 1 and Dec 15, 2026; OHCA HIE and EHR Assistance due Dec 31, 2026.",
@@ -1423,17 +2338,53 @@
     "rhtpEmail": "OklahomaRHTP@health.ok.gov",
     "state": "Oklahoma",
     "vendorEligible": "Yes",
-    "bucket": 4,
+    "bucket": 3,
     "bucketReason": "A large PACE expansion line and one consumer-prevention sentence aimed at dual-eligibles, but most NOFOs require an Oklahoma physical location. Useful precedent: the Doulas notice said outright that out-of-state entities may apply.",
     "bucketConfidence": "confirmed",
     "whatItIs": "OSDH runs themed grant notices, most requiring an Oklahoma physical location. Its Chronic Disease Management programme and Rural Regional Reorientation are the fits, and Years 2-5 rounds start January 2027. One notice stated plainly that out-of-state entities may apply, so each one is worth reading.",
     "fitTags": [
-      "aging",
-      "maha"
+      "chronic",
+      "aging"
     ],
     "fitBasis": "PACE expansion across 3-6 rural centres; a consumer prevention platform aimed at dual-eligibles.",
     "directApply": true,
-    "directApplyWhy": "One notice stated plainly that out-of-state entities may apply - read each one."
+    "directApplyWhy": "One notice stated plainly that out-of-state entities may apply - read each one.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Applicants must have a physical location in Oklahoma - 'OSDH will not fund an application from out of state'. Applicants may subcontract, and remote services are exempt from the rural-location rule.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Moved up from bucket 4. The Chronic Disease Management Program funds evidence-informed management of heart disease, diabetes, COPD, cancer and stroke, names CDSMP as an example model, and allows remote services for rural participants. Year 1 put out $15M in awards of $1M to $5M, the programme is expected to continue for the life of RHTP, and Year 2 opportunities start launching in January 2027.",
+    "planNextSteps": [
+      "Find an Oklahoma lead before January - rural FQHCs, critical access hospitals or tribal health systems - with Vivo as the subcontracted virtual programme provider.",
+      "Ask OklahomaRHTP@health.ok.gov when the Year 2 round opens and whether subcontractors must be named."
+    ],
+    "rfps": [
+      {
+        "name": "Chronic Disease Management Program - Year 2 round",
+        "url": "https://oklahoma.gov/health/rhtp/rhtp-funding.html",
+        "due": "Expected from January 2027",
+        "desc": "Year 1 was $15M across up to 15 awards of $1M-$5M. Names CDSMP; remote services allowed.",
+        "tags": [
+          "chronic",
+          "aging"
+        ]
+      },
+      {
+        "name": "Rural Regional Reorientation - Years 2-5",
+        "url": "https://oklahoma.gov/health/rhtp/rhtp-funding.html",
+        "due": "Details 'in the coming months'",
+        "desc": "Up to $4M per application for rural partnerships reducing disease and avoidable hospitalizations. Year 1 participation not required.",
+        "tags": [
+          "chronic"
+        ]
+      },
+      {
+        "name": "Open now: paramedicine consulting, EHR and HIE notices",
+        "url": "https://oklahoma.gov/health/rhtp/rhtp-funding.html",
+        "due": "Nov 18 - Dec 31, 2026",
+        "desc": "Community paramedicine consulting and health IT. Not ours.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "No competitive opportunity is open. Catalyst Awards RFGP closed May 26, 2026 (awards announced July 7, 2026). Two new RHTP allocations announced Sept 30 and Oct 2, 2026 are DIRECT awards with no application process.",
@@ -1480,7 +2431,37 @@
       "tech"
     ],
     "fitBasis": "Aging in place is a named population; the plan funds brain health and caregiver training on online platforms.",
-    "sourceUrl": "https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx"
+    "sourceUrl": "https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Proposers must have a physical location in Oregon or provide services there; technology vendors could not propose but may be included as partners or subrecipients.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "ATI rated Oregon a standout. Aging in place is one of four named target populations, the plan names Walk With Ease and chronic disease self-management education, and it funds brain health and caregiver training through online self-management platforms. One correction: Oregon's 'Catalyst Awards' are ordinary grants, not a tech catalyst fund, so this is not a bucket 2 state.",
+    "planNextSteps": [
+      "Screen the 85 awardees for older-adult, self-management or physical activity projects and offer a subcontract for Budget Period 2 - the awardees are the market.",
+      "The next competition is a regional rural health funding opportunity at the end of Year 2; regional convenings run January to July 2027."
+    ],
+    "rfps": [
+      {
+        "name": "Catalyst Awards - Healthy Communities and Prevention",
+        "url": "https://www.oregon.gov/oha/hpa/hp/pages/rhtp-awards.aspx",
+        "due": "Closed May 26, 2026 - 85 awardees",
+        "desc": "$156M across 103 projects; the prevention initiative is $40.7M in Year 2 and covers aging in place and chronic disease.",
+        "tags": [
+          "aging",
+          "chronic",
+          "tech"
+        ]
+      },
+      {
+        "name": "Regional rural health funding opportunity",
+        "url": "https://www.ohsu.edu/oregon-office-of-rural-health/rural-health-transformation-program",
+        "due": "Opens end of Year 2 (late 2027)",
+        "desc": "Regional coalition proposals bundling shared services, prepared through OHSU-run convenings.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "The funding page states plainly: 'There are no current RHTP funding opportunities.' The last round, Quality Investment Program RFA 67-212, closed Oct 1, 2026 7:00 AM.",
@@ -1515,10 +2496,40 @@
     "whatItIs": "$193M issued in rapid rounds to facility types - hospitals, nursing homes, personal care homes, assisted living, FQHCs, home health. Rounds so far have been stabilization payments, EHR and health-information-exchange onboarding, and a long-term care quality programme. Nothing is open.",
     "fitTags": [
       "aging",
-      "chronic"
+      "chronic",
+      "maha"
     ],
     "fitBasis": "Aging and Access is a full initiative: community paramedicine, LTC quality, PACE and an ADRC redesign.",
-    "sourceUrl": "https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan"
+    "sourceUrl": "https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Every round so far has restricted applicants to facility types and required Commonwealth vendor registration.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "On what is coming, not what is open. Aging and Access is a full initiative - hospital-to-home community paramedicine with fall risk assessments and referrals to community services, long-term care quality, PACE expansion - and the plan describes Community Wellness Hubs coordinating evidence-based physical activity and chronic disease self-management programmes.",
+    "planNextSteps": [
+      "Nothing is open and nothing is dated. Subscribe to the DHS mailing list to catch the Aging and Access posting.",
+      "Identify the eight regional Rural Care Collaborative lead organizations and rural Area Agencies on Aging."
+    ],
+    "rfps": [
+      {
+        "name": "Rapid Response Program: Aging and Access",
+        "url": "https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rhtp-funding-opportunities",
+        "due": "Named as upcoming - no date",
+        "desc": "Community paramedicine, long-term care quality, PACE expansion and an aging resource centre redesign.",
+        "tags": [
+          "aging"
+        ]
+      },
+      {
+        "name": "Community Wellness Hubs (Rural Care Collaboratives)",
+        "url": "https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rhtp-funding-opportunities",
+        "due": "Plan-level only - no solicitation",
+        "desc": "Hubs coordinating evidence-based programmes such as National DPP and chronic disease self-management.",
+        "tags": [
+          "chronic",
+          "maha"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: Initiative 11 APM Incentive due Dec 2, 2026 5:00 PM EST per the OHIC page. DATE CONFLICT: the NRHA tracker lists Nov 2, 2026 - confirm with OHIC before relying on Dec 2. Hospital-at-Home NOFO issued Oct 20, 2026.",
@@ -1551,7 +2562,7 @@
     "rhtpEmail": "OHHS.RIRHTP@ohhs.ri.gov",
     "state": "Rhode Island",
     "vendorEligible": "Yes",
-    "bucket": 3,
+    "bucket": 4,
     "bucketReason": "Not the non-fit it was assumed to be. Initiative 8 establishes Block Island's first PACE and expands a Community Health and Aging-in-Place Programme, a separate initiative funds falls prevention through schools as community hubs, and the Office of Healthy Aging is a named stakeholder on a $40.6M initiative. The real blocker is timing and shape: PACE operations do not begin until Year 4, and every opportunity posted to date has required the applicant to be the provider organization. There has been nothing to answer rather than nothing to attach to.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$156M, the smallest rural footprint in the country. Everything posted so far has been provider-facing - an alternative payment model incentive for hospitals and primary care practices, and a hospital-at-home notice.",
@@ -1559,7 +2570,30 @@
       "aging"
     ],
     "fitBasis": "Community Health and Aging-in-Place Programme, Block Island PACE, falls prevention through schools.",
-    "sourceUrl": "https://ohic.ri.gov/policy-reform/rural-health-transformation-program"
+    "sourceUrl": "https://ohic.ri.gov/policy-reform/rural-health-transformation-program",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Every posted opportunity has required the applicant to be the provider organization.",
+    "vivoFit": "No",
+    "vivoFitWhy": "Moved down from bucket 3. The aging content is real - a Block Island PACE and aging-in-place programme, falls prevention through schools - but PACE operations do not begin until Year 4, and everything posted so far is payment-model incentives and hospital-at-home. There is nothing to answer and no near-term buyer.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Initiative 11: APM Incentive",
+        "url": "https://ohic.ri.gov/policy-reform/rural-health-transformation-program",
+        "due": "Dec 2, 2026 (a tracker says Nov 2 - unconfirmed)",
+        "desc": "Incentive payments for hospitals and primary care practices moving to value-based payment.",
+        "tags": []
+      },
+      {
+        "name": "Initiative 8: Block Island PACE and Aging-in-Place",
+        "url": "https://ohic.ri.gov/policy-reform/rural-health-transformation-program",
+        "due": "PACE operations begin Year 4",
+        "desc": "First island PACE and a community health and aging-in-place programme.",
+        "tags": [
+          "aging"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "CLOSED - June 1, 2026 (4 main RHTP grants); June 25, 2026 (Tech Catalyst Fund). Notices of Award Determination issued July 31, 2026.",
@@ -1593,10 +2627,35 @@
     "bucketConfidence": "unconfirmed",
     "whatItIs": "$177M across four initiatives, all awarded in July. The separate Tech Catalyst Fund, run by the South Carolina Research Authority, gives early-stage medical technology startups non-dilutive capital - about $5M to roughly ten companies in Cohort 1.",
     "fitTags": [
-      "chronic",
-      "tech"
+      "tech",
+      "chronic"
     ],
-    "fitBasis": "Leveling Up scales chronic disease pilots; the Tech Catalyst Fund backs early-stage medical technology."
+    "fitBasis": "Leveling Up scales chronic disease pilots; the Tech Catalyst Fund backs early-stage medical technology.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "The Tech Catalyst Fund's administrator describes applicants as SC-based startups and markets a service for establishing a South Carolina location.",
+    "vivoFit": "No",
+    "vivoFitWhy": "The Tech Catalyst Fund backs early-stage medical technology startups - its first awardees are device and diagnostics companies - and looks restricted to South Carolina companies. Cohort 1 is closed and being awarded, with no 2027 cohort scheduled. The four health department initiatives, including Leveling Up for chronic disease pilots, were all awarded in July.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "SC Tech Catalyst Fund",
+        "url": "https://scra.org/get-to-know/tech-catalyst-fund/",
+        "due": "Cohort 1 closed June 25, 2026; no 2027 cohort announced",
+        "desc": "$5M in Year 1 to about ten early-stage medical technology startups, run by the South Carolina Research Authority.",
+        "tags": [
+          "tech"
+        ]
+      },
+      {
+        "name": "Leveling Up and three other SCDHHS initiatives",
+        "url": "https://scdhhs.gov/resources/grants",
+        "due": "Closed June 1, 2026 - awarded July 31",
+        "desc": "Leveling Up scales pilots in chronic disease management, pediatric quality and workforce.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "Nothing open. Case management RFP (Initiative 5 / Medicaid PACT) scheduled for release Q1 2027.",
@@ -1642,13 +2701,52 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "South Dakota puts service contracts out to open competitive bid through its central portal, which is unusual for this programme. It has already bid Chronic Disease Self-Management Programming and Caregiver Support Programming as standalone contracts. Ten named initiatives, $189M in Year 1 and $187.7M in Year 2.",
     "fitTags": [
-      "aging",
-      "chronic"
+      "chronic",
+      "aging"
     ],
     "fitBasis": "Already bid CDSMP and Caregiver Support Programming as standalone service contracts.",
     "directApply": true,
     "directApplyWhy": "Open competitive service contracts through the state's central bidding portal.",
-    "sourceUrl": "https://doh.sd.gov/healthcare-professionals/rural-health/rural-health-transformation/"
+    "sourceUrl": "https://doh.sd.gov/healthcare-professionals/rural-health/rural-health-transformation/",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "The state's FAQ says any organization may apply to an RFP as long as it can provide the services defined; SAM.gov registration is needed before award.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "The closest any state comes to buying our product off the shelf. South Dakota bid Chronic Disease Self-Management Programming as a straight vendor RFP - train lay leaders, run community workshops, 750 completers a year by 2030 - and Caregiver Support Programming alongside it. Both closed in spring, but the Year 2 roadmap scales chronic disease management statewide in spring 2027.",
+    "planNextSteps": [
+      "Create a free supplier account on the state bidding portal so RFP documents and Q&A are downloadable.",
+      "Ask DOH.info@state.sd.us whether the self-management contract was awarded and whether Year 2 is a re-release or a renewal.",
+      "Watch for the Q1 2027 case management RFP and the spring statewide scale-up."
+    ],
+    "rfps": [
+      {
+        "name": "Chronic Disease Self-Management Programming (26RFP-26-09RHT-002)",
+        "url": "https://postingboard.esmsolutions.com/3444a404-3818-494f-84c5-2a850acd7779/",
+        "due": "Closed spring 2026 - Year 2 follow-on expected spring 2027",
+        "desc": "Vendor contract to expand CDSMP in rural and western South Dakota. Part of a $7M first-year chronic disease line.",
+        "tags": [
+          "chronic",
+          "aging"
+        ]
+      },
+      {
+        "name": "Caregiver Support Programming (26-09RHT-004)",
+        "url": "https://postingboard.esmsolutions.com/3444a404-3818-494f-84c5-2a850acd7779/",
+        "due": "Closed April 2026 - under review",
+        "desc": "Standalone caregiver programming contract.",
+        "tags": [
+          "aging"
+        ]
+      },
+      {
+        "name": "Case management RFP (Initiative 5)",
+        "url": "https://doh.sd.gov/media/hspocytw/rht-year-2-roadmap.pdf",
+        "due": "Release planned Q1 2027",
+        "desc": "Medicaid case management vendor, per the Year 2 roadmap.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: Rural Healthcare Access Modernization Program (RAMP) - applications open, NO deadline published. TennCare Community Health Worker Infrastructure RFA released. UNVERIFIED: a tracker lists County Health Council CARE Grants open Sept 25 - Nov 20, 2026, which no TDH page corroborates.",
@@ -1697,7 +2795,36 @@
     "fitBasis": "Memory Care Assessment Network, chronic disease prevention, and Make Rural Tennessee Healthy Again.",
     "directApply": true,
     "directApplyWhy": "RAMP names for-profits as eligible; Edison registration is the gate, not domicile.",
-    "sourceUrl": "https://www.tn.gov/health/rural.html"
+    "sourceUrl": "https://www.tn.gov/health/rural.html",
+    "requiresPartner": "No",
+    "requiresPartnerNote": "The RAMP FAQ names for-profits as eligible, with state supplier registration as the gate rather than being located in Tennessee. Not yet confirmed in writing for an out-of-state company.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Tennessee's project lines are ours: chronic disease prevention, Healthy Active Rural Tennessee, Make Rural Tennessee Healthy Again and a memory care network whose hub-and-spoke model uses 'trained non-clinical staff'. The state says the funds may be used for evidence-based prevention and chronic disease programmes. Caution on RAMP specifically: it is mostly rural capital, so the fit is in the programme lines, not the open notice.",
+    "planNextSteps": [
+      "Email Competitive.Health@tn.gov for written confirmation that an out-of-state for-profit qualifies.",
+      "Get the list of chronic disease prevention and memory care awardees from the 138 announced projects - nine chronic disease projects took about $23.5M - and offer programming.",
+      "We hold a Partner Portal account, so Year 2 postings will be visible there first."
+    ],
+    "rfps": [
+      {
+        "name": "Chronic disease prevention, MaRTHA and Memory Care Assessment Network (Year 1)",
+        "url": "https://www.tn.gov/health/rural.html",
+        "due": "Closed summer 2026 - Year 2 round expected",
+        "desc": "138 projects and $422M+ announced; chronic disease prevention, prevention and access through telehealth, and specialized memory care.",
+        "tags": [
+          "aging",
+          "chronic",
+          "maha"
+        ]
+      },
+      {
+        "name": "Rural Healthcare Access Modernization Program (RAMP)",
+        "url": "https://www.tn.gov/health/ramp",
+        "due": "Open - no deadline published",
+        "desc": "About $104M: $100M rural capital investment and $4.4M in primary care seed grants. For-profits eligible. Capital, so weak for us.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "CONFIRMED SLIP TO JANUARY 2027. Initiative 2 (Rural Texas Patients in the Driver's Seat) RFP due Jan 12, 2027, award notice Mar 8. Initiative 3 (Lonestar Advanced AI and Telehealth) RFP due Jan 12, 2027, award notice Mar 29. Initiative 5 (Unified Care Infrastructure and Rural Cyber Protection) Request for Offer due Jan 19, 2027, award notice Mar 5. Initiative 6 Part 2 TBD.",
@@ -1743,10 +2870,36 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "The largest award in the country, $281M a year. Initiatives 2 and 3 are the relevant ones, but both require a consortium of two or more clinically integrated networks or ACOs with 60% rural membership, and the state says it will not meet vendors.",
     "fitTags": [
-      "chronic",
-      "tech"
+      "tech",
+      "chronic"
     ],
-    "fitBasis": "Initiative 2 wants consumer apps giving tailored support for diabetes and obesity; Initiative 3 is telehealth."
+    "fitBasis": "Initiative 2 wants consumer apps giving tailored support for diabetes and obesity; Initiative 3 is telehealth.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Initiatives 2 and 3 require a consortium of two or more clinically integrated networks or ACOs with 60% rural membership. The state says it will not meet with vendors.",
+    "vivoFit": "No",
+    "vivoFitWhy": "The largest award in the country has zero aging content - no older adults, no falls, no caregivers, no named programmes. The one relevant line wants consumer apps for diabetes and obesity inside a network-led technology bid, and there is no way to even discuss it with the state. Eric's unread Year 2 emails are worth a skim, no more.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Initiative 2: Rural Texas Patients in the Driver's Seat",
+        "url": "https://pfd.hhs.texas.gov/rural-health-transformation-program",
+        "due": "Jan 12, 2027",
+        "desc": "Patient portals, remote monitoring and consumer health technology through network consortia.",
+        "tags": [
+          "tech",
+          "chronic"
+        ]
+      },
+      {
+        "name": "Initiative 3: Lone Star Advanced AI and Telehealth",
+        "url": "https://pfd.hhs.texas.gov/rural-health-transformation-program",
+        "due": "Jan 12, 2027",
+        "desc": "Provider-facing AI and specialist telehealth.",
+        "tags": [
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN, CLOSING SOON: both bundles due Nov 20, 2026 5:00 PM MDT. (1) UETN SPRINT Consortium RFA - SUPPORT 6.1-6.5 and LINCS 7.1-7.2. (2) Utah Hospital Association RFAs - SHIFT 3.1 Capital Infrastructure $26.3M, FAST 4.2 Revenue Cycle Optimization $9.0M, FAST 4.3 Specialty Care Pilot $3.0M, RISE 2.5 Recruit and Retain $9,397,152.",
@@ -1784,10 +2937,33 @@
     "bucketConfidence": "unconfirmed",
     "whatItIs": "About $100M a year, issued as bundled RFAs through the Utah Hospital Association and the state telehealth network. The current bundle includes capital infrastructure at $26.3M, revenue cycle work at $9M and a $3M Specialty Care Pilot.",
     "fitTags": [
-      "maha"
+      "tech"
     ],
     "fitBasis": "Making Rural Utahns Healthy (PATH) and a community care hub that may include chronic disease prevention.",
-    "sourceUrl": "https://dhhs.utah.gov/ruralhealth/"
+    "sourceUrl": "https://dhhs.utah.gov/ruralhealth/",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Applicants must be located in one of Utah's 25 rural counties. Collaborative applications allow an outside organization to be named.",
+    "vivoFit": "No",
+    "vivoFitWhy": "ATI's read holds: Utah's plan contains no older-adult language at all, and the only mention of fitness is the Presidential Fitness Test in schools. Every round has carried an in-state requirement, and the one that opened regionally accepted Utah, Arizona, Colorado, Idaho and Nevada entities - not New Jersey. The open bundle is capital, revenue cycle work and a specialty care pilot. The relationship would have to carry this entirely.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Utah Hospital Association RFA bundle (SHIFT 3.1, FAST 4.2, FAST 4.3, RISE 2.5)",
+        "url": "https://utahhospitals.org/rural-health-transformation-rhtp/",
+        "due": "Nov 20, 2026, 5:00 PM MDT",
+        "desc": "Capital infrastructure $26.3M, revenue cycle optimization $9M, Specialty Care Pilot $3M, recruit and retain $9.4M. Rural-county providers only.",
+        "tags": []
+      },
+      {
+        "name": "UETN SPRINT Consortium RFA (SUPPORT 6.1-6.5, LINCS 7.1-7.2)",
+        "url": "https://dhhs.utah.gov/ruralhealth/funding-opportunities/",
+        "due": "Nov 20, 2026, 5:00 PM MDT",
+        "desc": "About $21M for rural provider technology and support through the state telehealth network. Vendors must show rural partnerships.",
+        "tags": [
+          "tech"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "ALL Year 1 RFP/NOFO opportunities have CLOSED (confirmed on the state RHT RFPs/NOFOs page, Sept. 2026). Year 2 opportunities to be posted; exact dates TBD.",
@@ -1820,8 +2996,26 @@
     "bucketReason": "Genuine structural non-fit. The prevention money is a prospective per-member-per-month payment to primary care practices, not a contract that buys an outside program. Fourth-oldest population in the country and no aging initiative.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$195M. Its prevention money is a per-member-per-month payment to primary care practices and community health teams under a modernized Blueprint for Health - a payment model, not a contract that buys an outside programme.",
-    "fitTags": [],
-    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to."
+    "fitTags": [
+      "chronic"
+    ],
+    "fitBasis": "No named aging, chronic disease, telehealth or healthy-lifestyle line we could attach to.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "There is no contract to hold: the money pays practices directly.",
+    "vivoFit": "No",
+    "vivoFitWhy": "A genuine structural non-fit. Vermont's prevention money is a per-member-per-month payment to primary care practices and community health teams under its Blueprint for Health - a payment model, not a grant or contract that buys an outside programme. Year 1 is fully obligated.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Initiative 3: Strengthening Primary Care",
+        "url": "https://healthcarereform.vermont.gov/hr1rural-health-transformation-fund",
+        "due": "No solicitation",
+        "desc": "$200-300M over five periods as prospective payments to practices.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "OPEN: Consumer Tech for Education and Lifestyle Change, Nov 10 - Dec 17, 2026, $300K-$1.5M per award. OPEN: five regional Mobile and Hybrid Care RFAs, Oct 23 - Nov 23, 2026, $11.8M each. CLOSED: CareIQ Tech Innovation Fund C-27-002, closed Oct 29, 2026 - VIVO APPLIED; awards anticipated Dec 21, 2026. FORTHCOMING: Integrated Care for Duals RFP, timeline stated as November 2026, no document posted.",
@@ -1871,13 +3065,54 @@
     "bucketConfidence": "confirmed",
     "whatItIs": "$190M issued as many separate RFAs, listed in a regularly updated RFA Navigator. The CareIQ Tech Innovation Fund pays technology companies $250,000 to $999,999 directly. A separate Consumer Tech RFA pays health systems and CBOs partnered with a technology company to onboard rural residents onto a consumer health platform.",
     "fitTags": [
-      "aging",
+      "tech",
       "chronic",
-      "tech"
+      "maha"
     ],
     "fitBasis": "Community paramedicine names aging-in-place; the Consumer Tech RFA measures platform engagement at six months.",
     "directApply": true,
-    "directApplyWhy": "The CareIQ fund takes applications from technology companies directly."
+    "directApplyWhy": "The CareIQ fund takes applications from technology companies directly.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Consumer Tech requires a Virginia health system, provider or CBO as the applicant, partnered with a technology company. The CareIQ fund we already applied to was the one Virginia route that needs no partner.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Consumer Tech is the best scope match found in this refresh. It pays to get rural residents onto a consumer digital health platform with engagement support such as coaching and reminders, and measures whether they are still active at six months - which is how Vivo already works and already measures itself.",
+    "planNextSteps": [
+      "Find a Virginia prime before Dec 17. The Area Agencies on Aging approached for the CareIQ application are the first calls.",
+      "Contact Michael Parsons, Michael.Parsons@healthyyouthva.org, to confirm a technology partner's role and budget treatment - Virginia does not allow profit to be paid to a subrecipient.",
+      "The applicant needs an active SAM.gov UEI, separate tracking of federal funds, and three years of audited financials."
+    ],
+    "rfps": [
+      {
+        "name": "Consumer Tech for Education and Lifestyle Change",
+        "url": "https://vfhy.org/grants-and-funding/rural-health-innovation-grants/",
+        "due": "Dec 17, 2026",
+        "desc": "$300,000 to $1.5M per award, run by the Virginia Foundation for Healthy Youth. Onboards rural residents to consumer health platforms with engagement support.",
+        "tags": [
+          "tech",
+          "chronic",
+          "maha"
+        ]
+      },
+      {
+        "name": "Mobile and Hybrid Care - five regional RFAs",
+        "url": "https://www.ruralhealthtransformationva.virginia.gov/ways-to-apply/",
+        "due": "Nov 23, 2026",
+        "desc": "$11.8M per region, run by regional planning district commissions; telehealth and home-based care models.",
+        "tags": [
+          "tech"
+        ]
+      },
+      {
+        "name": "CareIQ Tech Innovation Fund (C-27-002)",
+        "url": "https://vipc.org/initiatives/rural-health-transformation-program/",
+        "due": "Applied - decision Dec 21, 2026",
+        "desc": "$250,000 to $999,999 per company. Already submitted.",
+        "tags": [
+          "tech",
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "A DOH rural provider incentives opportunity is stated to open November 2026, with no day and no deadline published.",
@@ -1914,7 +3149,33 @@
       "aging"
     ],
     "fitBasis": "Building Dementia Capable Communities across ten AAAs; the plan names PEARLS.",
-    "sourceUrl": "https://www.hca.wa.gov/about-hca/programs-and-initiatives/rural-health-transformation-program"
+    "sourceUrl": "https://www.hca.wa.gov/about-hca/programs-and-initiatives/rural-health-transformation-program",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "The aging work runs through interagency agreements to Area Agencies on Aging. There is no bid to answer.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Building Dementia Capable Communities expands from three Area Agencies on Aging to ten and funds them to 'create new community partners', and the plan names PEARLS. Brain health and caregiver programming is ours; the route is the AAAs themselves.",
+    "planNextSteps": [
+      "Ask the HCA rural health inbox which Area Agencies on Aging receive the dementia expansion funds and whether they may subcontract programme providers.",
+      "Start with Olympic Area Agency on Aging, which holds the advisory committee's AAA seat."
+    ],
+    "rfps": [
+      {
+        "name": "Building Dementia Capable Communities expansion",
+        "url": "https://www.hca.wa.gov/about-hca/programs-and-initiatives/rural-health-transformation-program",
+        "due": "No solicitation - allocated to AAAs",
+        "desc": "$3-4M a year for dementia support and caregiver programming through Area Agencies on Aging.",
+        "tags": [
+          "aging"
+        ]
+      },
+      {
+        "name": "DOH rural provider incentives",
+        "url": "https://www.hca.wa.gov/about-hca/programs-and-initiatives/rural-health-transformation-program",
+        "due": "Opening stated for Nov 2026",
+        "desc": "Individual clinician retention payments of $15,000 to $100,000. Not ours.",
+        "tags": []
+      }
+    ]
   },
   {
     "applicationDeadline": "Active Funding Opportunities board dated Nov 9, 2026. A 'Personal Health Accelerator: Water Is Medicine' solicitation has an open Q&A form. Close dates are published as an image that could not be read - needs a browser check. Applicants may submit clarification questions within three business days of a solicitation's posting date.",
@@ -1948,11 +3209,50 @@
     "bucketConfidence": "unconfirmed",
     "whatItIs": "$402M across Year 1 and Year 2, in seven initiatives. The Personal Health Accelerator is the prevention and behaviour-change fund - food as medicine, wellness education and incentives - and the state calls it the last opportunity it will release. Solicitations run through the wvOASIS vendor portal.",
     "fitTags": [
+      "maha",
       "chronic",
-      "tech",
       "aging"
     ],
-    "fitBasis": "Personal Health Accelerator funds evidence-based programming to keep older adults home; Smart Care Catalyst PACE; HealthTech Appalachia."
+    "fitBasis": "Personal Health Accelerator funds evidence-based programming to keep older adults home; Smart Care Catalyst PACE; HealthTech Appalachia.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "West Virginia's FAQ says out-of-state entities may be eligible 'directly or in partnership with in-state organizations', with a stated preference for organizations that hire or operate in the state. Treat a partner as required in practice.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "On the Personal Health Accelerator. Its nutrition and lifestyle grants fund evidence-based interventions including physical activity and weight management to prevent chronic disease, and the plan says it will incentivize evidence-based programmes that help older adults manage chronic conditions and stay home. The SmartCare Catalyst funds day health centres for older adults on a path to PACE, which need exactly our kind of programming. The food-as-medicine half is not ours.",
+    "planNextSteps": [
+      "Open the funding page in a browser - the active-opportunities board is published as an image we could not read, and 'Water Is Medicine' has an open Q&A form.",
+      "Find the Personal Health Accelerator and PACE grantees from the released-awards list and offer programming for their centres.",
+      "Register in wvOASIS, the state vendor portal."
+    ],
+    "rfps": [
+      {
+        "name": "Personal Health Accelerator: Nutrition and Lifestyle grants",
+        "url": "https://health.wv.gov/funding-opportunities",
+        "due": "Closed July 20, 2026 - grantees are the route",
+        "desc": "Up to $24.1M for clinically integrated, evidence-based nutrition and lifestyle interventions including physical activity.",
+        "tags": [
+          "maha",
+          "chronic"
+        ]
+      },
+      {
+        "name": "SmartCare Catalyst PACE grants",
+        "url": "https://health.wv.gov/funding-opportunities",
+        "due": "Awards pending",
+        "desc": "$1.25M for day health and activity centres for older adults on a path to PACE.",
+        "tags": [
+          "aging"
+        ]
+      },
+      {
+        "name": "Personal Health Accelerator: Water Is Medicine",
+        "url": "https://health.wv.gov/funding-opportunities",
+        "due": "Open - dates unreadable",
+        "desc": "Listed on the Nov 9 active-opportunities board. Scope unknown; described as the final opportunity West Virginia will release.",
+        "tags": [
+          "maha"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "Nothing open. Rural Technology Transformation Fund Round 2 planned for 2027 pending CMS approval. Care Coordination full application released to planning-grant recipients February 2027.",
@@ -1990,10 +3290,36 @@
     "bucketConfidence": "unconfirmed",
     "whatItIs": "$204M. The Rural Technology Transformation Fund is the large one, estimated at $209M over five years, and a $25M care coordination programme runs alongside it. Round 1 of the technology fund closed Aug 1.",
     "fitTags": [
-      "tech"
+      "tech",
+      "chronic"
     ],
     "fitBasis": "Rural Technology Transformation Fund, though Round 1 was limited to pre-named organizations.",
-    "sourceUrl": "https://www.dhs.wisconsin.gov/rhtp/index.htm"
+    "sourceUrl": "https://www.dhs.wisconsin.gov/rhtp/index.htm",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Round 1 of the technology fund was open only to organizations named in Wisconsin's own application. The only route is subcontracting to one of them.",
+    "vivoFit": "No",
+    "vivoFitWhy": "The most closed state on the list. The Rural Technology Transformation Fund was restricted to a fixed list of named organizations and paid for facility technology; the February 2027 care coordination application goes only to existing planning-grant recipients; the workforce grants were limited to nonprofits and government. ATI found no aging or fitness language anywhere in the plan.",
+    "planNextSteps": [],
+    "rfps": [
+      {
+        "name": "Rural Technology Transformation Fund, Round 2",
+        "url": "https://www.dhs.wisconsin.gov/rhtp/index.htm",
+        "due": "Planned 2027, pending CMS approval",
+        "desc": "Estimated $209M over five years for facility technology. Round 1 was limited to pre-named organizations.",
+        "tags": [
+          "tech"
+        ]
+      },
+      {
+        "name": "Coordinating Care Across Wisconsin (full application)",
+        "url": "https://www.dhs.wisconsin.gov/rhtp/index.htm",
+        "due": "Feb 2027 - planning-grant recipients only",
+        "desc": "About $25M in its first year for regional care coordination, including chronic disease prevention.",
+        "tags": [
+          "chronic"
+        ]
+      }
+    ]
   },
   {
     "applicationDeadline": "The Submittable portal reads 'there are presently no open calls for submissions.' Year 1 contracts were executed by Oct 1, 2026.",
@@ -2025,6 +3351,31 @@
     "fitTags": [
       "maha"
     ],
-    "fitBasis": "Exercise and Healthy Diet Promotion mini-grants - the exercise half only."
+    "fitBasis": "Exercise and Healthy Diet Promotion mini-grants - the exercise half only.",
+    "requiresPartner": "Yes",
+    "requiresPartnerNote": "Grants go to Wyoming-based entities; we would be the subcontracted programme.",
+    "vivoFit": "Yes",
+    "vivoFitWhy": "Small and narrow. Initiative 4.3 funds exercise and healthy diet promotion through community mini-grants, and measurable gains in exercise participation are the stated goal - but the design leans toward outdoor recreation and small local awards, and everything else in Wyoming is hospitals, EMS and workforce.",
+    "planNextSteps": [
+      "One email to monique.mcbride@wyo.gov asking when the fiscal-agent mini-grants open and whether a Wyoming grantee can subcontract an out-of-state virtual provider. Drop it if nothing comes back."
+    ],
+    "rfps": [
+      {
+        "name": "Initiative 4.3: Exercise and Healthy Diet Promotion mini-grants",
+        "url": "https://health.wyo.gov/admin/rural-health-transformation-program/",
+        "due": "Fiscal-agent RFP not found; no dates",
+        "desc": "$1.7M through a fiscal agent for community mini-grants to Wyoming-based entities.",
+        "tags": [
+          "maha"
+        ]
+      },
+      {
+        "name": "Year 2 call",
+        "url": "https://wyrhtp.submittable.com/submit",
+        "due": "No open calls",
+        "desc": "Wyoming posts through Submittable; nothing is open.",
+        "tags": []
+      }
+    ]
   }
 ]
