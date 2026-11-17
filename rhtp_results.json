@@ -1357,7 +1357,7 @@
     "awardAmount": "$173,128,201",
     "cmsApplicationUrl": "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Assistance-Programs/Medicaid/RHT-Project-Narrative-Final_Compressed.pdf",
     "fundingOpportunityPosted": "Closed",
-    "lastUpdated": "2026-11-16",
+    "lastUpdated": "2026-11-17",
     "leadAgency": "Michigan Department of Health and Human Services (MDHHS)",
     "nextSteps": [
       {
@@ -1409,23 +1409,23 @@
     "planNextSteps": [
       "Watch for Year 2 grant notices; Year 1 awards run to Sept 30, 2027, so they should post well before then. Michigan's newsletter is the signal.",
       "Find out whether a company can lead on the rural technology money LEO announced Nov 13.",
-      "The published award list is a sales list: 30 chronic disease awardees and 8 healthy aging awardees are standing up programmes now."
+      "The subrecipient list names the 8 Healthy Aging awardees (six AAAs, two PACE), who are buying programs now."
     ],
     "rfps": [
       {
-        "name": "DHME-2027: Diabetes and Hypertension Management and Education",
-        "url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program",
+        "name": "DHME-2027: Chronic Disease Collaborative Care Fund",
+        "url": "https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/2026/07/17/rht-chronic-disease",
         "due": "Closed Aug 11, 2026 - outcome pending",
-        "desc": "About $2.5M for diabetes and hypertension management through local partnerships. Vivo is written into WellWise's application.",
+        "desc": "About $2.5M across eight awards for local partnerships that prevent and manage diabetes and high blood pressure. Award period Oct 1, 2026 to Sept 30, 2027. Vivo is written into WellWise's application.",
         "tags": [
           "chronic"
         ]
       },
       {
         "name": "Promoting Healthy Aging in Rural Communities Blueprint",
-        "url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program/rhtp-subrecipients",
+        "url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program",
         "due": "Awarded - Year 2 round not posted",
-        "desc": "$5M for care transitions through AAAs, rural PACE and home and community-based services. Year 1 went to six AAAs and two PACE organizations.",
+        "desc": "$5M for care transitions through AAAs, rural PACE and home and community-based services. Year 1 was awarded by invitation (Letters of Intent), not an open call: six AAAs and two PACE organizations.",
         "tags": [
           "aging"
         ]
