@@ -1009,21 +1009,25 @@
     ]
   },
   {
-    "applicationDeadline": "Rolling: Definitive Mobile Dental Services open until funds are exhausted; Rural Dental Access considered on a rolling basis with Year 1 funding not guaranteed. Rapid Response to Recovery Transportation Support closed Nov 6, 2026.",
-    "applicationLink": "https://chfs.ky.gov/agencies/os/oas/Pages/grants.aspx",
+    "applicationDeadline": "Dec 18, 2026, 6:00 PM ET (Rural Community Hubs Round 2 hub lead RFA). Dental programs remain rolling.",
+    "applicationLink": "https://healthy-ky.org/rch",
     "applicationOpenDate": "March 2026",
     "awardAmount": "$212,905,591",
     "cmsApplicationUrl": "https://ruralhealthplan.ky.gov/Documents/KY%20RHTP%20Project%20Narrative_CMS-RHT-26-001.pdf",
-    "fundingOpportunityPosted": "Active (Rolling)",
-    "lastUpdated": "2026-11-16",
+    "fundingOpportunityPosted": "Yes",
+    "lastUpdated": "2026-11-17",
     "leadAgency": "Kentucky Cabinet for Health and Family Services (CHFS) / Dept for Public Health",
     "nextSteps": [
+      {
+        "date": "2026-12-18",
+        "label": "Rural Community Hubs Round 2 hub lead applications due, 6 PM ET - find an applying AAA or health department to name Vivo as a partner"
+      },
       {
         "date": "",
         "label": "Approach the named Chronic Care Innovation Hub Leads in the Big Sandy, Lake Cumberland and Purchase ADDs - they hold $3M each and are buying services now"
       }
     ],
-    "notes": "Thinner than the rolling status suggests. The only Oct-Nov activity was a Rapid Response to Recovery Transportation Support RFA that closed Nov 6, 2026; everything else is closed or rolling with Year 1 funding not guaranteed. No Year 2 RFA is posted. Kentucky's five initiatives are chronic care, maternal and infant health, rapid response to recovery, rural dental access, and integrated emergency response - there is no healthy-aging or older-adult line. The Vivo-relevant piece is the Rural Community Hubs for Chronic Care Innovation initiative, which puts $3,000,000 per Area Development District into chronic disease work focused on obesity and diabetes prevention. The Hub Lead competition (Big Sandy, Lake Cumberland, Purchase ADDs) closed Jun 1, 2026, which means the hub leads are now standing up programs and buying services - approaching them directly is a better use of time than waiting for an RFA. Important eligibility precedent: every live or recent RFA restricts applicants to Kentucky entities of a named type, but an amendment to the Chronic Care Innovation RFA extended eligibility to for-profit entities, so for-profit participation is winnable by amendment even though Kentucky-based or Kentucky-partnered remains the practical requirement. Kentucky says a series of RFAs will be issued over the grant lifecycle and that opportunities of similar scope will recur. URL NOTE: contrary to the standing note in CLAUDE.md, ruralhealthplan.ky.gov returned HTTP 200 and was readable on this run. CMS emailed states Oct 30, 2026 that the competitive portion of Year 2 was delayed (base allocation available); on Nov 9, 2026 CMS announced full per-state FY2027 awards totaling ~$10B. Budget Period 2 runs Oct 31, 2026 - Oct 30, 2027.",
+    "notes": "Nov 17, 2026: Foundation for a Healthy Kentucky opened Round 2 of the Rural Community Hubs hub lead RFA for the 12 remaining ADDs, due Dec 18; portal posts mid-November. Thinner than the rolling status suggests. The only Oct-Nov activity was a Rapid Response to Recovery Transportation Support RFA that closed Nov 6, 2026; everything else is closed or rolling with Year 1 funding not guaranteed. No Year 2 RFA is posted. Kentucky's five initiatives are chronic care, maternal and infant health, rapid response to recovery, rural dental access, and integrated emergency response - there is no healthy-aging or older-adult line. The Vivo-relevant piece is the Rural Community Hubs for Chronic Care Innovation initiative, which puts $3,000,000 per Area Development District into chronic disease work focused on obesity and diabetes prevention. The Hub Lead competition (Big Sandy, Lake Cumberland, Purchase ADDs) closed Jun 1, 2026, which means the hub leads are now standing up programs and buying services - approaching them directly is a better use of time than waiting for an RFA. Important eligibility precedent: every live or recent RFA restricts applicants to Kentucky entities of a named type, but an amendment to the Chronic Care Innovation RFA extended eligibility to for-profit entities, so for-profit participation is winnable by amendment even though Kentucky-based or Kentucky-partnered remains the practical requirement. Kentucky says a series of RFAs will be issued over the grant lifecycle and that opportunities of similar scope will recur. URL NOTE: contrary to the standing note in CLAUDE.md, ruralhealthplan.ky.gov returned HTTP 200 and was readable on this run. CMS emailed states Oct 30, 2026 that the competitive portion of Year 2 was delayed (base allocation available); on Nov 9, 2026 CMS announced full per-state FY2027 awards totaling ~$10B. Budget Period 2 runs Oct 31, 2026 - Oct 30, 2027.",
     "opportunityType": "RFAs - all competitive windows closed; only 'Definitive Mobile Dental Services' (open until funds exhausted) and 'Rural Dental Access' (rolling) remain open; next competitive wave expected before end of Oct. 2026",
     "programAddress": "Cabinet for Health and Family Services, 275 East Main Street, Frankfort, KY 40621",
     "programName": "Team Kentucky Rural Health Transformation",
@@ -1046,14 +1050,25 @@
     "vivoFit": "Yes",
     "vivoFitWhy": "On chronic disease, not aging. Each hub funds two to four evidence-informed obesity and diabetes initiatives that integrate nutrition, physical activity programmes and digital self-management tools. A flag on our own records: our note says the hubs name Area Agencies on Aging and senior centres, but Kentucky's CMS narrative contains no aging language at all, so treat that claim as unverified.",
     "planNextSteps": [
-      "Ask rchgrant@healthy-ky.org for the hub lead contacts in Big Sandy, Lake Cumberland and Purchase, and whether initiative subawards are still being chosen.",
-      "Pitch the hub leads a virtual diabetes prevention and physical activity initiative with metrics ready for their reporting."
+      "Find AAAs or health departments applying as hub leads in the 12 Round 2 regions (due Dec 18) and offer Vivo as a committed partner for physical activity and self-management.",
+      "Read the Round 2 FAQs (Nov 13) for how partners are named in an application.",
+      "Pitch the three Round 1 hub leads (Martin County, Lake Cumberland District and Purchase District health departments) a virtual diabetes prevention and physical activity initiative."
     ],
     "rfps": [
       {
-        "name": "Rural Community Hubs for Chronic Care Innovation - initiative subawards",
+        "name": "Rural Community Hubs for Chronic Care Innovation - Round 2 hub lead RFA",
         "url": "https://healthy-ky.org/rch",
-        "due": "Hub leads chosen June 2026 - subawards in progress",
+        "due": "Dec 18, 2026, 6:00 PM ET",
+        "desc": "Selects hub lead organizations for the 12 remaining Area Development Districts. Hubs integrate physical activity programs and digital self-management tools for chronic disease. AAAs, senior centers, health departments and local organizations, including local for-profits, can lead; Vivo's route is a named partner.",
+        "tags": [
+          "chronic",
+          "maha"
+        ]
+      },
+      {
+        "name": "Rural Community Hubs for Chronic Care Innovation - Round 1 regions",
+        "url": "https://healthy-ky.org/rch",
+        "due": "Hub leads chosen June 2026 - Big Sandy, Lake Cumberland, Purchase",
         "desc": "Up to $3M per region for obesity and diabetes initiatives, plus $500K for hub operations.",
         "tags": [
           "chronic",
