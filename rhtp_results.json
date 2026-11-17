@@ -240,7 +240,7 @@
     "state": "Delaware",
     "vendorEligible": "Yes",
     "bucket": 2,
-    "bucketReason": "Catalyst fund. The Delaware Rural Health Challenge carries $5M and the cleanest eligibility language anywhere - 'U.S.-based startups', no in-state nexus. But its accelerator operator is not confirmed, no startup window exists, and every dollar must be spent by Sept 30, 2027. No aging content in any of its 15 initiatives.",
+    "bucketReason": "Catalyst fund. The Delaware Rural Health Challenge carries $5M and the cleanest eligibility language anywhere - 'U.S.-based startups', no in-state nexus. But its accelerator operator is not confirmed, no startup window exists, and every dollar must be spent by Sept 30, 2027. Delaware's other vendor lines are telehealth hardware and food infrastructure, neither of which is ours. No aging content in any of its 15 initiatives.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$160M across 15 initiatives. The relevant piece is the Delaware Rural Health Challenge: a $5M accelerator run by Delaware Prosperity Partnership that recruits US startups directly and pays them against milestones."
   },
@@ -504,9 +504,9 @@
     "state": "Kansas",
     "vendorEligible": "TBD",
     "bucket": 4,
-    "bucketReason": "PACE expansion in two regions. CHW plus Food is Medicine is a good scope match but applicants must be Kansas rural providers, so it is a subcontract at best.",
+    "bucketReason": "Only half of this one is ours. Community health workers integrated into clinical care teams is a scope match; the Accountable Food is Medicine half - medically tailored meals and produce prescriptions - is not something Vivo does. Applicants must be Kansas rural providers, so it is a subcontract at best.",
     "bucketConfidence": "confirmed",
-    "whatItIs": "KDHE runs grant rounds for Kansas rural providers only. Year 2 put about $55M out across four grants, including Community Health Workers plus Food is Medicine for chronic disease."
+    "whatItIs": "KDHE runs grant rounds for Kansas rural providers only. Year 2 put about $55M out across four grants, including a combined Community Health Worker and Accountable Food is Medicine grant - CHWs on care teams, plus medically tailored meals and produce prescriptions."
   },
   {
     "applicationDeadline": "Rolling: Definitive Mobile Dental Services open until funds are exhausted; Rural Dental Access considered on a rolling basis with Year 1 funding not guaranteed. Rapid Response to Recovery Transportation Support closed Nov 6, 2026.",
@@ -568,7 +568,7 @@
     "state": "Louisiana",
     "vendorEligible": "Yes",
     "bucket": 2,
-    "bucketReason": "Catalyst fund. Cohort 2 is committed on the state's own page with no date; Cohort 1 closed in June and awards are over a month late from 165+ applicants. Up to $3M per company, no local partner required - the largest and cleanest direct check available.",
+    "bucketReason": "Catalyst fund, and the reason to care. Cohort 2 is committed on the state's own page with no date; Cohort 1 closed in June and awards are over a month late from 165+ applicants. Up to $3M per company, paid directly, no local partner required - the largest and cleanest direct check available. Note the separate Initiative 4 grant money splits physical activity from nutrition, and only the physical activity half is ours.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$208M in Year 1 across five initiatives, including 'Make Rural America Healthy Again' for physical activity and nutrition. Separately, Louisiana Economic Development runs a $20M-a-year Rural Tech Catalyst Fund that pays companies directly, up to $3M each."
   },
@@ -636,7 +636,7 @@
     "state": "Maryland",
     "vendorEligible": "Yes",
     "bucket": 1,
-    "bucketReason": "Eric's priority list - relationship. The state built a Rural Health Vendor Directory specifically to connect out-of-state service vendors to stakeholders, and names Area Agencies on Aging in Pillar 2.",
+    "bucketReason": "Eric's priority list - relationship. The state built a Rural Health Vendor Directory specifically to connect out-of-state service vendors to stakeholders, and names Area Agencies on Aging in Pillar 2. Pillar 3 is nutrition, which is not ours.",
     "bucketConfidence": "unconfirmed",
     "whatItIs": "$168M across three pillars for 18 rural counties. Money is issued by partner organizations rather than the state. Maryland also publishes a Rural Health Vendor Directory built specifically to connect out-of-state service vendors to those partners."
   },
@@ -1130,7 +1130,7 @@
     "state": "North Dakota",
     "vendorEligible": "TBD",
     "bucket": 3,
-    "bucketReason": "ATI's second tier, though their read was AI and smart technology for falls rather than physical activity. Senior meal hubs and farm-to-table in senior centres sit under Make North Dakota Healthy Again. Hard limit: for-profits may be subrecipients, not direct awardees.",
+    "bucketReason": "Year 1 funded Vivo-adjacent prevention - a community walking programme, school and hospital wellness equipment - but all of it is awarded, and the senior-centre money is meals and farm-to-table, which is not our product. Hard limit either way: for-profits may be subrecipients, not direct awardees.",
     "bucketConfidence": "confirmed",
     "whatItIs": "$199M in repeated grant rounds through August 2026, including community walking programmes and wellness equipment. Hard limit: its notices state that for-profit providers may be subrecipients, not direct awardees."
   },
@@ -1654,7 +1654,7 @@
     "state": "West Virginia",
     "vendorEligible": "TBD",
     "bucket": 2,
-    "bucketReason": "Catalyst fund, unverified. The CMS abstract names 'Smart Care Catalyst' and 'HealthTech Appalachia'. Separately the Personal Health Accelerator funds evidence-based programs that help older adults manage chronic conditions and stay home - strong aging overlap. Its active-opportunities board is published as an image and needs a browser check.",
+    "bucketReason": "Catalyst fund, unverified. The CMS abstract names 'Smart Care Catalyst' and 'HealthTech Appalachia'. The Personal Health Accelerator is the prevention fund, and the part that is ours is the evidence-based programming that helps older adults manage chronic conditions and stay home - not the food-as-medicine half. Its active-opportunities board is published as an image and needs a browser check.",
     "bucketConfidence": "unconfirmed",
     "whatItIs": "$402M across Year 1 and Year 2, in seven initiatives. The Personal Health Accelerator is the prevention and behaviour-change fund - food as medicine, wellness education and incentives - and the state calls it the last opportunity it will release. Solicitations run through the wvOASIS vendor portal."
   },
