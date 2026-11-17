@@ -3199,7 +3199,7 @@
     "awardAmount": "$199,476,099",
     "cmsApplicationUrl": "https://governor.wv.gov/sites/default/files/2025-12/02_WV%20Project%20Narrative_vF.pdf",
     "fundingOpportunityPosted": "Active (Rolling)",
-    "lastUpdated": "2026-11-16",
+    "lastUpdated": "2026-11-17",
     "leadAgency": "West Virginia Department of Health",
     "nextSteps": [
       {
@@ -3219,9 +3219,9 @@
     "rhtpEmail": "RHTP@wv.gov",
     "state": "West Virginia",
     "vendorEligible": "TBD",
-    "bucket": 2,
-    "bucketReason": "Catalyst fund, unverified. The CMS abstract names 'Smart Care Catalyst' and 'HealthTech Appalachia'. The Personal Health Accelerator is the prevention fund, and the part that is ours is the evidence-based programming that helps older adults manage chronic conditions and stay home - not the food-as-medicine half. Its active-opportunities board is published as an image and needs a browser check.",
-    "bucketConfidence": "unconfirmed",
+    "bucket": 4,
+    "bucketReason": "Passive. Moved from bucket 2 on Nov 17, 2026: no company-facing catalyst fund was confirmed. The 'SmartCare Catalyst' program is PACE grants to older-adult day centers, and the Personal Health Accelerator prevention grants closed July 20. The active-opportunities board is an image and still needs a browser check.",
+    "bucketConfidence": "confirmed",
     "whatItIs": "$402M across Year 1 and Year 2, in seven initiatives. The Personal Health Accelerator is the prevention and behaviour-change fund - food as medicine, wellness education and incentives - and the state calls it the last opportunity it will release. Solicitations run through the wvOASIS vendor portal.",
     "fitTags": [
       "maha",
